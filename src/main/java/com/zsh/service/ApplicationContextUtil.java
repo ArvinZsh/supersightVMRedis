@@ -12,6 +12,7 @@ public class ApplicationContextUtil {
 
 	public static void setApplicationContext(ApplicationContext applicationContext) {
 		ApplicationContextUtil.applicationContext = applicationContext;
+		System.out.println("");
 	}
 
 	public static ApplicationContext getApplicationContext() {
