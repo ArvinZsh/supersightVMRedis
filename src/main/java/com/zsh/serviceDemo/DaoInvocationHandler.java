@@ -1,4 +1,4 @@
-package com.zsh.service;
+package com.zsh.serviceDemo;
 
 /**
  * 拦截链及代理类所在,判断是否使用缓存

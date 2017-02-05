@@ -1,4 +1,4 @@
-package com.zsh.service;
+package com.zsh.serviceDemo;
 
 /**
  * 拦截器接口,具体的缓存方法

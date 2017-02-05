@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.zsh.service;
+package com.zsh.serviceDemo;
 
 /**
  * 读取配置参数是否使用缓存

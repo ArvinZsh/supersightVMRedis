@@ -1,4 +1,4 @@
-package com.zsh.service;
+package com.zsh.serviceDemo;
 
 /**
  * 封装类, 代理类调用的参数

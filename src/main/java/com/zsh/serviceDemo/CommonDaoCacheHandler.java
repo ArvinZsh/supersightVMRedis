@@ -1,4 +1,4 @@
-package com.zsh.service;
+package com.zsh.serviceDemo;
 
 /**
  * 具体的缓存dao实现类

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.zsh.service;
+package com.zsh.serviceDemo;
 
 /**
  * 某service,只是调用了代理类的方法(和普通service一样),解耦
