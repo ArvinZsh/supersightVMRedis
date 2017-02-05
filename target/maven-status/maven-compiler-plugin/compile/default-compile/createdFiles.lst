@@ -3,6 +3,7 @@ com\zsh\service\TestIntf.class
 com\dongnao\jack\redis\JedisClusterFactory.class
 com\zsh\service\PluginConfig.class
 com\dongnao\jack\service\CommonDaoCacheHandler.class
+com\zsh\test\TestController.class
 com\dongnao\jack\controller\TestController.class
 com\zsh\service\AbstractBaseService.class
 com\zsh\service\CommonDaoCacheHandler.class

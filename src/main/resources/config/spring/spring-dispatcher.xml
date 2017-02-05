@@ -35,7 +35,7 @@
 
 	<!-- 开启controller注解支持 -->
 	<!-- 注：如果base-package=com.avicit 则注解事务不起作用 TODO 读源码 -->
-	<context:component-scan base-package="com.dongnao">
+	<context:component-scan base-package="com.zsh">
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Controller" />
 		<context:exclude-filter type="annotation"

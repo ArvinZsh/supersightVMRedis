@@ -68,7 +68,7 @@
 		<property name="addressConfig">  
 			<value>classpath:config/redis/connect-redis.properties</value>  
 		</property>  
-		<property name="addressKeyPrefix" value="address" />   <!--  属性文件里  key的前缀 -->  
+		<property name="addressKeyPrefix" value="address1" />   <!--  属性文件里  key的前缀 -->  
       
 		<property name="timeout" value="300000" />  
 		<property name="maxRedirections" value="6" />  
