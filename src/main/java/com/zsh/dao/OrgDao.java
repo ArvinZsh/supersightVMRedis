@@ -7,12 +7,12 @@ import com.zsh.bean.OrgInfo;
 public class OrgDao extends AbstractBaseDao implements IOrgDao {
 
 	@Override
-	public List<OrgInfo> queryOrg() {
+	public List<OrgInfo> queryOrgAll() {
 		return null;
 	}
 
 	@Override
-	public List<OrgInfo> queryOrgByName() {
+	public List<OrgInfo> queryOrgByName(String orgName) {
 		return null;
 	}
 

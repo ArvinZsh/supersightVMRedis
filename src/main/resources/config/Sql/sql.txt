@@ -1,0 +1,13 @@
+create table OrgInfo(
+	ItemId varchar(36) not null comment '组织Id',
+	OrgName varchar(36) not null comment '组织名称',
+	PRIMARY KEY(ItemId),
+	KEY K_OrgInfo_1(OrgName)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+create table UserInfo(
+	ItemId varchar(36) not null comment '用户Id',
+	UserName varchar(36) not null comment '用户名称',
+	PRIMARY KEY(ItemId),
+	KEY K_UserInfo_1(UserName)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

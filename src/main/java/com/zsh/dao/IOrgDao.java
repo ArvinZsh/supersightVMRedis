@@ -22,6 +22,6 @@ import com.zsh.bean.OrgInfo;
  */
 @Repository
 public interface IOrgDao {
-	List<OrgInfo> queryOrg();
-	List<OrgInfo> queryOrgByName();
+	List<OrgInfo> queryOrgAll();
+	List<OrgInfo> queryOrgByName(String orgName);
 }

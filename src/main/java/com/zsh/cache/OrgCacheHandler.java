@@ -45,7 +45,7 @@ public class OrgCacheHandler implements CacheHandler {
 	@Override
 	public Object process(Object[] args, Method method, Object instance) {
 		
-		JedisCluster jedisCluster = (JedisCluster) ApplicationCtxUtil.getApplicationContext().getBean("jedisCluster");
+		JedisCluster jedisCluster = (JedisCluster) ApplicationCtxUtil.getBean("jedisCluster");
 		
 		Object result = null;
 		if(jedisCluster.exists(method.getName())) {

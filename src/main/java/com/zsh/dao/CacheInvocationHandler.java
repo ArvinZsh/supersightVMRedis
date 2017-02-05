@@ -33,7 +33,7 @@ public class CacheInvocationHandler implements InvocationHandler {
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		
-		Map<String, CacheHandler> heandler = ApplicationCtxUtil.getApplicationContext().getBeansOfType(CacheHandler.class);
+		Map<String, CacheHandler> heandler = ApplicationCtxUtil.getBeansOfType(CacheHandler.class);
 		for(Map.Entry<String, CacheHandler> interceprter : heandler.entrySet()) {
 			CacheFilterMethodName filterMethodNames = interceprter.getClass().getAnnotation(CacheFilterMethodName.class);
 			

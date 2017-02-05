@@ -23,5 +23,5 @@ import com.zsh.bean.UserInfo;
  */
 @Repository
 public interface IUserDao {
-	List<UserInfo> queryUser();
+	List<UserInfo> findAll();
 }

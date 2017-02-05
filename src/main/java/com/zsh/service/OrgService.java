@@ -17,7 +17,7 @@ public class OrgService {
 	
 	public List<OrgInfo> queryAll() {
 		IOrgDao dao = (IOrgDao) AbstractBaseDao.getProxy(IOrgDao.class, orgDao);
-		return dao.queryOrg();
+		return dao.queryOrgAll();
 	}
 	
 }
