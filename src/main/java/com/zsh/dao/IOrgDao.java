@@ -20,8 +20,7 @@ import com.zsh.bean.OrgInfo;
  * @author: zsh
  * @data 2017年2月5日上午10:11:52
  */
-@Repository
 public interface IOrgDao {
-	List<OrgInfo> queryOrgAll();
-	List<OrgInfo> queryOrgByName(String orgName);
+	List<OrgInfo> findAll();
+	List<OrgInfo> findByName(String orgName);
 }

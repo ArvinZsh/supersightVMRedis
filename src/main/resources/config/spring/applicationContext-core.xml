@@ -189,10 +189,10 @@
 			<value>jdbc:mysql://localhost:3306/consult</value>
 		</property>
 		<property name="user">
-			<value>root</value>
+			<value>sa</value>
 		</property>
 		<property name="password">
-			<value></value>
+			<value>123</value>
 		</property>  
 		<property name="minPoolSize" value="10" />
 		<property name="maxPoolSize" value="100" />  
@@ -210,14 +210,16 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="mapperLocations">
 			<value>classpath*:com/dongnao/jack/xml/*Mapper.xml</value>
-		</property>
+		</property> 
+		<!-- <property name="configLocation" value="classpath:config/mybatis/mybatis.xml"></property>-->
+		
 	</bean>
 	
-	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+<!--	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="annotationClass" value="org.springframework.stereotype.Repository"/>
 		<property name="basePackage" value="com.dongnao.jack.dao"/>
 		<property name="sqlSessionFactory" ref="sqlSessionFactory"/>
-	</bean>
+	</bean> -->
     
 <!-- 	<bean id="log4jdbcInterceptor" class="net.sf.log4jdbc.DataSourceSpyInterceptor" /> -->
 <!-- 	<bean id="dataSourceLog4jdbcAutoProxyCreator" class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator"> -->
@@ -265,7 +267,7 @@
 	
 	<aop:config>
 		<aop:pointcut id="pc"
-			expression="execution(public * com.consult.service.impl..*.*(..))" /> <!--把事务控制在Service层 -->
+			expression="execution(public * com.zsh.service..*.*(..))" /> <!--把事务控制在Service层 -->
 		<aop:advisor pointcut-ref="pc" advice-ref="userTxAdvice" />
 	</aop:config>
 	

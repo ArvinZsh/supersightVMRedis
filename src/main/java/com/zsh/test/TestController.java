@@ -28,12 +28,12 @@ public class TestController {
 
 	@Autowired
 	private OrgService orgSer;
-	
+
 	@RequestMapping("/queryAll")
 	public @ResponseBody String test() {
-		
+
 		List<OrgInfo> org = orgSer.queryAll();
-		
+
 		return org.toString();
 	}
 }

@@ -2,17 +2,21 @@ package com.zsh.dao;
 
 import java.util.List;
 
+
+import org.springframework.stereotype.Repository;
+
 import com.zsh.bean.OrgInfo;
 
+@Repository
 public class OrgDao extends AbstractBaseDao implements IOrgDao {
 
 	@Override
-	public List<OrgInfo> queryOrgAll() {
+	public List<OrgInfo> findAll() {
 		return null;
 	}
 
 	@Override
-	public List<OrgInfo> queryOrgByName(String orgName) {
+	public List<OrgInfo> findByName(String orgName) {
 		return null;
 	}
 

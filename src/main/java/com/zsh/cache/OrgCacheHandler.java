@@ -14,10 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.zsh.bean.OrgInfo;
 import com.zsh.dao.IOrgDao;
@@ -33,22 +31,16 @@ import redis.clients.jedis.JedisCluster;
  * @data 2017年2月5日下午2:32:19
  */
 @Component
-@CacheFilterMethodName(type = IOrgDao.class, methodName = "queryOrg")
+@CacheFilterMethodName(type = IOrgDao.class, methodName = "findByName,findAll")
 public class OrgCacheHandler implements CacheHandler {
 	
-	@Autowired
-	Logger logger;
-
-	/* (non-Javadoc)
-	 * @see com.zsh.cache.CacheHandler#process(java.lang.Object[], java.lang.reflect.Method, java.lang.Object)
-	 */
 	@Override
 	public Object process(Object[] args, Method method, Object instance) {
 		
 		JedisCluster jedisCluster = (JedisCluster) ApplicationCtxUtil.getBean("jedisCluster");
 		
 		Object result = null;
-		if(jedisCluster.exists(method.getName())) {
+		if(jedisCluster.exists(method.getName())) { // 缓存中有数据
 			List<String> redisList = jedisCluster.lrange(method.getName(), 0, -1);
 			if(redisList.size() > 1) {
 				List<OrgInfo> resultList = new ArrayList<OrgInfo>();
@@ -57,28 +49,37 @@ public class OrgCacheHandler implements CacheHandler {
 					resultList.add(org);
 				}
 				result = resultList;
-			} else if(redisList.size() > 0) {
-				result = JSONObject.parseObject(redisList.get(0), OrgInfo.class);
+			} else {
+				if(!"null".equals(redisList.get(0))) {
+					result = JSONObject.parseObject(redisList.get(0), OrgInfo.class);
+				} else { // 缓存数据有误,重新放入缓存
+					result = saveToCache(jedisCluster, args, method, instance);
+				}
 			}
 			
-		} else {
-			try {
-				result = method.invoke(instance, args);
-				if(result instanceof List) { // 数组
-					List<OrgInfo> list = (List) result;
-					for(OrgInfo org : list) {
-						jedisCluster.lpush(method.getName(), JSONObject.toJSONString(org));
-					}
-				} else { // 单个对象
-					jedisCluster.lpush(method.getName(), JSONObject.toJSONString(result));
-				}
-				
-			} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
-				logger.error(e);
-			}
+		} else { // 缓存中无数据
+			result = saveToCache(jedisCluster, args, method, instance);
 		}
 		
 		return result;
 	}
 
+	private Object saveToCache(JedisCluster jedisCluster, Object[] args, Method method, Object instance) {
+		Object result = null;
+		try {
+			result = method.invoke(instance, args);
+			if(result instanceof List) { // 数组
+				List<OrgInfo> list = (List) result;
+				for(OrgInfo org : list) {
+					jedisCluster.lpush(method.getName(), JSONObject.toJSONString(org));
+				}
+			} else { // 单个对象
+				jedisCluster.lpush(method.getName(), JSONObject.toJSONString(result));
+			}
+		} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
+			ApplicationCtxUtil.getBean(Logger.class).error(e);
+		}
+		return result;
+	}
+	
 }

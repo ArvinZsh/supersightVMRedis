@@ -21,7 +21,6 @@ import com.zsh.bean.UserInfo;
  * @author: zsh
  * @data 2017年2月5日上午10:10:14
  */
-@Repository
 public interface IUserDao {
 	List<UserInfo> findAll();
 }
