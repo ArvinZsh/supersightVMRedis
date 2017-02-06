@@ -196,6 +196,7 @@
 		</property>  
 		<property name="minPoolSize" value="10" />
 		<property name="maxPoolSize" value="100" />  
+		<!-- 最大活动连接 -->
 		<property name="maxIdleTime" value="1800" />   
 		<property name="acquireIncrement" value="3" />
 		<property name="maxStatements" value="1000" />
@@ -206,13 +207,11 @@
 		<property name="testConnectionOnCheckout" value="false" />
 	</bean>
 	
+	<!-- 配置mybitasSqlSessionFactoryBean -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<property name="mapperLocations">
-			<value>classpath*:com/dongnao/jack/xml/*Mapper.xml</value>
-		</property> 
-		<!-- <property name="configLocation" value="classpath:config/mybatis/mybatis.xml"></property>-->
-		
+		<property name="mapperLocations" value="classpath*:com/zsh/mapper/*Mapper.xml" />
+		<property name="configLocation" value="classpath:config/mybatis/mybatis.xml" />
 	</bean>
 	
 <!--	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
@@ -235,7 +234,7 @@
 <!-- 		</property> -->
 <!-- 	</bean> -->
     
-	<!-- Transaction manager for a single JDBC DataSource -->
+	<!-- 事务配置 -->
 	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
