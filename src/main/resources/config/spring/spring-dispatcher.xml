@@ -15,7 +15,7 @@
         http://www.springframework.org/schema/task 
         http://www.springframework.org/schema/task/spring-task-3.0.xsd">
 
-		<!-- 解决springMVC响应数据乱码   text/plain就是响应的时候原样返回数据 -->
+	<!-- 解决springMVC响应数据乱码   text/plain就是响应的时候原样返回数据 -->
 	<mvc:annotation-driven>
 	    <mvc:message-converters register-defaults="true">
 	    <bean class="org.springframework.http.converter.StringHttpMessageConverter">
@@ -24,7 +24,7 @@
 	   </mvc:message-converters>
    </mvc:annotation-driven>
    
-   <!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
+   <!-- 支持返回json(避免IE在ajax请求时，返回json出现下载 ) -->  
 	<bean id="mappingJacksonHttpMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
 		<property name="supportedMediaTypes">
 			<list>
@@ -33,6 +33,7 @@
 		</property>
 	</bean>
 
+    <!-- 扫描controller（controller层注入） -->  
 	<!-- 开启controller注解支持 -->
 	<!-- 注：如果base-package=com.avicit 则注解事务不起作用 TODO 读源码 -->
 	<context:component-scan base-package="com.zsh">

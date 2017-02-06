@@ -24,8 +24,10 @@ import com.zsh.bean.UserInfo;
  */
 @Repository
 public class UserDao extends AbstractBaseDao implements IUserDao {
-	
-	/* (non-Javadoc)
+
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.zsh.dao.IUserDao#queryUser()
 	 */
 	@Override
@@ -34,19 +36,19 @@ public class UserDao extends AbstractBaseDao implements IUserDao {
 	}
 
 	@Override
-	public int update() {
+	public int update(Object obj) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int save() {
+	public int save(Object obj) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int delete() {
+	public int delete(Object obj) {
 		// TODO Auto-generated method stub
 		return 0;
 	}

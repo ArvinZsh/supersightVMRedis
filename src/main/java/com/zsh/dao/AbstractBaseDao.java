@@ -24,9 +24,9 @@ import com.zsh.util.ApplicationCtxUtil;
 @Repository
 public abstract class AbstractBaseDao {
 	
-	public abstract int update();
-	public abstract int save();
-	public abstract int delete();
+	public abstract int update(Object obj);
+	public abstract int save(Object obj);
+	public abstract int delete(Object obj);
 	
 	public static Object getProxy(Class<?> intfCls, Object mapperInstance) {
 		CacheInvocationHandler handler = (CacheInvocationHandler) ApplicationCtxUtil.getBean(CacheInvocationHandler.class);

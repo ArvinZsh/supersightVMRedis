@@ -2,7 +2,6 @@ package com.zsh.dao;
 
 import java.util.List;
 
-
 import org.springframework.stereotype.Repository;
 
 import com.zsh.bean.OrgInfo;
@@ -21,19 +20,19 @@ public class OrgDao extends AbstractBaseDao implements IOrgDao {
 	}
 
 	@Override
-	public int update() {
+	public int update(Object obj) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int save() {
+	public int save(Object obj) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int delete() {
+	public int delete(Object obj) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
