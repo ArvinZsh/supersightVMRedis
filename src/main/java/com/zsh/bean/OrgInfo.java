@@ -18,6 +18,14 @@ public class OrgInfo {
 	private String itemId;
 	private String orgName;
 
+	public OrgInfo() {
+	}
+
+	public OrgInfo(String itemId, String orgName) {
+		this.itemId = itemId;
+		this.orgName = orgName;
+	}
+
 	public String getItemId() {
 		return itemId;
 	}
@@ -38,5 +46,4 @@ public class OrgInfo {
 	public String toString() {
 		return "OrgInfo [itemId=" + itemId + ", orgName=" + orgName + "]";
 	}
-
 }

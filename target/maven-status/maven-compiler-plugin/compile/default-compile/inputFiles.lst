@@ -4,7 +4,6 @@ D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\serviceD
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\dongnao\jack\bean\ConsultRecord.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\service\OrgService.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\cache\OrgCacheHandler.java
-D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\dao\OrgDao.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\bean\UserInfo.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\dao\AbstractBaseDao.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\serviceDemo\AbstractBaseService.java
@@ -43,7 +42,6 @@ D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\dongnao\jack
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\dongnao\jack\service\FilterMethodName.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\service\UserService.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\dongnao\jack\bean\ConsultContract.java
-D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\zsh\dao\UserDao.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\dongnao\jack\bean\ConsultRecordCount.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\dongnao\jack\bean\ConsultIdCardInfo.java
 D:\supersight\useBrain\useBrainWorkspace\failover\src\main\java\com\dongnao\jack\dao\CommonMapper.java

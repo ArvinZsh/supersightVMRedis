@@ -190,7 +190,7 @@
 			<value>org.gjt.mm.mysql.Driver</value>
 		</property>
 		<property name="jdbcUrl">
-			<value>jdbc:mysql://localhost:3306/consult</value>
+			<value>jdbc:mysql://localhost:3306/consult?useUnicode=true&amp;characterEncoding=UTF-8</value>
 		</property>
 		<property name="user">
 			<value>sa</value>
@@ -221,7 +221,7 @@
 		<!--mybatis-configuration.xml配置文件位置-->
 		<property name="configLocation" value="classpath:config/mybatis/mybatis.xml" />
 		<!--扫描别名所在包 -->
-       <property name="typeAliasesPackage" value="com.zsh.bean" />
+        <property name="typeAliasesPackage" value="com.zsh.bean" />
 	</bean>
 	
 	<!-- spring与mybatis整合配置，扫描所有dao -->  

@@ -14,7 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.zsh.bean.OrgInfo;
+import com.zsh.bean.UserInfo;
 import com.zsh.service.OrgService;
+import com.zsh.service.UserService;
+import com.zsh.util.ApplicationCtxUtil;
 
 import redis.clients.jedis.JedisCluster;
 
@@ -23,17 +26,19 @@ import redis.clients.jedis.JedisCluster;
  *
  */
 @Controller
-@RequestMapping("/org")
+@RequestMapping("/user")
 public class TestController {
 
 	@Autowired
 	private OrgService orgSer;
+	
+	@Autowired
+	private UserService userSer;
 
-	@RequestMapping("/queryAll")
+	@RequestMapping("/findAll")
 	public @ResponseBody String test() {
+		List<UserInfo> users = userSer.find();
 
-		List<OrgInfo> org = orgSer.queryAll();
-
-		return org.toString();
+		return users.toString();
 	}
 }

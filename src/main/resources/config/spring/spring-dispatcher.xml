@@ -15,11 +15,16 @@
         http://www.springframework.org/schema/task 
         http://www.springframework.org/schema/task/spring-task-3.0.xsd">
 
-	<!-- 解决springMVC响应数据乱码   text/plain就是响应的时候原样返回数据 -->
+	<!-- 解决springMVC响应数据乱码问题 -->
 	<mvc:annotation-driven>
 	    <mvc:message-converters register-defaults="true">
 	    <bean class="org.springframework.http.converter.StringHttpMessageConverter">
-	      <property name="supportedMediaTypes" value = "text/plain;charset=UTF-8" />
+	      <property name="supportedMediaTypes">
+	      	<list>     
+                <value>text/plain;charset=UTF-8</value>     
+                <value>text/html;charset=UTF-8</value>     
+            </list>   
+	      </property>
 	    </bean>
 	   </mvc:message-converters>
    </mvc:annotation-driven>

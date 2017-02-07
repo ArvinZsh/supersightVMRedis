@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zsh.dao.IUserDao">
+
+	<resultMap type="UserInfo" id="resultListUser">
+		<id column="uid" property="itemId" />
+		<result column="userName" property="userName" />
+		<association property="org" javaType="OrgInfo">
+			<id column="oid" property="itemId"/>
+			<result column="orgName" property="orgName" />
+		</association>
+	</resultMap>
+
+    <select id="findById" parameterType="string" resultMap="resultListUser">
+        select u.itemId uid,u.userName,o.itemId oid,o.orgName from UserInfo u INNER JOIN OrgInfo o on u.OrgId=o.ItemId where u.itemId=#{itemId}
+    </select>
+    
+    <select id="findByOrgId" parameterType="string" resultMap="resultListUser">
+        select u.itemId uid,u.userName,o.itemId oid,o.orgName from UserInfo u INNER JOIN OrgInfo o on u.OrgId=o.ItemId where u.orgId=#{itemId}
+    </select>
+    
+    <select id="findAll" resultMap="resultListUser">
+        select u.itemId uid,u.userName,o.itemId oid,o.orgName from UserInfo u INNER JOIN OrgInfo o on u.OrgId=o.ItemId 
+    </select>
+</mapper>

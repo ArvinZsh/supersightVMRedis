@@ -18,7 +18,7 @@
     <description>Spring公共配置</description>
 
 
-    <!-- 定义受环境影响易变的变量 -->
+    <!-- 引入配置文件 -->
     <!--<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
         <property name="ignoreResourceNotFound" value="true" />
@@ -30,7 +30,8 @@
         </property>
     </bean>-->
 	<context:property-placeholder location="classpath:config/core/core.properties" />
-    <!-- 使用annotation 自动注册bean,并检查@Required,@Autowired的属性已被注入 -->
+	
+     <!-- 自动扫描com.zsh包 ,将带有注解的类 纳入spring容器管理 -->  
     <context:component-scan base-package="com.zsh"/>
 
     <context:annotation-config />
@@ -91,7 +92,8 @@
         <property name="testWhileIdle" value="#{coreConfiguration['jdbc.testWhileIdle']}"/>
         <property name="validationQuery" value="#{coreConfiguration['jdbc.validationQuery']}"/>
     </bean>-->
-	<!--
+    
+    <!-- 
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"  destroy-method="close">
         <property name="url" value="#{coreConfiguration['jdbc.url']}" />
         <property name="username" value="#{coreConfiguration['jdbc.username']}" />
@@ -101,8 +103,9 @@
 
         <property name="maxActive" value="#{coreConfiguration['jdbc.maxActive']}" />
         <property name="initialSize" value="#{coreConfiguration['jdbc.initialSize']}" />
-        <property name="maxWait" value="#{coreConfiguration['jdbc.maxWait']}" />
         <property name="minIdle" value="#{coreConfiguration['jdbc.minIdle']}" />
+        
+        <property name="maxWait" value="#{coreConfiguration['jdbc.maxWait']}" />
 
         <property name="timeBetweenEvictionRunsMillis" value="#{coreConfiguration['jdbc.timeBetweenEvictionRunsMillis']}" />
         <property name="minEvictableIdleTimeMillis" value="#{coreConfiguration['jdbc.minEvictableIdleTimeMillis']}" />
@@ -116,7 +119,7 @@
         <property name="removeAbandoned" value="#{coreConfiguration['jdbc.removeAbandoned']}" /> 
         <property name="removeAbandonedTimeout" value="#{coreConfiguration['jdbc.removeAbandonedTimeout']}" />
         <property name="logAbandoned" value="#{coreConfiguration['jdbc.logAbandoned']}" /> 
-    </bean>-->
+    </bean> -->
 
     <!-- 定义mybatis操作模板 
     <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
@@ -182,11 +185,12 @@
     
     	<!-- <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<!-- 基本属性 url、user、password -->
 		<property name="driverClass">
 			<value>org.gjt.mm.mysql.Driver</value>
 		</property>
 		<property name="jdbcUrl">
-			<value>jdbc:mysql://localhost:3306/consult</value>
+			<value>jdbc:mysql://localhost:3306/consult?useUnicode=true&amp;characterEncoding=UTF-8</value>
 		</property>
 		<property name="user">
 			<value>sa</value>
@@ -194,26 +198,37 @@
 		<property name="password">
 			<value>123</value>
 		</property>  
+		
+		<!-- 配置初始化大小、最小、最大 -->  
+		<property name="initialPoolSize" value="10" />
 		<property name="minPoolSize" value="10" />
-		<property name="maxPoolSize" value="100" />  
+		<property name="maxPoolSize" value="100" /> 
+		
 		<property name="maxIdleTime" value="1800" />   
 		<property name="acquireIncrement" value="3" />
 		<property name="maxStatements" value="1000" />
-		<property name="initialPoolSize" value="10" />
 		<property name="idleConnectionTestPeriod" value="60" /> 
 		<property name="acquireRetryAttempts" value="30" />
 		<property name="breakAfterAcquireFailure" value="true" />
 		<property name="testConnectionOnCheckout" value="false" />
 	</bean>
 	
+	<!-- 配置mybitasSqlSessionFactoryBean -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<property name="mapperLocations">
-			<value>classpath*:com/dongnao/jack/xml/*Mapper.xml</value>
-		</property> 
-		<!-- <property name="configLocation" value="classpath:config/mybatis/mybatis.xml"></property>-->
-		
+		<!--dao接口对应的Mapper的xml文件位置-->
+		<property name="mapperLocations" value="classpath*:com/zsh/mapper/*Mapper.xml" />
+		<!--mybatis-configuration.xml配置文件位置-->
+		<property name="configLocation" value="classpath:config/mybatis/mybatis.xml" />
+		<!--扫描别名所在包 -->
+        <property name="typeAliasesPackage" value="com.zsh.bean" />
 	</bean>
+	
+	<!-- spring与mybatis整合配置，扫描所有dao -->  
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">  
+          <property name="basePackage" value="com.zsh.dao"></property>
+          <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
 	
 <!--	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="annotationClass" value="org.springframework.stereotype.Repository"/>
@@ -235,15 +250,15 @@
 <!-- 		</property> -->
 <!-- 	</bean> -->
     
-	<!-- Transaction manager for a single JDBC DataSource -->
+	<!-- 对dataSource 数据源进行事务管理 -->  
 	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
     
+    <!-- 事务管理 通知 -->  
 	<tx:advice id="userTxAdvice" transaction-manager="transactionManager">
 		<tx:attributes>
-			<!--<tx:method name="delete*" propagation="REQUIRED" read-only="false"
-				rollback-for="java.lang.Exception" no-rollback-for="java.lang.RuntimeException" />-->
+			<!-- 对save,delete,update,check,print 开头的方法进行事务管理,只要有异常就回滚 -->
 			<tx:method name="save*" propagation="REQUIRED" read-only="false"
 				rollback-for="java.lang.RuntimeException" />
 			<tx:method name="delete*" propagation="REQUIRED" read-only="false"
@@ -254,29 +269,30 @@
 				rollback-for="java.lang.RuntimeException" />
 			<tx:method name="print*" propagation="REQUIRED" read-only="false"
 				rollback-for="java.lang.RuntimeException" />
+				
+			<!-- select,count开头的方法,开启只读,提高数据库访问性能 -->  
+            <tx:method name="select*" read-only="true"/>  
+            <tx:method name="count*" read-only="true"/>  
+            
 			<!-- 事物隔离级别配置，MySQL默认是 repeated-read 所以需要设置隔离级别为read-commit -->
 			<tx:method name="*" propagation="REQUIRED" read-only="false" isolation="READ_COMMITTED"
 				rollback-for="java.lang.RuntimeException" />
-			<!--<tx:method name="update*" propagation="REQUIRED" read-only="false"
-					rollback-for="java.lang.Exception" />
-				<tx:method name="find*" propagation="SUPPORTS" />
-				<tx:method name="get*" propagation="SUPPORTS" />
-				<tx:method name="select*" propagation="SUPPORTS" />-->
 		</tx:attributes>
 	</tx:advice>
 	
+	<!-- 事务 aop 配置 --> 
 	<aop:config>
 		<aop:pointcut id="pc"
 			expression="execution(public * com.zsh.service..*.*(..))" /> <!--把事务控制在Service层 -->
 		<aop:advisor pointcut-ref="pc" advice-ref="userTxAdvice" />
 	</aop:config>
 	
-	<!-- Enable @Transactional support -->
-	<!-- 使用annotation定义事务 
+	<!-- 启用对事务注解的支持
 		<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true" />-->
     
 	<!-- Enable @AspectJ support -->
 	<!-- 开启AOP监听 只对当前配置文件有效 -->
+	<!-- 配置使Spring采用CGLIB代理 -->  
 	<aop:aspectj-autoproxy expose-proxy="true"/>
     
     <!-- 国际化的消息资源文件 

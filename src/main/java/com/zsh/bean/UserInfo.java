@@ -17,6 +17,10 @@ package com.zsh.bean;
 public class UserInfo {
 	private String itemId;
 	private String userName;
+	private OrgInfo org;
+
+	public UserInfo() {
+	}
 
 	public String getItemId() {
 		return itemId;
@@ -34,9 +38,17 @@ public class UserInfo {
 		this.userName = userName;
 	}
 
+	public OrgInfo getOrg() {
+		return org;
+	}
+
+	public void setOrg(OrgInfo org) {
+		this.org = org;
+	}
+
 	@Override
 	public String toString() {
-		return "UserInfo [itemId=" + itemId + ", userName=" + userName + "]";
+		return "UserInfo [itemId=" + itemId + ", userName=" + userName + ", org=" + org + "]";
 	}
 
 }

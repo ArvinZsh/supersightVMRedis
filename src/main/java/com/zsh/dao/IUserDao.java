@@ -22,5 +22,9 @@ import com.zsh.bean.UserInfo;
  * @data 2017年2月5日上午10:10:14
  */
 public interface IUserDao {
+	UserInfo findById(String itemId);
+	
+	List<UserInfo> findByOrgId(String orgId);
+	
 	List<UserInfo> findAll();
 }

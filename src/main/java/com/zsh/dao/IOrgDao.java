@@ -22,5 +22,14 @@ import com.zsh.bean.OrgInfo;
  */
 public interface IOrgDao {
 	List<OrgInfo> findAll();
+	
 	List<OrgInfo> findByName(String orgName);
+	
+	OrgInfo findById(String itemId);
+	
+	int save(OrgInfo org);
+	
+	int update(OrgInfo org);
+	
+	int delete(String itemId);
 }

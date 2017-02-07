@@ -31,7 +31,7 @@ import redis.clients.jedis.JedisCluster;
  * @data 2017年2月5日下午2:32:19
  */
 @Component
-@CacheFilterMethodName(type = IOrgDao.class, methodName = "findByName,findAll")
+@CacheFilterMethodName(type = IOrgDao.class, methodName = "findAll")
 public class OrgCacheHandler implements CacheHandler {
 	
 	@Override
