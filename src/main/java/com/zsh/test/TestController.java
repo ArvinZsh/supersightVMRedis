@@ -8,18 +8,17 @@ package com.zsh.test;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.zsh.bean.OrgInfo;
 import com.zsh.bean.UserInfo;
 import com.zsh.service.OrgService;
 import com.zsh.service.UserService;
-import com.zsh.util.ApplicationCtxUtil;
-
-import redis.clients.jedis.JedisCluster;
 
 /**
  * @author zhengshenghui
@@ -36,7 +35,7 @@ public class TestController {
 	private UserService userSer;
 
 	@RequestMapping("/findAll")
-	public @ResponseBody String test() {
+	public @ResponseBody String test(HttpServletRequest req, HttpServletResponse resp) {
 		List<UserInfo> users = userSer.find();
 
 		return users.toString();
