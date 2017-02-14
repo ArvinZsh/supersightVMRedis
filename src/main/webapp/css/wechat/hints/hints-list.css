@@ -1,0 +1,349 @@
+/* CSS Document */
+.hreoly-modal_radio{
+    width: 15px;
+    height: 15px;
+
+}
+.builddings_allmap{
+    margin-top: 4px;
+}
+#hinst_info_div{
+    /*width:300px;*/
+}
+.hints_hintsSource{
+    width: 300px;
+    float: left;
+}
+.hintsSource_lable1{
+    margin-top: 3px;
+    line-height: 27px;
+    float: left;
+    color: #23A0DB;
+    width: 72px;
+    text-align: right;
+}
+.hintsSource_lable3{
+    margin-top: 3px;
+    line-height: 27px;
+    float: left;
+    color: #6C6956;
+}
+.hintsSource_Reply{
+    letter-spacing: 3px;
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #fff;
+    margin-left: 5px;
+    color: #1CAFE7;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 3px;
+    border: solid 1px #C2C2C2;
+}
+.MessageReply_tcommon_ipFont{
+    position: absolute;
+    top: 219px;
+    left: 100px;
+    z-index: 1;
+    color: #0093DD;
+}
+
+.MessageReply_div .modal-content {
+    border-radius: 1px;
+    height: 166px;
+
+
+}
+.MessageReply_div .modal-header .close{
+    margin-top: 1px;
+    position: relative;
+    right: 589px;
+}
+
+.modal-content{
+    border-radius: 1px;
+}
+.MessageReply_phone_input{
+    border: 1px solid #23A0DB;
+    width: 254px;
+    max-width: 319px;
+}
+.MessageReply_content_textarea{
+    color: #279FDC;
+    float: left;
+    resize: none;
+    border: solid 1px;
+    margin-top: -37px;
+    width: 253px;
+    height: 130px;
+    margin-left: 93px;
+}
+.MessageReply_div{
+    width: 296px;
+    margin: 0 auto;
+    height: 384px;
+    margin-top: 64px;
+}
+.MessageReplyphone_div{
+    margin-top: 15px;
+    margin-bottom: 66px;
+}
+.MessageReply_phone{
+    color: #279FDC;
+    width: 47px;
+    float: left;
+    margin-left: 49px;
+}
+.MessageReplytextarea_div{
+    margin-top: 28px;
+}
+.MessageReply_textarea{
+    color: #279FDC;
+    clear: both;
+    float: left;
+    margin-right: 12px;
+    margin-left: 60px;
+    margin-top: -39px;
+ }
+.MessageReply_tipFont{
+    clear: both;
+    margin-left: 96px;
+    color: #45AAE3;
+  }
+.MessageReply_button{
+    height: 30px;
+    width: 83px;
+    background-color: #fff;
+    color: #289EE0;
+    margin-top: 9px;
+    margin-left: 174px;
+    border: 1px solid #C2C2C2;
+}
+.custom-modaladd {
+    width: 415px;
+}
+.custom-modaladd #hm_rightdiv {
+    width: 412px;
+    height: 470px;
+    float: left;
+    margin-top: 5px;
+    border-left: 1px solid #23A0DB;
+    overflow: auto;
+    padding-top: 10px;
+}
+.hreoly-modal_label {
+    width: 55px;
+    padding-right: 4px;
+    text-align: right;
+    color: #23A0DB;
+    margin-right: 5px;
+}
+#hints_toolbar_top p {
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #213A7A;
+    margin-left: 5px;
+    color: #fff;
+    line-height: 27px;
+    text-align: center;
+	    cursor: pointer;
+}
+#hints_toolbar_top {
+    height: 27px;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+#hints_toolbar_down input{
+    border: 1px solid #000;
+}
+#hints_bingTime,#hints_endTime{
+    width:118px;
+    height: 22px;
+    color: #80BAE5;
+}
+#hints_toolbar_down {
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 126px;
+}
+#hints_toolbar_downsel {
+    margin-left: 5px;
+    width: 62px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #000;
+    color: #80BAE5;
+}
+#hints_toolbar_key {
+    display: inline-block;
+    height: 22px;
+    margin-left: 5px;
+    width: 66px;
+    height: 22px;
+    padding-left: 5px;
+}
+#hints_toolbar_reply{
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #fff;
+    margin-left: 5px;
+    color: #1CAFE7;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #C2C2C2;
+    margin-top: -1px;
+}
+#userList_head {
+    height: 24px;
+    padding-top: 10px;
+    background-color: #F3F3F3;
+}
+#hintsList_div_div{
+    background-color: #fff;
+    width: 507px;
+    height: 659px;
+}
+.userInfo_div_td2 {
+    width: 250px;
+}
+.userInfo_div_td1 {
+    width: 146px;
+    padding-left: 5px;
+    color: #A4A4A4;
+}
+.userInfo_div_td3 {
+    width: 50px;
+}
+#userList_head{
+    color: #A4A4A4;
+    text-align: left;
+}
+.userInfo_div_td3_1{
+    color: #FF9393;
+}
+.userInfo_div_td3_2{
+    color: #A9D29F;
+}
+.userInfo_div_td3_3{
+    color:#7D8AAC;
+}
+.userInfo_div_trs{
+    height: 38px;
+    background-color: #FFF8CE;
+    border-bottom: solid 1px;
+}
+.userInfo_div_tr:hover{
+    background-color: #e8f5fc;
+}
+.userInfo_div_tr{
+    height: 38px;
+    background-color: #fff;
+}
+#hontsList_left_down{
+    width: 382px;
+    text-align: center;
+    margin-left: 56px;
+}
+#hontsList_left{
+    width: 382px;
+}
+#hontsList_left,#udr_top_right{
+	float:left;
+}
+#udr_top_right{
+    background-color: #FFF;
+    margin-left: 129px;
+    height: 658px;
+}
+#hontsList_left{
+    margin-left:10px;
+}
+#hints_toolbar_topbtn {
+    display: inline-block;
+    width: 37px;
+    height: 24px;
+    background-color: #fff;
+    color: #1CAFE7;
+    margin-left: 5px;
+    border: solid 1px #C2C2C2;
+}
+.hints_toolbar_topbtn1{
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #fff;
+    margin-left: 5px;
+    color: #1CAFE7;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -1px;
+    border: solid 1px #C2C2C2;
+}
+#hinst_info {
+    width: 601px;
+    margin-left: 10px;
+}
+#hinst_info_imgs img{
+    width: 541px;
+    height: 320px;
+    margin-bottom: 5px;
+}
+#hinst_info_imgs{
+    height: 330px;
+    width: 558px;
+    overflow: auto;
+    margin-left: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #F3F3F3;
+    text-align: center;
+    padding: 5px;
+}
+.htt_lable1{
+    color: #23A0DB;
+    width: 72px;
+    text-align: right;
+}
+.htt_lable3{
+    color: #6C6956;
+}
+#htt_lable2{
+    float: left;
+    display: inline-block;
+    overflow: auto;
+    height: 100px;
+}
+.htt_lable2{
+    max-width: 480px;
+}
+#htt_lable1{
+    float: left;
+}
+#hints_info_p{
+    height: 100px;
+    margin-bottom: 10px;
+}
+#hinfo_start1 {
+    color: #23A0DB;
+    margin-left: 30px;
+}
+#hi_start{
+    margin-top: -8px;
+}
+.execute_date_xin {
+    color: red;
+}
+.buiddings_borwse_grid{
+    height: 27px;
+    border: 1px solid #23A0DB;
+}
+.input_height {
+    height: 27px;
+}

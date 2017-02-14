@@ -1,0 +1,155 @@
+/* CSS Document */
+#hints_toolbar_top p {
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #213A7A;
+    margin-left: 5px;
+    color: #fff;
+    line-height: 27px;
+    text-align: center;
+}
+#hints_toolbar_top {
+    height: 27px;
+    margin-left: 144px;
+    margin-top: 5px;
+}
+#hints_toolbar_down input{
+    border: 1px solid #000;
+}
+#hints_bingTime,#hints_endTime{
+    width: 88px;
+    height: 22px;
+    color: #80BAE5;
+}
+#hints_toolbar_down {
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 144px;
+}
+#hints_toolbar_downsel {
+    margin-left: 5px;
+    width: 62px;
+    height: 24px;
+    display: inline-block;
+    border: 1px solid #000;
+    color: #80BAE5;
+}
+#hints_toolbar_key {
+    display: inline-block;
+    height: 22px;
+    margin-left: 5px;
+    width: 66px;
+    height: 22px;
+    padding-left: 5px;
+}
+#hints_toolbar_reply{
+    margin-left: 10px;
+}
+#userList_head {
+    height: 27px;
+    padding-top: 10px;
+    background-color: #CCE8F6;
+}
+#hintsList_div_div{
+    background-color: #F1F9FC;
+    width: 382px;
+    height: 420px;
+}
+.userInfo_div_td2 {
+    width: 250px;
+}
+.userInfo_div_td1 {
+    width: 76px;
+    padding-left: 5px;
+    color: #1C9DDD;
+}
+.userInfo_div_td3 {
+    width: 50px;
+}
+#userList_head{
+    color: #1C9DDD;
+    text-align: left;
+}
+.userInfo_div_td3_1{
+    color: #FF9393;
+}
+.userInfo_div_td3_2{
+    color: #A9D29F;
+}
+.userInfo_div_td3_3{
+    color:#7D8AAC;
+}
+.userInfo_div_trs{
+    height: 24px;
+   background-color: #FFF8CE;
+}
+.userInfo_div_tr{
+    height: 28px;
+}
+#hontsList_left_down{
+    width: 382px;
+    text-align: center;
+}
+#hontsList_left{
+    width: 382px;
+}
+#hontsList_left,#udr_top_right{
+	float:left;
+}
+#udr_top_right{
+    background-color:#FFF8CE;
+}
+#hontsList_left{
+    margin-left:10px;
+}
+#hints_toolbar_topbtn {
+    display: inline-block;
+    width: 37px;
+    height: 24px;
+    background-color: #213A7A;
+    color: #fff;
+    margin-left: 5px;
+}
+#hinst_info {
+    width: 460px;
+    margin-left: 10px;
+}
+#hinst_info_imgs img{
+    width: 439px;
+    height: 243px;
+}
+#hinst_info_imgs{
+    height: 264px;
+    overflow: auto;
+}
+.htt_lable1{
+    color: #23A0DB;
+    width: 61px;
+    text-align: right;
+}
+.htt_lable3{
+    color: #6C6956;
+}
+#htt_lable2{
+    width: 397px;
+    float: left;
+    height: 59px;
+    display: inline-block;
+    overflow: auto;
+}
+#htt_lable1{
+    float: left;
+}
+#hints_info_p{
+    height: 64px;
+}
+#hinfo_start1 {
+    color: #23A0DB;
+    margin-left: 30px;
+}
+#hi_start{
+    margin-top: 5px;
+}
+

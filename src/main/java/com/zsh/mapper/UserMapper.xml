@@ -3,25 +3,27 @@
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.zsh.dao.IUserDao">
-
-	<resultMap type="UserInfo" id="resultListUser">
-		<id column="uid" property="itemId" />
-		<result column="userName" property="userName" />
-		<association property="org" javaType="OrgInfo">
-			<id column="oid" property="itemId"/>
-			<result column="orgName" property="orgName" />
-		</association>
+	
+	<resultMap type="UserDto" id="userDto">
+		<id property="userId" column="userId"/>
+		<result property="userName" column="userName"/>
+		<result property="orgId" column="orgId"/>
+		<result property="orgName" column="orgName"/>
+		<result property="dutyId" column="dutyId"/>
+		<result property="dutyName" column="dutyName"/>
+		<result property="mobile" column="mobile"/>
+		<result property="serviceFlag" column="serviceFlag"/>
+		<result property="loginableFlag" column="loginableFlag"/>
+		<result property="loginUid" column="loginUid"/>
+		<result property="loginPwd" column="loginPwd"/>
+		<result property="hireTime" column="hireTime"/>
+		<result property="fireTime" column="fireTime"/>
+		<result property="gridId" column="gridId"/>
+		<result property="roleId" column="roleId"/>
+		<result property="roleName" column="roleName"/>
 	</resultMap>
 
-    <select id="findById" parameterType="string" resultMap="resultListUser">
-        select u.itemId uid,u.userName,o.itemId oid,o.orgName from UserInfo u INNER JOIN OrgInfo o on u.OrgId=o.ItemId where u.itemId=#{itemId}
-    </select>
-    
-    <select id="findByOrgId" parameterType="string" resultMap="resultListUser">
-        select u.itemId uid,u.userName,o.itemId oid,o.orgName from UserInfo u INNER JOIN OrgInfo o on u.OrgId=o.ItemId where u.orgId=#{itemId}
-    </select>
-    
-    <select id="findAll" resultMap="resultListUser">
-        select u.itemId uid,u.userName,o.itemId oid,o.orgName from UserInfo u INNER JOIN OrgInfo o on u.OrgId=o.ItemId 
+    <select id="valiteData" parameterType="UserInfo" resultMap="userDto">
+        select u.*,o.orgName,c.codeName dutyName from userinfo u,OrgInfo o,CommonCode c where u.OrgId=o.OrgId and u.DutyId=c.ItemId and ServiceFlag=1 and LoginableFlag=1 and LoginUid = #{loginUid} and LoginPwd = #{loginPwd} 
     </select>
 </mapper>

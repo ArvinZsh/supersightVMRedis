@@ -1,0 +1,37 @@
+body {
+    background-color: #ccc;
+}
+@charset "utf-8";
+/* CSS Document */
+/*@import "menu.css";*/
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p,table,tbody,
+blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td, /* table elements 表格元素 */
+img/* img elements 图片元素 */{
+border:medium none;
+margin: 0;
+padding: 0;
+
+}
+li{
+-moz-user-select:none;/*火狐*/
+-webkit-user-select:none;/*webkit浏览器*/
+-ms-user-select:none;/*IE10*/
+-khtml-user-select:none;/*早期浏览器*/
+user-select:none;
+}
+body,button, input, select, textarea {
+font: 12px/1.5 '微软雅黑',tahoma, Srial, helvetica, sans-serif; }
+ table {
+    border-collapse:collapse;
+   }
+#container {
+    width: 1280px;
+    height: 864px;
+    margin: 0px auto;
+}
+

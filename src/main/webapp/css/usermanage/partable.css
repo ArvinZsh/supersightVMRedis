@@ -1,0 +1,99 @@
+.sys_tr_title1{
+    text-align: left;
+    color: #4EB1E3;
+    padding-bottom: 55px;
+    position: relative;
+    left: 11px;
+}
+.sys_tr_title{
+    text-align: left;
+    color: #4EB1E3;
+    padding-bottom: 55px;
+    position: relative;
+    left: 11px;
+}
+.t_11{
+	    height: 28px;
+}
+.RateBarBottom{
+	margin-top: -34px;
+    margin-left: 7px;
+    width: 894px;
+	background-color:#ccc;
+	border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	-moz-border-radius: 5px 5px 5px 5px;
+}
+.RateBarBottom1{
+	margin-top: -34px;
+    margin-left: 7px;
+    width: 894px;
+	background-color:#ccc;
+	border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	-moz-border-radius: 5px 5px 5px 5px;
+}
+.sys-info-tb-row{
+    height: 83px;
+    background-color: #fff;
+    width: 909px;
+    margin-bottom: 4px;
+    float: left;
+}
+.sys-info-tb-row1{
+    height: 84px;
+    background-color: #fff;
+    width: 909px;
+   
+    top: -4px;
+    float: left;
+}
+.RateBarTopBlue,.RateBarTopRed,.RateBarTopYellow,.RateBarTopWhite{
+	height:8px;
+	border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	-moz-border-radius: 5px 5px 5px 5px;
+}
+.RateBarTopWhite{
+	background:#CCCCCC;
+}
+.RateBarTopBlue{
+	background: rgb(52, 130, 218);
+}
+.RateBarTopRed{
+	background: #ff1717;
+}
+
+.RateBarTopYellow{
+	background: #f1e88d;
+}
+.sys_row_content{
+	margin-left: 15%;
+    margin-top: -8%;
+    font-size: 13px;
+    color: #707070;
+    width: 250px;
+    color: #826061;
+}
+.table_s{
+    border-collapse: collapse;
+    width: 214px;
+    background-color: #fff;
+    height: 173.5px;
+    float: left;
+    margin-left: 4px;
+}
+ .td_s {
+	text-align: center;
+	width:120px;
+}
+ .td1_s {
+ 	color:#4EB1E3;
+	text-align: center;
+	width:120px;
+}
+ .table_div{
+     width: 907px;
+     float: right;
+     margin-right: 30px;
+}

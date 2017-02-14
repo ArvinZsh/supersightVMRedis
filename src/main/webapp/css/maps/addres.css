@@ -1,0 +1,26 @@
+#allmap{
+	width:450px;
+	height:230px;
+}
+
+#allmap_top_div{
+	margin-bottom: 7px;
+}
+
+#allmap_top_div input{
+	width:300px;
+	height:28px;
+	padding-left:7px;
+}
+
+#allmap_label{
+	font-size: 14px;
+	color: #0891D6;
+	display: inline-block;
+	margin-top:4px;
+	cursor: pointer;
+}
+
+#allmap_label:hover{
+	text-decoration: underline;
+}

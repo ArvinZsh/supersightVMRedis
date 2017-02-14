@@ -1,0 +1,104 @@
+#cladid,#cladid td,#cladid .p1,#cladid .p2,#cladid .i {
+    font-family: arial
+}
+ 
+#cladid {
+    margin: 3px 0 0 0;
+    background-color: #fff;
+	height:163px;
+}
+ 
+#cladid table {
+    border: 0;
+    color: #0093DC;
+}
+
+#cal {
+    font-size: 9px;
+    margin: 0 0 0 0px
+}
+ 
+#cal #top {
+    height: 26px;
+    line-height: 26px;
+    background: #FFFFFF;
+    padding-left: 5px;
+}
+ 
+#cal #top #selid1 {
+    font-size: 12px;
+    width:56px;
+}
+
+#cal #top #selid2 {
+    font-size: 12px;
+    width:35px;
+}
+ 
+#cal #top input {
+    padding: 0
+}
+ 
+#cal ul#wk {
+    margin: 0;
+    padding: 0;
+    height: 20px
+}
+ 
+#cal ul#wk li {
+    float: left;
+    width: 25px;
+    text-align: center;
+    line-height: 22px;
+    list-style: none;
+    background-color: #E4F5FC;
+}
+ 
+#cal ul#wk li b {
+    font-weight: normal;
+}
+ 
+#cal #cm {
+    clear: left;		
+    position: relative;
+    padding-bottom:3px;
+    
+}
+ 
+#cal #cm .cell {
+    position: absolute;
+    width: 22px;
+    height: 17px;
+    text-align: center;
+    margin: 0 0 0 2px;
+}
+ 
+#cal #cm .cell .so {
+    font: bold 10px arial;
+	padding-top:2px;
+}
+ 
+#cal #bm {
+    text-align: right;
+    height: 20px;
+    line-height: 24px;
+    padding: 0 13px 0 0;
+}
+ 
+#cal #bm a {
+    color: #7977ce
+}
+ 
+#cal #fd {
+    display: none;
+    position: absolute;
+    border: 1px solid #dddddf;
+    background: #feffcd;
+    padding: 10px;
+    width: 150px
+}
+ 
+#cal #fd b {
+    font-weight: normal;
+    color: #c60a00
+}

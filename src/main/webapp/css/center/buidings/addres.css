@@ -1,0 +1,40 @@
+#allmap {
+	width: 369px;
+	height: 200px;
+	display: none;
+}
+
+#allmap_top_div{
+	margin-bottom: 7px;
+}
+
+#allmap_top_div input{
+	width:300px;
+	height:28px;
+	padding-left:7px;
+}
+
+#allmap_label{
+	font-size: 13px;
+	color: #0891D6;
+	display: inline-block;
+	margin-top:4px;
+	cursor: pointer;
+	width:370px;
+	text-align: left;
+	font-weight: normal;
+}
+
+#allmap_label:hover{
+	text-decoration: underline;
+}
+
+.builddings_allmap{
+	margin-left:93px;
+}
+
+#allmap_toggleout {
+	margin-top: 70px;
+	width: 354px;
+	padding: 0px 0px 4px 4px;
+}

@@ -1,0 +1,184 @@
+#record_page_div{
+    width: 1040px;
+    height: 1446px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+.record_cover_logo {
+    width: 100px;
+    margin: 0 auto;
+    padding-top: 220px;
+}
+.record_cover_div h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 40px;
+}
+.record_cover_div h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.record_cover_div label{
+    font-size: 25px;
+    font-weight: 100;
+}
+.record_cover_labelLeft{
+    width: 200px;
+    text-align: right;
+}
+.record_cover_labelright{
+    width: 400px;
+    text-align: left;
+}
+.record_cover_div{
+    text-align: center;
+    margin-top: 20px;
+}
+#record_page_div hr{
+    border: 1px solid #000;
+}
+.record_head_labelright{
+    font-size:25px;
+    margin-top: 80px;
+}
+.record_page_divd {
+    width: 960px;
+    margin-left: 40px;
+}
+.record_bInfo_labelLeft {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.record_bInfo_labelright{
+    font-size: 20px;
+    font-weight: 600;
+    width: 223px;
+    margin-top: 10px;
+}
+#record_page_div table {
+    width: 100%
+}
+#record_page_div td {
+    border: 1px solid;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+}
+#record_page_div .record_td1 {
+    width: 105px;
+    text-align: right;
+    padding-right: 8px;
+}
+#record_page_div .record_td2{
+    padding-left: 8px;
+}
+.record_bInfo_p {
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: #999999;
+    margin-top: 35px;
+}
+.record_patrol_imgIdv {
+    width: 445px;
+    height: 300px;
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 296px;
+    text-align: center;
+}
+.record_patrol_img{
+    max-height: 290px;
+    max-width: 435px;
+    width: 435px;
+}
+.executeLogInfo_main_div {
+    overflow: auto;
+    clear: both;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.executeLogInfo_head_cl {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.record_notfication_imgdiv{
+    width: 915px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+.record_notfication_img {
+    max-height: 1000px;
+    max-width: 915px;
+}
+.record_Proposer_imgdiv {
+    width: 400px;
+    height: 300px;
+    line-height: 295px;
+    border: 1px solid #6C6956;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.record_Proposer_img{
+    max-height: 290px;
+    max-width: 390px;
+}
+.executeLogInfo_title_cl{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.executeLogInfo_title_c {
+    background-color: #F2F2F2;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+#StatistcssBuidingInfo_divNav {
+    width: 75px;
+    float: left;
+    height: 1447px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+#StatistcssBuidingInfo_pageContent{
+    float: left;
+    width: 1056px;
+}
+.sbiNar_Li {
+     list-style: none;
+     text-align: center;
+     height: 40px;
+     line-height: 40px;
+     font-size: 17px;
+    cursor: pointer;
+ }
+#StatistcssBuidingInfo_btn {
+    width: 60px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #1697D9;
+    border: 1px solid #C2C2C2;
+}
+#sbiNar_div .selected{
+   background-color: #ccc;
+}
+#StatistcssBuidingInfo_divNav .sbiNar_ul {
+    margin-top: 10px;
+}

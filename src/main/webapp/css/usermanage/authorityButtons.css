@@ -1,0 +1,76 @@
+.author_right_head,.author_module_p,.author_module_div{
+   padding-left: 10px;
+}
+.author_right_divc {
+    overflow-y: overlay;
+    height: 568px;
+    float: left;
+}
+.author_right_div {
+    width: 908px;
+    height: 756px;
+    background-color: #fff;
+    font-size: 14px;
+    float: left;
+    overflow-y: overlay;
+    margin-left: 10px;
+    overflow-x: hidden;
+}
+.author_right_head {
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 100%;
+}
+.author_module_p {
+    line-height: 25px;
+    background-color: #F5F5F5;
+    color: #C8C8C8;
+}
+.author_page_p {
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.author_page_label {
+    width: 90px;
+}
+.author_btoon_label {
+    width: 74px;
+}
+.author_buttons {
+    vertical-align: text-top;
+    margin-top: 0;
+}
+.author_btoon_label {
+    margin-left: 2px;
+}
+#author_right_button {
+    line-height: 30px;
+    width: 69px;
+    background-color: #fff;
+    border: 1px solid #C2C2C2;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    color: #23A0DB;
+}
+div#divRoleName {
+    width: 908px;
+    height: 34px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+p.roleNameLabel {
+    width: 90px;
+    float: left;
+}
+input#roleNameTxt {
+    border: 1px solid #75C1E8;
+    float: left;
+}
+input#allSelectBtn {
+    margin-left: 34px;
+}

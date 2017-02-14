@@ -1,0 +1,121 @@
+#divStatistics_queryBar .buidding_max_sel{
+    margin-top: 0px;
+}
+#divStatistics_RecordTitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#divPageQueryBar {
+    padding-bottom: 10px;
+    float: left;
+}
+
+div#divPageTitle {
+    padding-left: 10px;
+}
+
+div#divStatistics_queryBar {
+    padding-left: 10px;
+}
+
+div#divStatistics_tableContent {
+    padding-left: 10px;
+}
+
+#divStatistics_queryBar .building_data_mix, .buidding_max_sel, #statistics_queryBlockArea, #statistics_queryGrid, #statistics_queryBuildCase, #statistics_queryTxt {
+    margin-left: 6px;
+}
+
+#statistics_queryBlockArea, #statistics_queryGrid, #statistics_queryBuildCase{
+    width: 87px;
+    height: 34px;
+}
+
+#statistics_queryTxt {
+    width: 150px;
+    height: 34px;
+    border: solid 1px #999;
+}
+
+#statistics_queryButton {
+    width: 62px;
+    height: 34px;
+    border: 1px solid #C2C2C2;
+    color: #1697D9;
+    background-color: #FFF;
+    margin-left: 8px;
+}
+
+#statistics_table {
+    width: 1126px;
+    background-color: #FFF;
+}
+
+#statistic_title_time, .statistics_record_table_tr_time {
+    width: 208px;
+    padding-left: 10px;
+}
+
+#statistic_title_grid,#statistic_title_person, .statistics_record_table_tr_grid, .statistics_record_table_tr_person {
+    width: 150px;
+}
+
+#statistic_title_buildCase, .statistics_record_table_tr_buildCase{
+    width: 80px;
+}
+
+div#divStatistics_table {
+    padding-left: 139px;
+}
+
+tr.statistics_record_table_tr {
+    height: 54px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+tr.statistics_record_table_tr td {
+    padding-left: 10px;
+}
+
+tr#statistics_titleTr{
+    height: 24px;
+    padding-left: 10px;
+}
+
+.buidding_min_sel, .buidding_max_sel {
+    width: 134px;
+    height: 20px;
+    border: 1px solid #CCC;
+    border-radius: 0px;
+}
+
+#divStatistics_queryBar .building_data_mix {
+    display: inline-table;
+}
+#divStatistics_queryBar label {
+    font-weight: normal;
+    margin: 7px 0 0 6px;
+    float: left;
+}
+
+#divStatistics_queryBar .form-group {
+    margin: 0px;
+    float: left;
+}
+
+#statistic_title_time,#statistic_title_place,#statistic_title_grid,#statistic_title_person,#statistic_title_buildCase {
+    text-align: left;
+    height: 36px;
+    background-color: #f2f2f2;
+    color: #A4A4A4;
+    font-weight: normal;
+}
+
+tr#statistics_titleTr th {
+    padding-left: 10px;
+}
+
+tr.statistics_record_table_tr:hover {
+    background-color: #e8f5fc;
+}

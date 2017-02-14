@@ -1,0 +1,26 @@
+.ulStyle{
+	list-style: none;
+	width: 120px;
+	height: 728px;
+	padding-left: 0px;
+	background-color: #CCE9F7;
+	cursor: pointer;
+}
+.liStyle{
+	text-align: center;
+	background-color: #CCE9F7;
+	color: #289EE0;
+	height: 50px;
+	line-height: 50px;
+}
+.liStyle span{
+	position: relative;
+	left:5px;
+}
+.liBottom{
+	height:236px;
+	background-color:#fff;
+}
+.divli{
+	background-color:#fff;
+}

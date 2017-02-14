@@ -1,0 +1,166 @@
+#hm_rightdiv {
+    width: 417px;
+    height: 410px;
+    float: left;
+    background-color: #FFF8CE;
+    margin-top: 5px;
+    border-left: 1px solid #23A0DB;
+    overflow: auto;
+}
+.hreoly-modal_label {
+    width: 47px;
+    padding-left: 5px;
+    text-align: right;
+    color: #23A0DB;
+    margin-right: 5px;
+}
+
+.ShortMessage_textDiv1{
+    margin-top: 15px;
+    margin-bottom: 66px;
+}
+ .ShortMessage_textDiv2{
+    margin-top: 29px;
+    margin-bottom: 16px;
+}
+ .ShortMessage_textDiv3{
+    margin-top: 28px;
+}
+
+ .ShortMessage_button{
+    height: 30px;
+    width: 83px;
+    background-color: #213A7A;
+    color: #fff;
+    margin-top: 36px;
+    margin-left: 264px;
+}
+ .zifus_text{
+    clear: both;
+    margin-left: 96px;
+    color: #45AAE3;
+}
+ .ShortMessage_button{
+     height: 30px;
+     width: 83px;
+     background-color: #fff;
+     color: #289EE0;
+     margin-top: 24px;
+     margin-left: 264px;
+     border: 1px solid #C2C2C2;
+}
+ .ShortMessage_text1{
+    width: 254px;
+    border: solid 1px #52B3E3;
+}
+ .ShortMessage_text2{
+    width: 254px;
+    border: solid 1px #52B3E3;
+}
+.ShortMessage_label1{
+    color: #279FDC;
+    width: 69px;
+    float: left;
+    margin-left: 27px;
+}
+ .ShortMessage_label2{
+    color: #279FDC;
+    width: 69px;
+    float: left;
+    margin-left: 27px;
+}
+ .ShortMessage_label3{
+    color: #279FDC;
+    clear: both;
+    float: left;
+    margin-right: 29px;
+    margin-left: 62px;
+
+}
+ .ShortMessage_textarea{
+    color: #279FDC;
+    float: left;
+    resize: none;
+    border: solid 1px;
+    margin-left: 96px;
+    margin-top: -15px;
+    width: 253px;
+    height: 130px;
+}
+.ShortMessage_userTextEditdiv {
+    width: 465px;
+    height: 749px;
+    float: right;
+    position: relative;
+    background-color: #F1F9FC;
+    top: -1603px;
+    left: 347px;
+}
+.ShortMessage_userTextdiv{
+    height: 450px;
+    width: 183px;
+}
+ .ShortMessage_div_title4{
+    width: 84px;
+    height: 30px;
+    background-color: #CCE8F6;
+    color: #1E9AD8;
+    padding-left: 14px;
+    line-height: 30px;
+}
+.ShortMessage_div_title3{
+  
+    width: 550px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    background-color: #008ED6;
+    color: #fff;
+    padding-left: 14px;
+}
+ #ShortMessage{
+    width: 884px;
+    height: 512px;
+
+}
+#ShortMessage_div1{
+    width: 284px;
+    height: 512px;
+    float: left;
+    margin-left: 144px;
+    margin-top: -760px;
+}
+#ShortMessage_div2{
+    float: right;
+    position: relative;
+    top: -1184px;
+    left: 348px;
+}
+ #ShortMessage_titleDiv{
+
+}
+.ShortMessage_div_title1{
+      width: 509px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    background-color: #008ED6;
+    color: #fff;
+    padding-left: 14px;
+}
+ .ShortMessage_div_title2{
+       width: 509px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    background-color: #CCE8F6;
+    color: #1D9BDA;
+    padding-left: 14px;
+}
+
+ #ShortMessage_orgTreediv{
+
+}
+ #ShortMessage_userInBoxdiv{
+
+}

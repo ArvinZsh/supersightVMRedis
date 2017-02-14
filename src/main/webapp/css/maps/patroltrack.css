@@ -1,0 +1,256 @@
+﻿
+#potroltrack_fdiv {
+	height: 100%;
+	width: 1150px;
+	float: left;
+	margin: 0px 0px 0px 10px;
+}
+
+/*
+左边元素css
+*/
+#potroltrack_left_div {
+	float: left;
+	width: 260px;
+}
+
+#potroltrack_div1 select {
+    height: 30px;
+    width: 97px;
+}
+
+#potroltrack_div1select2{
+	margin-left:11px;
+}
+
+
+#potroltrack_div2 input {
+    height: 30px;
+    width: 141px;
+    float: left;
+    border:1px solid #018ED5;
+    padding-left:6px;
+}
+
+#potroltrack_div2 div{
+    line-height: 32px;
+    text-align: center;
+    width:56px;
+    float: left;
+    background-color: #008ED6;
+    color:#FFF;
+    cursor: pointer;
+}
+
+#potroltrack_div3{
+    clear: left;
+}
+
+#potroltrack_div3 div{
+	line-height: 39px;
+    color: #737373;
+	background-color: #FFF;
+	padding-left: 12px;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+#potroltrack_div4 {
+	height: 628px;
+    overflow: auto;
+    background-color: #FFF;
+}
+
+.potroltrack_div4div {
+	padding: 8px 0px 4px 0px;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.potroltrack_div4divd{
+	float: left;
+	width: 63px;
+}
+
+.potroltrack_div4ladbel1{
+	display: inline-block;
+	width:30px;
+	height:36px;
+	margin-left: 20px;
+	background-repeat: no-repeat;
+	color:#FFF;
+	padding:0px 0px 0px 5px;
+	background-image: url('../../images/mapimage/grids.png');
+	background-repeat: no-repeat;
+}
+
+
+.potroltrack_div4ladbel2 {
+    display: inline-block;
+	width: 155px;
+	line-height: 36px;
+	color:#333333;
+	font-weight: normal;
+}
+
+.potroltrack_div4span{
+	display: inline-block;
+	width:80px;
+	color:#999999;
+}
+
+/*
+右边元素css
+*/
+#potroltrack_right_div{
+	float: left;
+	margin-left:10px;
+}
+
+#potroltrack_right_allmap{
+}
+
+#potroltrack_right_allmap #allmap{
+	width: 880px;
+	height: 668px;
+}
+
+#potroltrack_right_buttom{
+	clear: left;
+	height:242px;
+	background-color: #FFF;
+}
+
+.potroltrack_right_buttom_div1{
+	padding:1px 0 10px 0px;
+	background-color: #FFFEE0;
+}
+
+
+.potroltrack_right_buttom_ddiv1{
+	float: left;
+	width:42px;
+	height:73px;
+	margin-top:8px;
+}
+
+.potroltrack_right_buttom_ddiv2,.potroltrack_right_buttom_ddiv3,.potroltrack_right_buttom_ddiv4{
+	margin-top:8px;
+}
+
+.potroltrack_right_buttom_ddiv2{
+	color: #49A5D7;
+}
+
+.potroltrack_right_buttom_ddiv4 label{
+	color: #B0B0B0;
+}
+
+.potroltrack_right_buttom_ddiv4 span{
+	display: inline-block;
+	width:550px;
+	margin-left:10px;
+}
+
+.potroltrack_right_buttom_div2{
+	clear: left;
+}
+
+.potroltrack_right_buttom_div2 label{
+	display: inline-block;
+	width:70px;
+	text-align: right;
+	line-height: 28px;
+	color: #B0B0B0;
+}
+
+.potroltrack_right_buttom_div2 span{
+	display: inline-block;
+	margin-left:10px;
+	width:550px;
+}
+
+.potroltrack_right_buttom_ddiv1back {
+    display: inline-block;
+    margin-top: 3px;
+    width: 17px;
+    height: 24px;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding: 1px 0px 0px 1px;
+}
+
+
+/*
+addClass
+*/
+.patro_left_div_hover{
+	background-color: #FFFEE0;
+}
+
+
+/*
+信息框css
+*/
+.potroltrack_window_label{
+	display: inline-block;
+	width:50px;
+	padding-right:9px;
+	text-align: right;
+	margin-top:3px;
+}
+
+.potroltrack_window_span{
+	display: inline-block;
+	width:160px;
+	padding-right:9px;
+	margin-top:3px;
+}
+
+/* 更新后css */
+#potroltrack_top_div1 {
+	height: 50px;
+	padding-left: 20px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+
+#potroltrakck_top_nameding {
+	line-height: 46px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.potroltrack_okisnoSignIn_div{
+	display: none;
+}
+
+.potroltrack_okSignIn_div,.potroltrack_noSignIn_div {
+	padding: 2px 0px 4px 30px;
+}
+
+.potroltrack_okSignIn_divd1, .potroltrack_noSignIn_divd1 {
+	float: left;
+	text-align: right;
+	width: 80px;
+	padding-right: 12px;
+	color: #B3B29F;
+}
+
+.potroltrack_okSignIn_divd2, .potroltrack_noSignIn_divd2 {
+	display: inline-block;
+	width: 117px;
+	color: #919083;
+}
+
+.potroltrack_oknoSignIncount_div {
+	text-align: center;
+	color: #949494;
+}
+
+.potroltrack_okSignIn_divd1 {
+    width: 48px;
+}
+
+.potroltrack_noSignIn_divd1 {
+    width: 82px;
+}

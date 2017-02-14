@@ -1,0 +1,59 @@
+/* CSS Document */
+
+   
+.emailInfo-modal_label {
+    width: 53px;
+    padding-left: 5px;
+    text-align: right;
+    color:#23A0DB;
+    margin-right: 5px;
+}
+#emailInfo-div{
+  float: left;
+    width: 607px;
+    height: 680px;
+    margin-left: 509px;
+    background-color: #fff;
+    margin-top: -716px;
+}
+#emainlInfo_head{
+    height: 24px;
+    color: #A4A4A4;
+background-color: #F3F3F3;
+    font-weight: bold;
+    line-height: 24px;
+    padding-left: 5px;
+}
+#emailInfo-Cintent {
+    width: 416px;
+    float: left;
+    word-break: break-all;
+    overflow: auto;
+    height: 108px;
+}
+#emailInfo_cintent{
+    float: left;
+}
+#emailInfo-modal_content,#emailInfo-modal_div1{
+    overflow: hidden;
+    clear: both;
+}
+.showsmallImg_img {
+    width: 135px;
+    margin-right: 3px;
+    height: 90px;
+}
+#emailInfo-modal_img{
+    float: right;
+    width: 423px;
+}
+.emailInfo-modal_label1{
+    float: left;
+}
+.emailInfo_a{
+    display: block;
+}
+.showBigImg_div {
+      float: left;
+      margin-bottom: 5px;
+  }

@@ -1,0 +1,108 @@
+.user_div{
+	width: 206px;
+    height: 479px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+	margin-top: -3px;
+}
+.edit_div{
+    height:35px;
+	background-color:#FFFFFF;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.add_button{
+    width: 90px;
+    height: 30px;
+    margin-right: 10px;
+    color: #1697D9;
+    background-color: #fff;
+    border: 1px solid #C2C2C2;
+}
+.edit_button{
+	width: 90px;
+    height: 30px;
+    color: #1697D9;
+    background-color: #fff;
+    border: 1px solid #C2C2C2;
+}
+.find_div{
+	background-color:#CBE8F7;
+	padding-top: 4px;
+    padding-bottom: 4px;
+}
+.find_input{
+	width: 146px;
+    height: 24px;
+    margin-left:4px;
+     border: 1px;
+}
+.find_button{
+	width: 45px;
+    height: 30px;
+    border:1px solid #1697D9;
+    color:#1697D9;
+    background-color:#fff;
+    float: right;
+    margin-top: -28px;
+    margin-right: 4px;
+}
+.datas_div{
+	background-color:#F1F9FC;
+	height: 360px;
+}
+.data_tr{
+	height: 10px;
+	padding: 10px;
+}
+.data_td_id{
+	
+}
+.data_td_name{
+	    margin-left: 16px;
+}
+.isenable_div{
+	
+}
+.isenable_checkbox{
+	position: relative;
+    top: 12px;
+    left: 10px;
+    height: 16px;
+    width: 16px;
+}
+.isenable_label{
+    color: #1697D9;
+    float: right;
+    margin-right: 479px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.isenable_orglabel{
+    color: #1697D9;
+    top: -12px;
+    left: 28px;
+    float: right;
+    margin-right: 714px;
+    margin-top: 10px;
+	font-weight: normal;
+}
+
+.isenable_button{
+	width: 90px;
+    height: 30px;
+    color: #1697D9;
+    background-color: #fff;
+    border: 1px solid #C2C2C2;
+    margin-left: 10px;
+    left: 44px;
+    top: -14px;
+}
+.isenable_div{
+    background-color:#FFFFFF;
+	width:206px;
+	height:48px;
+}

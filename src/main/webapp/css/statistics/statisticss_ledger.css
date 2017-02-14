@@ -1,0 +1,81 @@
+#user_down {
+    height: 1446px;
+    background-color: #F2F2F2;
+}
+#statement_container{
+    padding-bottom: 30px;
+    page-break-after: always;
+    background-color: #fff;
+}
+#basicInfor_div{
+    height: 840px;
+    width: 965px;
+    margin-left: 20px;
+}
+#statenent_table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+}
+#statenent_table tr,#statenent_table th,#statenent_table td{
+    text-align: center;
+    border: 1px solid #000;
+    height: 30px;
+    line-height: 30px;
+}
+.statement_condition{
+    width: 135px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+#statement_Tool {
+    background-color: #fff;
+    width: 1130px;
+    padding-bottom: 10px;
+}
+.statement_toolBtn{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #1697D9;
+    border: 1px solid #C2C2C2;
+}
+#statement_Tool,#statement_main{
+    float: left;
+}
+#statement_main{
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow: auto;
+    max-height: 1372px;
+    width: 1108px;
+}
+#statement{
+    background-color: #D7D7D7;
+    overflow: auto;
+    clear: both;
+    padding-bottom: 10px;
+}
+#potrolCount{
+    float: left;
+    margin-left: 10px;
+    background-color: #fff;
+    width: 1131px;
+}
+#statement_title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+#statement_hade {
+    font-size: 25px;
+    text-align: center;
+    background-color: #F2F2F2;
+    margin-bottom: 10px;
+}

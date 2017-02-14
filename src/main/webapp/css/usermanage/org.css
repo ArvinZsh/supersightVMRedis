@@ -1,0 +1,212 @@
+#fudivid
+{
+	width:210px;
+	height: 690px;
+	overflow:auto;
+	font-family: "微软雅黑";
+}
+
+.treeopen{
+	display:inherit;
+}
+
+.treecolse {
+  	display: none
+}
+
+.opentubiao
+{
+	background: url("../../images/open.png");
+	background-repeat: no-repeat;
+	height:19px;
+	width:20px;
+	margin:0px;
+	float: left;
+}
+
+.opentubiao_stop
+{
+	background: url("../../images/Tree_stop_open.png");
+	background-repeat: no-repeat;
+	height:19px;
+	width:20px;
+	margin:0px;
+	float: left;
+}
+
+.colsetubiao
+{
+	background: url("../../images/colse.png");
+	background-repeat: no-repeat;
+	height:19px;
+	width:20px;
+	margin:0px;
+	float: left;
+}
+.colsetubiao_stop
+{
+	background: url("../../images/Tree_stop_close.png");
+	background-repeat: no-repeat;
+	height:19px;
+	width:20px;
+	margin:0px;
+	float: left;
+}
+
+.nottubiao
+{
+	background-repeat: no-repeat;
+	height:19px;
+	width:20px;
+	margin:0px;
+	float: left;
+}
+
+.nottubiao_stop
+{
+	background-repeat: no-repeat;
+	height:19px;
+	width:20px;
+	margin:0px;
+	float: left;
+}
+
+
+
+#treedivid1{
+    background-color:#F1F9FC;
+	width:210px;
+}
+.org_tree_div{
+   height: 390px;
+}
+.tree_stop_div{
+	color:#A3A3A3;
+}
+.tree_nostop_div{
+	color:#0093DD;
+}
+#orgtree_checkbox{
+    top: 12px;
+    left: 10px;
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    float: right;
+    margin-top: 10px;
+}
+
+.orgEdit_label{
+	display:inline-table;
+	width:80px;
+	text-align:right;
+	margin-right:10px;
+}
+.org_input{
+    height: 30px;
+    padding-left: 5px;
+    width: 166px;
+    border: 1px solid #0093DD;
+}
+.orgEdit{
+	height:30px;
+	margin-top:10px;
+    padding-bottom: 10px;
+}
+
+#orgEdit_div{
+	margin-top:10%;
+	margin-left:35%;
+	width:300px;
+	height:170px;
+	z-index:100;
+	background-color:#0093DD;
+	border:1px solid #213A7A;
+	padding-top:20px;
+}
+#orgedit_no{
+    margin-left:60px;
+}
+.orgEdit_title{
+	color:#FFFFFF;
+	text-align:center;
+}
+#orgEdit_p{
+	color:#FF0000;
+}
+.tree_nostop_div_check{
+    background-color:#FFF8CE;
+}
+#user_info_div1{}
+#userList_div{
+	height: 700px;
+	margin-left: 10px;
+	width: 909px;
+	background-color: #FFFFFF;
+	float: left;
+}
+.usersdiv{
+	width: 1125px;
+	height: 503px;
+	margin-top: -9px;
+}
+.offical_div_td1{
+    width: 150px;
+    text-align: left;
+	color: #A4A4A4;
+	font-weight: normal;
+    padding-left: 10px;
+	height:24px;
+}
+.offical_div_td3{
+	color: #A4A4A4;
+	font-weight: normal;
+	text-align:left;
+	height:24px;
+}
+.orgInfo_div_td1{
+    width: 150px;
+    color:#39A9DA;
+    padding-left: 10px;
+	background-color:#F1F9FC;
+	height:24px;
+}
+.offical_div_td3{
+    width: 474px;
+	border:0px;
+	height:24px;
+}
+.orgInfo_div_td3{
+    width: 457px;
+	background-color:#F1F9FC;
+	height:24px;
+}
+.orgListHead{
+	background-color: #F3F3F3;
+}
+.orgInfo_div_stp_td1{
+    width: 150px;
+    color:#ccc;
+    padding-left: 10px;
+	height:24px;
+}
+.orgInfo_div_stp_td3{
+    width: 457px;
+    color:#ccc;
+	height:24px;
+}
+.orgModal{
+    width: 300px;
+    margin-top: 243px;
+}
+.org_edit_button{
+    width: 90px;
+    height: 30px;
+    border:1px solid #1697D9;
+    color:#1697D9;
+    background-color:#fff;
+    margin-left: 173px;
+}
+.modal-header{
+    padding: 5px;
+}

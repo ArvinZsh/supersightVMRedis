@@ -1,0 +1,83 @@
+/* CSS Document */
+.userInfo_div_left,.userInfo_div_right{
+   float:left;
+}
+.userInfo_div_left{
+   width:100px;
+   height:133px;
+}
+.userInfo_div_right{
+	width:287px;
+	height:133px;
+	margin-left:10px;
+}
+.userInfo_div_fight_p1{
+    margin-top:6px;
+}
+.userInfo_div_fight_p2{
+   height:14px;
+   width:232px;
+   line-height:14px;
+   font-size:14px;
+   margin-bottom:5px;
+   float:left;
+}
+.userInfo_div_fight_div{
+	width:42px;
+	height:26px;
+	border:1px solid  #0093DD;
+    float:left;
+	text-align:center;
+	color:#0093DD;
+	line-height:26px;
+}
+.userInfo_div_fight_p{
+   height:14px;
+   line-height:14px;
+   font-size:14px;
+   color:#0093DD;
+   height:40px;
+}
+.userInfo_div_fight_label1{
+   margin-right:15px;
+}
+.userInfo_div{
+	width:405px;
+	height:150px;
+}
+#user_down_left{
+	width: 120px;
+	height:512px;
+	float:left;
+	background-color:#FFFFFF;
+}
+#user_down_mean{
+    width:210px;
+	height:480px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+#user_down_mean1{
+    width:210px;
+	height:492px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+#user_down_fight{
+    width:404px;
+	height:482px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:10px;
+	margin-left:10px;
+}
+#user_down{
+    height: 761px;
+    margin-top: 10px;
+}
+#user_down_fight_top{
+	margin-top:10px;
+	margin-left:10px;
+}

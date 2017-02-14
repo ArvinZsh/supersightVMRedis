@@ -1,0 +1,92 @@
+#sys_All{
+    float: left;
+    margin-top: -40px;
+    margin-left: 4px;
+}
+#Allcontainer{
+    width: 1280px;
+    height: 864px;
+    margin: 0px auto;
+}
+.pies_type{
+    position: relative;
+    top: 30px;
+    left: 94px;
+    width: 300px;
+}
+.type2_font{
+    margin-left: -11px;
+    z-index: 1;
+    position: absolute;
+}
+.type1_color{
+    height: 16px;
+    width: 41px;
+    background-color: #213A7A;
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 2px;
+    border-radius: 15px;
+    z-index: 1;
+}
+.type1_font{
+    position: relative;
+    left: -74px;
+    z-index: 1;
+}
+.type2_color{
+    height: 16px;
+    width: 41px;
+    background-color: #008ED6;
+    float: left;
+    position: relative;
+    left: 111px;
+    top: 2px;
+    border-radius: 15px;
+    z-index: 1;
+}
+.datas_Name{
+    float: left;
+    position: relative;
+    left: -109px;
+    top: 156px;
+}
+.pieChart_All{
+    width: 1129px;
+    height: 178px;
+    overflow: auto;
+    background-color: #fff;
+    padding-top: 26px;
+}
+#pieChart_divq{
+    float:left;
+    height: 174px;
+    width: 215px;
+    position: relative;
+    top: -326px;
+    left: 143px;
+}
+#pieChart_div2{
+    border-collapse: collapse;
+    width: 214px;
+    background-color: #fff;
+    height: 173.5px;
+    float: left;
+}
+.pieChart1_div{
+    float: left;
+    height: 174px;
+    width: 215px;
+    position: relative;
+    margin-left: 28px;
+}
+.pie_title{
+    z-index: 1;
+    left: 11px;
+    color: #4EB1E3;
+    position: relative;
+    top: 53px;
+}
+
+    

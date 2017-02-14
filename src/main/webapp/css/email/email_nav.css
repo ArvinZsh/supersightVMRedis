@@ -1,0 +1,11 @@
+/* CSS Document */
+#outfile_lable {
+    display: inline-block;
+    width: 78px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #fff;
+    color: #289EE0;
+    border: 1px solid #C2C2C2;
+}
+

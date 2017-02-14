@@ -190,7 +190,7 @@
 			<value>org.gjt.mm.mysql.Driver</value>
 		</property>
 		<property name="jdbcUrl">
-			<value>jdbc:mysql://localhost:3306/consult?useUnicode=true&amp;characterEncoding=UTF-8</value>
+			<value>jdbc:mysql://localhost:3306/lawmanonlinedb?useUnicode=true&amp;characterEncoding=UTF-8</value>
 		</property>
 		<property name="user">
 			<value>sa</value>

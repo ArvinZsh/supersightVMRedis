@@ -1,0 +1,110 @@
+.hreoly-modal_label {
+    width: 48px;
+    padding-left: 5px;
+    text-align: right;
+    color: #23A0DB;
+    margin-right: 5px;
+}
+#hm_rightdiv {
+    width: 417px;
+    height: 410px;
+    float: left;
+    background-color: #FFF8CE;
+    margin-top: 5px;
+    border-left: 1px solid #23A0DB;
+    overflow: auto;
+}
+#bgc_white{
+    position: relative;
+    left: 147px;
+    top: -754px;
+    width: 1127px;
+    background-color: #fff;
+    height: 748px;
+}
+#tip_success{
+    color: #2FA3DD;
+    float: left;
+    width: 300px;
+    margin-left: 8px;
+    margin-top: 9px;
+}
+#tip_success2{
+    color: #B6B6B6;
+    width: 296px;
+    float: right;
+    margin-top: 9px;
+}
+#now_bgc{
+    background-color: #F1F9FC;
+    height: 129px;
+    margin-bottom: 39px;
+    position: relative;
+    top: 39px;
+}
+.time_bgc{
+    float: left;
+    clear: both;
+    font-weight: normal;
+    color: #1F9CD9;
+    margin: -8px 10px 3px 10px;
+}
+.send_time_label{
+    float: left;
+    margin-top: -7px;
+    font-weight: inherit;
+
+}
+.sender_label{
+    float: left;
+    clear: both;
+    font-weight: normal;
+    color: #1F9CD9;
+    margin: 0px 9px 3px 23px;
+}
+.send_sender_label{
+    float: left;
+    font-weight: inherit;
+}
+.sendee_label{
+    float: left;
+    clear: both;
+    font-weight: normal;
+    color: #1F9CD9;
+    margin: 0px 10px 3px 22px;
+
+}
+.send_sendee_label{
+    float: left;
+}
+.send_content{
+    float: left;
+    clear: both;
+    font-weight: normal;
+    color: #1F9CD9;
+    margin: 0px 10px 3px 33px;
+}
+.send_content_label{
+    float: left;
+    font-weight: initial;
+}
+.button_shortMessage{
+    background-color: #008ED6;
+    color: #fff;
+    height: 28px;
+    width: 86px;
+    float: left;
+    clear: both;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+.tip_success{
+    position: relative;
+    left: 16px;
+    top: 18px;
+    color: #1F9CD9;
+}
+.tip_success2{
+    float: right;
+    color: #BABABA;
+}

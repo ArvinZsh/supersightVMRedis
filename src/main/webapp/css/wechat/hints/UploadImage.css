@@ -1,0 +1,77 @@
+/* CSS Document */
+.UploadImageTd_img{
+    width: 100px;
+    height: 100px;
+}
+.UploadImageTr_div{
+    position:relative;
+    float: left;
+    margin-left: 3px;
+}
+.UploadImageTr_divd{
+    left: 0px;
+    top:0px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background:#000;
+    filter:alpha(opacity:30);
+    opacity:0.7;
+}
+.UploadImageTr_divd1{
+    left: 0px;
+    top:0px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.UploadImageTr_p{
+    color: #fff;
+    margin: 0px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+	background-image:url(../../../images/Uploading.gif);
+	background-size:60px 60px;
+	background-repeat:no-repeat;
+	background-position:20px 20px;
+}
+.UploadImageTr_p1{
+    color: #fff;
+    margin: 0px;
+    background-color: #213A7C;
+    text-align: center;
+    width: 28px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+#inputImg{
+    contentEditable:"false";
+    display: none;
+}
+#divImageAdd{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    float: left;
+	background-image:url(../../../images/addImage.png);
+    background-color: #CCE8F6;
+    background-size:65px 65px;
+    background-repeat:no-repeat;
+    background-position:15px 15px;
+    margin-left: 3px;
+}
+#divImageTable{
+    height: 110px;
+    width: 320px;
+}
+#uploadBtn{
+    display:inline-table;
+	width:70px;
+	height:30px;
+}
+#uploadImg_div {
+    width: 314px;
+    float:left;
+}
+

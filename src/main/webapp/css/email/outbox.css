@@ -1,0 +1,176 @@
+/*#hm_rightdiv {
+    width: 414px;
+    height: 379px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #F1F9FC;
+    margin-top: 5px;
+    border-left: 1px solid #23A0DB;
+    overflow: auto;
+} */
+#mail_line:hover{
+    background-color: #e8f5fc;
+}
+.mail_line_className:hover{
+    background-color: #e8f5fc;
+}
+.hreoly-modal_label {
+    width: 48px;
+    padding-left: 5px;
+    text-align: right;
+    color: #23A0DB;
+    margin-right: 5px;
+}
+.mail_div{
+    position: relative;
+    width: 575px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.mail_search {
+    padding: 0px 2px;
+    width: 144px;
+    z-index: 0;
+    border: solid 1px #000;
+    top: 5px;
+    left: 327px;
+    height: 24px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.mail_zhi{
+	 float: left;
+    margin-top: 5px;
+}
+#mail_text {
+    margin-top: 4px;
+    width: 155px;
+    float: left;
+    height: 24px;
+    border: 1px solid #000;
+    padding: 0px;
+}
+#mail_text1{
+    margin-top: 4px;
+    width: 155px;
+    float: left;
+    height: 24px;
+    border: 1px solid #000;
+    padding: 0px;
+}
+.mail_button {
+    width: 86px;
+    height: 26px;
+    background-color: #fff;
+    color: #289EE0;
+    position: absolute;
+    left: 483px;
+    top: 4px;
+    margin-left: 1px;
+    padding: 0px;
+    border: 1px solid #C2C2C2;
+}
+#mail_table{
+  color: #55545a;
+    width: 508px;
+} 
+.mail_th{
+	background-color:#CCE8F6;
+	text-align: left;
+    color: #A4A4A4;
+}
+#pagination{
+       margin-left: 75px;
+}
+#mail_down_right{
+   width: 857px;
+    height: 506px;
+    float: left;
+    margin-left: 5px;
+}
+.mail_div_Tible {
+    height: 681px;
+    overflow: auto;
+    background-color: #fff;
+    width: 508px;
+}
+#mail_th{
+    height: 24px;
+    background-color: #F3F3F3;
+}
+.outbox_td1{
+    padding-left: 5px;
+}
+#mail_line {
+      height: 32px;
+}
+.mail_trselect{
+    background-color: #FFF8CE;
+}
+.mail_div_list{
+    float: left;
+}
+.outbox_td41{
+    color: red;
+}
+#inbox_Allbutton{
+
+}
+.inbox_replyClick{
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #fff;
+    color: #1CAFE7;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -1px;
+    border: solid 1px #C2C2C2;
+}
+.inbox_transmit{
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #fff;
+    margin-left: 5px;
+    color: #1CAFE7;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -1px;
+    border: solid 1px #C2C2C2;
+}
+.inbox_delete{
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #fff;
+    margin-left: 5px;
+    color: #1CAFE7;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -1px;
+    border: solid 1px #C2C2C2;
+}
+#InboxModel{
+
+}
+#outbox_Allbutton{
+
+}
+.outbox_delete{
+    float: left;
+    width: 87px;
+    height: 27px;
+    background-color: #fff;
+    margin-left: -1px;
+    color: #1CAFE7;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -1px;
+    border: solid 1px #C2C2C2;
+}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+.UploadImageTd_img{
+    width: 100px;
+    height: 100px;
+}
+.UploadFileTr_div{
+    position:relative;
+    margin-left: 3px;
+	width:297px;
+    border-bottom: 1px solid #6C6956;
+}
+.UploadImageTr_divd{
+    left: 0px;
+    top:0px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background:#000;
+    filter:alpha(opacity:30);
+    opacity:0.7;
+}
+.UploadImageTr_divd1{
+    left: 0px;
+    top:0px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.UploadImageTr_p{
+    color: #fff;
+    margin: 0px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+	background-image:url(../../../images/Uploading.gif);
+	background-size:60px 60px;
+	background-repeat:no-repeat;
+	background-position:20px 20px;
+}
+.UploadImageTr_p1{
+    color: #fff;
+    margin: 0px;
+    background-color: #213A7C;
+    text-align: center;
+    width: 28px;
+    margin-left: 70px;
+
+}
+#inputFile{
+    contentEditable:"false";
+    display: none;
+}
+#divFileAdd{
+    width: 70px;
+    background-size:65px 65px;
+    background-repeat:no-repeat;
+    background-position:15px 15px;
+    margin-left: 3px;
+}
+#divFileAdd p{
+    width: 68px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    border: 1px solid #848E9F;
+    color: #848E9F;
+}
+#divImageTable{
+    height: 110px;
+    width: 320px;
+}
+#uploadBtn{
+    display:inline-table;
+	width:70px;
+	height:30px;
+}
+#uploadImg_div {
+    width: 330px;
+    float:left;
+}
+.UploadImageTr_label {
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    background-image:url(../../../images/fileUploading.gif);
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    background-position: 0px 5px;
+
+}
+.UploadImageTr_labelsucc {
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+    background-image:url(../../../images/fileUploadSucc.png);
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    margin-left: 10px;
+
+}
+.UploadImageTr_label1{
+    width: 27px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    background-color: #213A7A;
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+#uploadfile_con {
+    display: inline-block;
+    width: 260px;
+}
+.UploadImageTd_a{
+    display: inline-block;
+    width: 230px;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+#uploadFileList {
+    width: 320px;
+    overflow: auto;
+    background-color: #fff;
+    margin-top: 5px;
+    height: 59px;
+}
+

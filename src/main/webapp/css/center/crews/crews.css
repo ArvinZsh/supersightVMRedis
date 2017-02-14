@@ -1,0 +1,997 @@
+#label_remark_1{
+	position: relative;
+	top: -95px;
+}
+#label_remark_2{
+	position: relative;
+	top: -95px;
+}
+
+.Ztitle_tips{
+	width: 134px;
+	padding-left: 19px;
+	padding-top: 12px;
+}
+/*滚动条整体*/
+#crews_wjsgjl_div ::-webkit-scrollbar{
+	width:6px !important;
+	/*滚动条宽度*/
+}
+/*滚动条按钮*/
+#crews_wjsgjl_div ::-webkit-scrollbar-button {
+}
+#crews_wjsgjl_div ::-webkit-scrollbar-track{
+	background-color:#f3f3f3;
+	/*滑道全部*/
+}
+#crews_wjsgjl_div ::-webkit-scrollbar-track-piece{
+	background-color:#f3f3f3;
+	/*滑道*/
+	-webkit-border-radius:4px;
+	/*滑道圆角宽度*/
+}
+#crews_wjsgjl_div ::-webkit-scrollbar-thumb{
+	background-color:#fff;
+	/*滑动条表面*/
+	border:solid 1px #C0C0C0;
+	/*滑动条边框*/
+	/*border-radius:4px;*/
+	/*滑动条圆角宽度*/
+}
+/*横竖滚动条交角*/
+#crews_wjsgjl_div ::-webkit-scrollbar-corner {
+	background-color: #fff;
+}
+/*横竖滚动条交角图案*/
+#crews_wjsgjl_div ::-webkit-resizer {
+	/*background-image: url(/public/img/resizer-inactive.png);*/
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+/*鼠标滑过滑动条*/
+#crews_wjsgjl_div ::-webkit-scrollbar-thumb:hover{
+	background-color:#F3F3E0;
+}
+#huanhang_1{
+	word-break: break-all;
+	overflow: auto;
+	height: 108px;
+}
+.Party_xdiv1_button{
+	    font-size: 20px;
+    background-color: transparent;
+}
+#crews_div_fid{
+	float: left;
+	margin: 0px 0px 0px 5px;
+}
+
+#crews_select_top{
+	margin:12px 0 12px 0;
+}
+
+#crews_select_top .form-group{
+	margin:0px;	
+}
+
+#crews_select_top .crews_sel_text {
+	width: 186px;
+	height: 22px;
+	float: left;
+	margin-left: 12px;
+	background-repeat: no-repeat;
+}
+
+.crews_top_update{
+	margin-left:14px;
+}
+
+#crews_select_top .crews_top_select{
+	width:68px;
+	height:36px;
+    color:#FFF;
+    line-height: 15px;
+	background-color: #FFF;
+	border:1px solid #C2C2C2;
+	border-left:0px;
+	color: #0092DF;
+	font-size: 14px;
+}
+
+#crews_select_top .crews_top_insert{
+	width:75px;
+	height:36px;
+	line-height: 15px;
+	color:#29A0DB;
+	background-color: #FFF;
+	border:1px solid #DEDEDE;
+	margin-left: 70px;
+}
+
+#crews_select_top .crews_top_delete{
+	width:75px;
+	height:36px;
+	line-height: 15px;
+	color:#29A0DB;
+	background-color: #FFF;
+	border:1px solid #DEDEDE;
+	margin-left: 20px;
+}
+
+#crews_div_left2{
+	float: left;
+	background-color: #FFFFFF;
+}
+
+#crews_ddiv_left2 {
+	height: 579px;
+}
+
+#crews_hmd_table {
+	border-collapse: collapse;
+	width: 560px;
+	margin: auto;
+	background-color: #F1F9FC;
+}
+
+.crews_blacklist_td1{
+	width: 230px;
+	padding-left:10px;
+}
+
+.crews_blacklist_td2{
+	width: 80px;
+}
+
+.crews_blacklist_td3{
+	width: 75px;
+}
+
+.buidings_name_th1{
+	padding-left:10px;
+}
+
+#crews_hmd_table th{
+	font-weight: normal;
+	height:33px;
+	width:70px;
+	background-color: #F5F5F5;
+	color: #A7A7A7;
+}
+
+#crews_hmd_table tr{
+	height:41px;
+}
+
+#crews_hmd_feny {
+	text-align: center;
+	height: 50px;
+	width: 558px;
+}
+
+#crews_hmd_feny .pagination{
+	margin-top:8px;
+}
+
+#crews_wjsgjl_div{
+	float:left;
+	margin-left:11px;
+	background-color: #FFF;
+	width: 550px;
+}
+
+#crews_wjsgjl_cation{
+	line-height: 31px;
+	background-color: #F5F5F5;
+	color: #A7A7A7;
+	padding-left: 15px;
+}
+
+#crews_wjsgjl_zdiv{
+	overflow: auto;
+	height: 342px;
+	width: 100%;
+}
+
+.crews_wjsgjl_zddiv{
+	border-bottom: 1px solid #F1F1F1;
+	padding:11px 0 0px 0;
+	height:30px;
+}
+
+.crews_wjsgjl_neirong label{
+	display: inline-block;
+	padding-right:6px;
+	font-weight: normal;
+}
+
+.crews_wjsgjl_neirong2 {
+	padding-left: 12px;
+	width: 440px;
+	float: left;
+}
+
+#crews_wjsgjl_zdiv .crews_buidl_bhs{
+	display: inline-block;
+	width:210px;
+}
+
+#crews_wjsgjl_zdiv .crews_buidl_xq{
+	color:#2CA1D9;
+}
+
+#crews_wjsgjl_zdiv .crews_buidl_xq:hover{
+	cursor: pointer;
+}
+
+
+.crews_wjsgjl_neirong{
+	padding:6px 0 0 11px;
+	
+}
+
+#crews_detailed_ddiv{
+	line-height: 33px;
+	background-color: #F5F5F5;
+	color:#A7A7A7;
+	padding-left: 15px;
+}
+
+#crews_detailed_div label{
+	font-weight: normal;
+	display: inline-block;
+	width:75px;
+	text-align: right;
+	padding-right:18px;
+	color:#AEAEAE;
+	line-height: 25px;
+}
+
+#crews_insert_fdiv{
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-color:rgba(0,0,0,.5);
+	left:0px;
+	top:0px;
+	display: none;
+}
+
+#crews_insert_div{
+	height:630px;
+	width:1050px;
+	background-color: #FFFFFF;
+	margin:auto;
+	position: relative;
+   -moz-box-shadow: 10px 10px 10px #000000;
+   -webkit-box-shadow: 10px 10px 10px #000000;
+   	box-shadow:-1px 5px 28px #000000;
+   	z-index: 100;
+}
+
+#crews_isinsert_top{
+	border-bottom:1px dotted #000000;
+	line-height: 34px;
+	margin-bottom: 20px;
+	color:blue;
+	padding-left:12px;
+	background-color: #008ED6;
+	color: #FFF;
+}
+
+.crews_isinsert_title {
+	display: inline-block;
+	width: 1007px;
+}
+
+#crews_isinsert_top .crews_isinsert_clear{
+	display: inline-table;
+	font-size: 18px;
+	cursor: default;
+	background-color: transparent;
+}
+
+#crews_isinsert_top .crews_isinsert_clear:hover{
+	color:#CCE8F6;
+}
+
+#crews_isinsert_top .crews_visinsert_clear{
+	display: inline-table;
+	font-size: 18px;
+	cursor: default;
+	margin-left:55px;
+	background-color: transparent;
+}
+.remove_Mans{
+
+}
+#crews_isinsert_top .crews_visinsert_clear:hover{
+	color:#CCE8F6;
+}
+
+#crews_xq_div{
+	width:312px;
+	float: left;
+}
+
+#crews_xq_div label{
+	float: left;
+	display: inline-block;
+	width:75px;
+	text-align: right;
+	padding-right:8px;
+	font-weight: normal;
+	line-height: 31px;
+}
+
+#crews_xq_div .crews_xqinput_sgdmc,.crews_xqinput_fzr,.crews_xqinput_sfzh,.crews_xqinput_sjh,.crews_xqinput_bz{
+	width:190px;
+
+}
+
+#crews_xq_div .crews_xqinput_sgdmc,.crews_xqinput_fzr,.crews_xqinput_sfzh,.crews_xqinput_sjh{
+	height:21px;
+}
+
+#crews_xq_div .crews_xqinput_bz{
+	height:285px;
+	resize: none;
+}
+
+#crews_constructionrecord_zong{
+	float: left;
+}
+
+#crews_constructionrecord_cation{
+	width:420px;
+	line-height: 30px;
+	background-color: #CCE8F6;
+	padding-left:10px;
+	padding-top:4px;
+}
+
+#crews_constructionrecord_cation label{
+	color: #1798DA;
+}
+
+#crews_constructionrecord_cation span{
+	color: #99ACB7;
+	display: inline-block;
+	margin-left:12px;
+}
+
+#crews_constructionrecord_content{
+	height:458px;
+	background-color:#F1F9FC; 
+	width:430px;
+	overflow: auto;
+}
+
+#crews_isinsert_sel{
+	float: left;
+	width:305px;
+}
+
+#crews_isinsert_sel .form-group{
+	margin:0px;
+}
+
+#crews_isinsert_sel input[type="text"]{
+	width:210px;
+	float: left;
+	margin-left:5px;
+	height:21px;
+}
+
+
+#crews_isinsert_sel button{
+	margin-left:3px;
+	background-color: #008ED6;
+	color:#FFF;
+	width: 59px;
+	height: 35px;
+}
+
+#crews_isinsert_selz{
+	margin:5px 3px 0 5px;
+	height:455px;
+	overflow: auto;
+}
+
+.crews_isinsert_selz1{
+	margin:6px 0px 0px 7px;
+}
+
+.crews_isinsert_div4{
+	clear: left;
+}
+
+.crews_built_div {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 4px;
+    padding-top:6px;
+}
+
+.crews_isinsert_div4 button{
+	width:200px;
+	height:40px;
+	background-color: #213A7A;
+	color: #FFF;
+	margin-left:200px;
+}
+
+.crews_vehicle_buttond1{
+	clear: left;
+	padding-top: 20px;
+}
+
+.crews_vehicle_buttond2{
+	clear: left;
+	padding-top: 3px;
+}
+
+.crews_vehicle_buttond1 button,.crews_vehicle_buttond2 button{
+	width:200px;
+	height:40px;
+	background-color: #213A7A;
+	color: #FFF;
+}
+
+.crewsautoclear{
+	font-size: 20px;
+	margin-left:44px;
+	cursor: default;
+	background-color: #F1F9FC;
+}
+
+.crewsautoclear:hover{
+	color:#FFF;
+}
+
+.crews_insert_message,.crews_update_message {
+    display: block;
+    margin-left: 82px;
+    width: 160px;
+    color: red;
+    float: left;
+    text-align: left;
+    border:1px solid #FFF;
+}
+
+.crews_buidl_bhs {
+    width: 250px;
+    display: inline-block;
+}
+
+.crews_xianshi_span {
+    display: inline-block;
+	width: 440px;
+}
+
+ /*
+  * 更新页面的css
+  */
+label{
+	font-weight: normal;
+}
+
+#crews_wjjl_name {
+	text-align: right;
+	color: #ADADAD;
+	font-weight: normal;
+	background-color: #FFF;
+	padding-right: 15px;
+	clear: left;
+	height: 27px;
+	padding-top: 9px;
+	background-color: #F3F3F3;
+}
+
+#crews_xiangqing_div {
+	padding: 10px 0px 3px 0px;
+}
+
+.crews_hmd_tr{
+	background-color: #FFF;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.crews_blacklist_td2{
+	color: #7F7F7F;
+}
+
+.crews_blacklist_td3{
+	color: #9F9F9F;
+}
+
+.form-group input{
+	border-radius: 0px;
+}
+
+#crews_div_xid1 {
+	float: left;
+	background-color: #FFF;
+	width: 560px;
+	height: 753px;
+}
+
+#crews_div_xid2{
+	float: left;
+}
+
+#crews_qiehuan_tops {
+	height: 50px;
+	border-bottom: 4px solid #E6F3FB;
+}
+
+#crews_qiehuan_tops label{
+	cursor: pointer;
+	color: #ADADAD;
+	margin-top:14px;
+	display:inline-block;
+	text-align: center;
+	padding-bottom: 12px;
+	font-size: 16px;
+	-moz-user-select:none;/*火狐*/
+	-webkit-user-select:none;/*webkit浏览器*/
+	-ms-user-select:none;/*IE10*/
+	-khtml-user-select:none;/*早期浏览器*/
+	user-select:none;
+}
+
+#crews_team_fun{
+	width:75px;
+}
+
+#crews_vehicle_fun{
+	width:90px;
+}
+
+#crews_party_fun{
+	width:90px;
+
+}
+
+#crews_div_xid21 {
+	line-height: 42px;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+#crews_div_xid21 label{
+	margin: 0px;
+	display: inline-block;
+	width: 470px;
+	margin-left:16px;
+	color: #797979;
+	float: left;
+}
+
+#crews_div_xid21 span{
+	margin-left:8px;
+	color: #0291DD;
+}
+
+.crews_update_div{
+	cursor: pointer;
+	background-color: transparent;
+
+}
+
+#crews_div_xid21 img{
+	cursor: pointer;
+}
+
+#crews_div_xid22{
+	line-height: 40px;
+}
+
+#crews_div_xid22 div{
+	margin-left: 16px;
+}
+
+.crews_insert_auto_fdiv {
+	padding:1px 0 2px 0;
+	border-bottom:1px solid #FFF;
+}
+
+.crews_insert_auto_xdiv label {
+	margin-left: 13px;
+}
+
+.crews_insert_auto_xdiv2 label{
+	font-weight: 800;
+	margin-left: 13px;
+}
+
+#crews_vehicle_table {
+	width: inherit;
+	border-top: 1px solid #EAEAEA;
+}
+
+.crews_vehicle_td{
+	width: 162px;
+	height: 172px;
+	float: left;
+	margin-left: 17px;
+	margin-top: 17px;
+	border:1px solid #F5F5F5;
+}
+
+.crewst_vehiclebackcolor {
+	position: relative;
+	top: -163px;
+	left: 0px;
+	height: 100%;
+	background-color: rgba(229,244,251,.5);
+	display: none;
+}
+
+.crewst_vehiclebackcolor2 {
+	position: relative;
+	top: -163px;
+	left: 0px;
+	height: 100%;
+	background-color: rgba(229,244,251,.4);
+	text-align: right;
+	display: none;
+}
+
+.crews_vehicle_td:hover{
+	cursor: pointer;
+}
+
+#crews_vehicle_table img{
+	width: 100%;
+	height: 135px;
+}
+
+.crewst_pingpaixing{
+	height: 28px;
+}
+
+.crewst_pingpaixing div {
+	padding: 10px;
+}
+
+#crews_vehicle_div {
+	height: 340px;
+}
+
+#crews_vehicle_divd1 {
+	float: left;
+	width: 295px;
+	height: 387px;
+	margin: 11px 0px 0px 10px;
+	border: 1px solid #F5F5F5;
+}
+
+#crews_vehicle_divd1 #crews_image_max{
+	width:100%;
+	height: 232px;
+	margin-bottom: 7px;
+}
+
+#crews_vehicle_divd1 label{
+	width: 75px;
+	padding-right: 12px;
+}
+
+#crews_vehicle_divd1 span{
+	width: 208px;
+	display: inline-block;
+}
+
+#crews_vehicle_divd2 label {
+	padding-right: 12px;
+	width: 78px;
+}
+
+#crews_vehicle_divd2 span {
+	width: 140px;
+	display: inline-block;
+}
+
+#crews_vehicle_divd2{
+	float: left;
+	padding-top:6px;
+}
+
+#crews_vehicle_divd2 div{
+	margin-top:6px;
+}
+
+#crewa_shigonduidiv{
+	height: 30px;
+	margin-left: 15px;
+	padding-top:13px;
+	width: 535px;
+}
+
+#crews_xiangqing_div div{
+	margin-top:3px;
+	padding-left: 16px;
+}
+#crews_xiangqing_div span{
+	width: 400px;
+}
+#crews_fun_inqiehuan{
+	height: 225px;
+}
+
+/* 当事人窗口css */
+.Party_xdiv1 {
+	line-height: 37px;
+	border-bottom: 1px solid #C2C2C2;
+	padding-left: 12px;
+	background-color: #008ED6;
+	color: #FFF;
+}
+
+.Party_xdiv1 label {
+	margin: 0px;
+	display: inline-block;
+	width: 428px;
+}
+
+.Party_xdiv1 span {
+	font-size: 20px;
+	color: #008FD5;
+	cursor: default;
+}
+
+.Party_xdiv1 span:hover {
+	color: #87d8ff;
+}
+
+.Party_xdiv2 label,.Party_xdiv3 label,.Party_xdiv4 label,.Party_xdiv5 label {
+	display: inline-block;
+	width: 85px;
+	text-align: right;
+	color: #CFCFCF;
+	padding-right:15px;
+}
+
+.Party_xdiv2 span,.Party_xdiv4 span,.Party_xdiv5 span {
+	display: inline-block;
+	width: 355px;
+}
+
+.Party_xdiv3 select {
+	width: 70px;
+	height: 27px;
+}
+
+.Party_xdiv6 div {
+	float: left;
+	width: 86px;
+	text-align: right;
+	padding-right: 13px;
+	color: #C2C2C2;
+}
+
+.Party_xdiv6 textarea {
+	border: 1px solid #C2C2C2;
+	resize: none;
+	height: 55px;
+	width: 317px;
+}
+
+.Party_xdiv7 {
+	text-align: center;
+}
+
+.Party_xdiv7 button {
+	background-color: #008ED6;
+	color: #FFF;
+	width: 99px;
+	height: 36px;
+	margin-top: 6px;
+}
+
+.Party_xdiv2{
+	padding-top:7px;
+}
+
+.Party_fdiv div{
+	margin-top: 7px;
+}
+
+#crews_vehiclexq_div {
+	width: 351px;
+	margin-right:7px;
+	float: left;
+	overflow: auto;
+	height: 497px;
+}
+
+#crews_vehiclexq_div label {
+	display: inline-block;
+	width: 75px;
+	text-align: right;
+	padding-right: 9px;
+	margin-bottom: 23px;
+}
+
+#crews_vehiclexq_div input {
+	width: 230px;
+	height: 32px;
+	border:1px solid #D6D6D6;
+	padding-left: 8px;
+}
+
+.crews_vehiclexq_leftdiv2 select {
+	width: 139px;
+	height: 31px;
+	padding-left: 8px;
+}
+
+#crews_vehiclexq_div textarea {
+	resize: none;
+	width: 230px;
+	height: 60px;
+	border: 1px solid #D6D6D6;
+	padding-left: 8px;
+}
+
+.crews_vehiclexq_leftdiv14 div{
+	float: left;
+	width: 75px;
+	padding-right: 9px;
+	text-align: right;
+}
+
+.crews_vehiclexq_leftdiv1 .cvehicle_ches_image{
+	float: left;
+
+}
+
+.crews_vehiclexq_leftdiv1 #uploadImg_div {
+	width: 115px;
+}
+
+.crews_vehiclexq_leftdiv5 #uploadImg_div {
+	margin-left:84px;
+	width: 240px;
+}
+
+.crews_vehiclexq_leftdiv6 label{
+	float: left;
+}
+
+.crews_vehiclexq_leftdiv6 #uploadImg_div {
+	width: 240px;
+}
+
+#divImageTable {
+	height: 110px;
+	width: 120px;
+}
+
+.crews_vinsert_message {
+	float: left;
+	margin-left: 88px;
+	width: 357px;
+	color:red;
+	border:1px solid #FFF;
+}
+
+.crews_vupdate_message {
+	float: left;
+	margin-left: 88px;
+	width: 357px;
+	color:red;
+	border:1px solid #FFF;
+}
+
+.crews_imagestoggle1{
+	width: 22px;
+	height: 20px;
+	float: left;
+	background-repeat: no-repeat;
+	margin-left:3px;
+}
+
+.crews_imagestoggle2{
+	background-image: url("../../../images/Illegalfile.png");
+	width: 22px;
+	height: 20px;
+	float: left;
+	background-repeat: no-repeat;
+	margin-left:3px;
+}
+
+.crews_buidings_length {
+	width: 435px;
+}
+
+.crews_blacklist_td4{
+	font-size: 21px;
+	color: #1F9AD6;
+	text-align: center;
+}
+.crews_blacklist_td4 button{
+	display: none;
+	background-color:transparent;
+	cursor: pointer;
+	font-size: 21px;
+}
+.crews_blacklist_td4 button:hover{
+	cursor: pointer;
+}
+
+.vehic_coler{
+	font-size: 21px;
+	color: #1F9AD6;
+	margin:0px 9px 0px 137px;
+	background-color: transparent;
+}
+
+.vehic_coler:hover{
+	cursor: pointer;
+}
+
+.crews_blacklist_td11{
+	width:200px;
+	padding-left: 10px;
+}
+
+.crews_blacklist_td22{
+	width:200px;
+}
+
+.crews_blacklist_td33 button{
+	width:25px;
+	font-size: 21px;
+	display: none;
+	text-align: center;
+	color:#0094DD;
+	background-color:transparent;
+}
+
+.crews_blacklist_td33 button:hover{
+
+	cursor: pointer;
+}
+
+/* addClass */
+.backhovercolor{
+	background-color: #FFFEE0;
+}
+
+.funcaidanborderbutton{
+	border-bottom:4px solid #0094DD;
+}
+
+.vehiclehoverborder{
+	border:1px solid #0093DB;
+	background-color: #FFFEE0;
+}
+
+.vehiclehoverborderhover{
+	border:1px solid #0093DB;
+	background-color: #E8F5FD;
+}
+
+.crews_vehiclexq_leftdiv2 {
+	clear: left;
+}
+
+.crews_buidings_hover{
+	background-color: #F1F9FC;
+}
+
+.crews_buidings_tablehover{
+	background-color: #F1F9FC;
+}
+
+.crews_vehiclexq_leftdiv6 label {
+	padding-top:9px;
+}
+
+.crews_vehicle_input4 {
+	margin-bottom: 14px;
+}
+
+b{
+	color: red;
+}

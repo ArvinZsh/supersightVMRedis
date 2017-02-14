@@ -1,0 +1,121 @@
+
+.fll {
+	float: left;
+}
+.myWork_div{
+	width:608px;
+}
+.myWork_div .myWork_p{
+    height:33px;
+	line-height:33px;
+	color:#0094DE;
+	font-size:13px;
+    border-bottom: 1px solid #D7D7DF;
+    padding-left: 10px;
+}
+.myWork_div .onework_div1{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EBEBEB;
+    margin-left:10px;
+}
+.onework_div1:hover{
+    background-color: #F0F9FE;
+}
+.myWork_div .onework_div2{
+	background-color:#FFFFFF;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EBEBEB;
+    margin-left:10px;
+}
+.onework_div2:hover{
+    background-color: #F0F9FE;
+}
+
+
+.myWork_div .onework_div1 .onework_lab,.myWork_div {
+	display:inline-table;
+	height:24px;
+}
+.onework_div_div{
+    width: 34px;
+    height: 34px;
+	margin-top:3px;
+	background-image:url(../../images/doc_Type_icon.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+.onework_div_div4{
+	width: 34px;
+	height: 34px;
+	margin-top:3px;
+	background-image:url(../../images/newBuilding.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+.onework_div_div2{
+    width: 34px;
+    height: 34px;
+    margin-top:3px;
+    background-image:url(../../images/approvalInfo_ic.png);
+    background-repeat:no-repeat;
+    float:left;
+}
+.onework_div_div3{
+    width: 34px;
+    height: 34px;
+    margin-top:3px;
+    background-image:url(../../images/approval_ic.png);
+    background-repeat:no-repeat;
+    float:left;
+}
+.onework_div_div1{
+	height:30px;
+	padding-left:10px;
+	padding-top:10px;
+}
+.onework_div_p1{
+	float:left;
+	width:373px;
+	height:30px;
+	line-height:30px;
+	margin-left:10px;
+	font-size:13px;
+	font-weight:bold;
+}
+.onework_div_p2{
+	float:left;
+	width:80px;
+	height:30px;
+	line-height:30px;
+	margin-left:26px;
+	color:#0193DE;
+}
+.onework_div_p3{
+	float:right;
+	width:30px;
+	line-height:30px;
+	height:30px;
+	color:#0193DE;
+    margin-right: 24px;
+}
+.onework_p{
+	margin-left:50px;
+	width:383px;
+	white-space:pre-wrap;
+    padding-bottom: 5px;
+}
+.onework_a {
+    margin-left: 45px;
+    padding-bottom: 10px;
+    color: #0094E0;
+}
+tr.official_tr{
+    border-bottom: 1px solid #EBEBEB;
+    line-height: 30px;
+}
+.official_tr:hover{
+    background-color: #F0F9FE;
+}
+#down_top_down {
+    float: left;
+}

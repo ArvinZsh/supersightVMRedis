@@ -1,0 +1,598 @@
+/* 在此使用方式来兼容浏览器 */
+
+
+body label,span{
+	font-weight: normal;
+}
+
+
+#mapview_zfdiv{
+    margin: 0px 0px 0px 10px;
+	float: left;
+    width: 1130px;
+}
+
+
+#mapview_top_illegalcontent{
+	margin-bottom: 10px;
+    float: left;
+    width: 1133px;
+    height: 97px;
+}
+
+#mapview_top_illegalcontentdid {
+    height: 30px;
+    width: 673px;
+    background-color: #FFF;
+    float: left;
+    margin-left: 15px;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+}
+
+#mapview_top_illegalcontentdid2 {
+    width: 345px;
+    float: left;
+    margin-top: -8px;
+    font-size:14px;
+}
+
+.mapview_top_illegalcontentddiv1{
+    width: 72px;
+    float: left;
+}
+
+.mapview_top_illegalcontentddiv3{
+    width: 66px;
+    float: left;
+    margin-left:10px;
+}
+
+.mapview_top_illegalcontentddiv {
+    width: 90px;
+    float: left;
+    margin-left: 10px;
+}
+
+.mapview_top_illegalcontentddiv2 {
+    width: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+/*.mapview_select_label{
+	color: #008FD6;
+}
+
+.mapview_highrisk_label{
+	color:#FF4141;
+}
+
+.mapview_moderaterisk_label{
+	color:#FEBA3F;
+}
+
+.mapview_lowrisk_label{
+	color:#008DD5;
+}
+
+.mapview_removed_label{
+	color:#000;
+}*/
+
+#mapview_top_illegalcontent input[type="text"] {
+    width: 200px;
+    line-height:32px;
+    border:1px solid #ADADAD;
+    padding-left: 10px;
+}
+
+#mapview_top_illegalcontent input[type="checkbox"] {
+    margin-left: 2px;
+    zoom: 110%;
+    float: left;
+}
+
+#mapview_top_illegalcontent button {
+    width: 64px;
+    line-height: 32px;
+    /* margin: 0 7px 0 15px; */
+    color: #0093DD;
+    background-color: #FFF;
+    border: 1px solid #C2C2C2;
+    border-left: 0px;
+    cursor: pointer;
+}
+
+.mapview_top_location{
+	margin-left:37px;
+}
+
+#mapview_top_illegalcontent .mapview_highrisk_label,.mapview_moderaterisk_label,.mapview_lowrisk_label,.mapview_removed_label,.mapview_renovation_label,.mapview_rebuild_label {
+    display: block;
+    line-height: 14px;
+    margin: 2px 0px 0px 4px;
+    padding-bottom: 5px;
+    position: relative;
+    left:-2px;
+}
+
+#mapview_top_illegalcontent .mapview_select_alllabel{
+    display: block;
+    line-height: 14px;
+    margin: 4px 0px 0px 20px;
+    padding-left: 4px;
+}
+
+#mapview_top_illegalcontent .highriskbackcolor{
+	background-color: red;
+	color:red;
+}
+
+#mapview_top_illegalcontent .indangerbackcolor{
+	background-color: #FFC000;
+	color:#FFC000;
+}
+
+#mapview_top_illegalcontent .lowriskbackcolor{
+	background-color: #538ED5;
+	color:#538ED5;
+}
+
+#mapview_top_illegalcontent .securitybackcolor{
+	background-color: #000;
+}
+
+#mapview_zfdiv #allmap{
+    width: 884px;
+    height: 621px;
+}
+
+#mapview_left_illegalcontent{
+	float: left;
+	margin-right:10px;
+}
+
+.mapview_left_illegaldiv1 {
+    background-color: #FFF;
+    color: #6E6E6E;
+    padding: 9px 0px 8px 16px;
+    border-bottom: 1px solid #EAEAEA;
+    font-size: 12px;
+}
+
+#mapview_left_illegalcontent .mapview_displaycount {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+#mapview_left_illegalcontentdiv2{
+    overflow: auto;
+    width: 256px;
+    height: 545px;
+    background-color: #FFF;
+}
+
+
+#mapview_left_illegalcontent label {
+    display: inline-block;
+    width: 26px;
+}
+
+#mapview_left_illegalcontentdiv2 span {
+    display: inline-block;
+    margin-left: 8px;
+    height: 42px;
+    word-break: break-all;
+}
+
+.mapview_left_illegalcontentdcla {
+    width: 100%;
+    padding-bottom: 8px;
+    padding-top: 13px;
+    clear: left;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.mapview_left_illegalcontentfirstdiv1,.mapview_left_illegalcontentfirstdiv2,.mapview_left_illegalcontentfirstdiv3{
+}
+
+.mapview_left_illegalcontentfirstdiv3{
+	display: none;
+}
+
+.mapview_left_illegalcontentdiv{
+	clear: left;
+}
+
+.mapview_left_illegalcontentdiv .pagination{
+	margin-top:8px;
+}
+
+.mapview_left_illegalcontentfirstnaaddress{
+    width: 200px;
+}
+
+.mapview_left_illegalcontentfirstdiv4 {
+    float: left;
+    width: 34px;
+}
+
+.mapview_left_illegalcontentfirstdiv4 label{
+    background-repeat: no-repeat;
+    height: 31px;
+    margin-left: 16px;
+    width: 24px;
+    color: #FFF;
+    padding:2px 0px 0px 6px;
+}
+
+
+/*
+右下角台账详情css
+ */
+ .mapview_ledgerdetails_fdiv {
+     float: left;
+     width: 600px;
+     margin-top:5px;
+}
+
+.mapview_ledgerdetails_div{
+	background-color: #FFFEE0;
+	padding:7px 0px 7px 0px;;
+}
+
+.mapview_ledgerdetails_ddiv {
+    float: left;
+    height:40px;
+    width:50px;
+}
+
+.mapview_ledgerdetails_ddiv2 span{
+	color: #008FD6;
+}
+
+.mapview_ledgerdetails_ddiv2label2{
+	margin-left:327px;
+	cursor: pointer;
+}
+
+.mapview_ledgerdetails_ddiv2label2:hover{
+	text-decoration: underline;
+}
+
+.mapview_ledgerdetails_ddiv3{
+	margin-top:3px;
+}
+
+.mapview_ledgerdetails_ddiv3 span{
+	display:inline-block;
+	width:485px;
+}
+
+.mapview_ledgerdetails_div2{
+	padding:6px 0px 4px 0px;
+}
+
+.mapview_ledger_autodiv2,.mapview_ledger_autodiv3,.mapview_ledgerbuttomdiv2,.mapview_ledgerbuttomdiv3{
+	margin-top:3px;
+}
+
+.mapview_ledgerdetails_div2 span {
+    display: inline-block;
+    width: 83px;
+}
+.mapview_ledgerdetails_div2 label {
+    display: inline-block;
+    width: 58px;
+    text-align: right;
+    padding-right:4px;
+    color:#ADADAD;
+    margin-left:2px;
+}
+
+.mapview_ledgerdetails_div3{
+	background-color: #E5F3FC;
+	padding:6px 0px 5px 0px;
+}
+
+.mapview_ledgerdetails_div3 .mapview_ledgerdetails_buttomspan1,.mapview_ledgerdetails_buttomspan2,.mapview_ledgerdetails_buttomspan3,.mapview_ledgerdetails_buttomspan4,.mapview_ledgerdetails_buttomspan5
+,.mapview_ledgerdetails_buttomspan6,.mapview_ledgerdetails_buttomspan7,.mapview_ledgerdetails_buttomspan8 {
+    display: inline-block;
+    width: 85px;
+}
+.mapview_ledgerdetails_div3 label {
+    display: inline-block;
+    width: 58px;
+    text-align: right;
+    padding-right:5px;
+    color:#ADADAD;
+    margin-left:2px;
+}
+
+.mapview_ledgerdetails_buttomspan9{
+	display: inline-block;
+	width:230px;
+}
+
+.mapview_ledgerdetails_ddiv1 {
+    width: 34px;
+    float: left;
+    height: 40px;
+}
+
+.mapview_ledgerdetails_ddiv1 div{
+    background-repeat: no-repeat;
+    height:30px;
+    margin-left: 6px;
+    width: 24px;
+    color: #FFF;
+    padding:1px 0px 0px 8px;
+}
+
+
+/* addclass */
+.addclassapviewleftdiv{
+	background-color: #FFF8CE;
+}
+
+.mapview_top_illegalcontentddiv_add1{
+	background-color:#FF4141;
+}
+
+.mapview_highrisk_label_add{
+	color:#FFF;
+}
+
+.mapview_top_illegalcontentddiv_add2{
+	background-color:#FEBA3F;
+}
+
+.mapview_moderaterisk_label_add{
+	color:#FFF;
+}
+
+.mapview_top_illegalcontentddiv_add3{
+	background-color:#008DD5;
+}
+
+.mapview_lowrisk_label_add{
+	color:#FFF;
+}
+
+.mapview_top_illegalcontentddiv_add4{
+	background-color:#000;
+}
+
+.mapview_removed_label_add{
+	color:#FFF;
+}
+
+/*
+全图覆盖
+*/
+.mapview_fullcoverage{
+	position: relative;
+	border:1px solid #000;
+	top:0px;
+	left:0px;
+	width:714px;
+	height:43px;
+	background-color:rgba(0,0,0,.5);
+	z-index:30;
+}
+
+.mapview_fullcoverage2{
+	position: relative;
+	border:1px solid #000;
+	top:0px;
+	left:0px;
+	width:241px;
+	height:460px;
+	background-color:rgba(0,0,0,.5);
+	z-index:30;
+	
+}
+
+#mapview_right_illegalcontent{
+	width:580px;
+	float: left;
+}
+
+/* windows窗口内容css */
+.mapvwindows_div {
+    line-height: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #D6D6D6;
+    width:260px;
+}
+
+.mapvwindows_divspan {
+    width: 207px;
+    display: inline-block;
+}
+
+.mapvwindows_div3 {
+    line-height: 30px;
+    margin:5px 0px 0px 5px;
+    width:100px;
+}
+
+.mapvwindows_div3label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.mapvwindows_div4label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.mapvwindows_div4 {
+    margin:5px 0px 0px 15px;
+}
+
+.mapvwindows_div4span{
+    display: inline-block;
+    width: 55px;
+    color: #038DD5;
+    line-height: 30px;
+    text-align: center;
+}
+
+.mapvwindows_div4span2{
+    color: #038DD5;
+    position: relative;
+    top:6px;
+}
+
+.mapvwindows_div4span2:hover,.mapvwindows_div4span:hover{
+    cursor: pointer;
+}
+
+/* 更新的css */
+#mapview_top_zxdiv {
+    width: 1150px;
+    height: 97px;
+    background-color: #FFF;
+}
+
+#mapview_top_illegalcontentdid3 {
+    font-size: 18px;
+    padding: 16px 0px 15px 0px;
+    margin-left: 16px;
+    color:#343434;
+}
+
+.mapview_highrisk_span {
+    display: inline-block;
+}
+
+.mapveiwleftbakccolor{
+    background-color: #E5F3FC;
+}
+
+.mapveiwleftbakccolor2{
+    background-color: #FFF8CE;
+}
+
+.mapvwindows_ddiv4{
+    float: left;
+    padding:0px 6px 0px 6px;
+    cursor: pointer;
+    margin-top:4px;
+}
+
+.mapvwindows_div4spanbackimage{
+    background: url("../../images/mapimage2/modifylocation.png") no-repeat;
+    width:18px;
+    height:18px;
+    float: left;
+    margin-top:6px;
+}
+
+.mapvwindows_div4spanbackimage2{
+    background: url("../../images/mapimage2/Illegallybuiltledger.png") no-repeat;
+    width:18px;
+    height:18px;
+    float: left;
+    margin-top:6px;
+}
+
+.mapvwindows_ddiv41{
+    margin-left:140px;
+    padding:0px 6px 0px 8px;
+    cursor: pointer;
+    position: relative;
+    top:4px;
+    height:30px;
+}
+
+/*  修改覆盖所有 */
+.mapview_right_illegalcontent{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.allmap {
+    position: absolute;
+    left: 37.2%;
+    top:23%;
+}
+
+.mapvwindows_div4label,.mapvwindows_div4label2{
+    display: none;
+}
+
+.mapview_highrisk_span1,.mapview_highrisk_span2,.mapview_highrisk_span3,.mapview_highrisk_span4,.mapview_highrisk_span5,.mapview_highrisk_span6,.mapview_highrisk_span7{
+    background-image: url('../../images/mapimage2/notpoint.png');
+    width: 18px;
+    height:18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 8px;
+    float: left;
+}
+
+#mapviewautocenter{
+    padding: 4px 0px 0px 0px;
+    clear: left;
+    text-align: center;
+    background-color: #FFF;
+    border-top:1px solid #C2C2C2;
+    height: 35px;
+}
+
+/* 自定义复选框 */
+.mapview_checkboxall_false{
+    background: url('../../images/mapimage2/checkbox.png') no-repeat;
+    width:16px;
+    height:16px;
+    display: inline-block;
+    float: left;
+    margin-top: 1px;
+}
+
+.mapview_checkboxall_true{
+    background: url('../../images/mapimage2/checkboxicon.png') no-repeat;
+    width:16px;
+    height:16px;
+    display: inline-block;
+    float: left;
+    margin-top: 1px;
+}
+
+#mapview_zfdiv ::-webkit-scrollbar {
+    width:10px;
+    background-color: rgba(235,235,235,1);
+}/* 滚动槽 */
+
+#mapview_zfdiv ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}/* 滚动条滑块 */
+
+#mapview_zfdiv ::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,1);
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5);
+}
+
+/*#mapview_zfdiv ::-webkit-scrollbar-thumb:hover {
+    background: rgba(204,233,248,0.5);
+    -webkit-box-shadow: inset 0 0 3px rgba(204,233,248,0.2);
+}*/
+
+/*滚动条按钮
+::-webkit-scrollbar-button{
+}*/

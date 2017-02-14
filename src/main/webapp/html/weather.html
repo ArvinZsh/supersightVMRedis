@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+  <script src="../js/jsCommon.js"></script>
+    	<script src="lib/jquery-1.7.1.min.js"></script>
+		<script src="lib/react.min.js"></script>
+		<script src="lib/react-dom.min.js"></script>
+		<script src="lib/react-bootstrap.min.js"></script>
+	<!-- 	<script src="js/weather/weather.js"></script> -->
+</head>
+
+<body>
+<div id="weather"></div>
+<iframe id="tianqi" src="http://www.thinkpage.cn/weather/weather.aspx?uid=U88B4B2797&cid=CHBJ000000&l=&p=SMART&a=1&u=C&s=5&m=0&x=1&d=3&fc=&bgc=FFFFFF&bc=&ti=0&in=0&li=" frameborder="0" scrolling="no" width="200" height="250" allowTransparency="true">
+</iframe>
+<script>
+function getPos(o){
+  var p=new Object();
+  p.x=o.offsetLeft;
+  p.y=o.offsetTop;
+  while(o=o.offsetParent){
+    p.x+=o.offsetLeft;
+    p.y+=o.offsetTop;
+  }
+  return p;
+}
+function $(id){return document.getElementById(id);}
+window.onload=function(){
+  var bd=$('tianqi');
+  var h=bd.offsetHeight,w=bd.offsetWidth;
+  var p=getPos(bd);
+  var mark=document.createElement("div");
+  mark.style.zIndex=100;
+  mark.style.position="absolute";
+  mark.style.left=p.x+"px";
+  mark.style.top=p.y+"px";
+  mark.style.width=w+"px";
+  mark.style.height=h+"px";
+  mark.style.filter="alpha(opacity=0)";
+  mark.style.opacity="0";
+  mark.style.backgroundColor="#ffffff";
+  document.body.appendChild(mark);
+}
+</script>
+</body>
+</html>

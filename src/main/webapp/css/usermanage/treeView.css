@@ -1,0 +1,69 @@
+/* CSS Document */
+#treedivid{
+    background-color:#F1F9FC;
+}
+.org_tree_div{
+    height: 390px;
+}
+.tree_stop_div{
+    color:#A3A3A3;
+}
+.tree_nostop_div{
+    color:#0093DD;
+}
+#orgtree_checkbox{
+    top: 12px;
+    left: 10px;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-top: 12px;
+}
+.tree_nostop_div_check{
+    background-color:#FFF8CE;
+}  .opentubiao
+   {
+       background: url("../../images/open.png");
+       background-repeat: no-repeat;
+       height:19px;
+       width:20px;
+       margin:0px;
+       float: left;
+   }
+
+.opentubiao_stop
+{
+    background: url("../../images/Tree_stop_open.png");
+    background-repeat: no-repeat;
+    height:19px;
+    width:20px;
+    margin:0px;
+    float: left;
+}
+
+.colsetubiao
+{
+    background: url("../../images/colse.png");
+    background-repeat: no-repeat;
+    height:19px;
+    width:20px;
+    margin:0px;
+    float: left;
+}
+.colsetubiao_stop
+{
+    background: url("../../images/Tree_stop_close.png");
+    background-repeat: no-repeat;
+    height:19px;
+    width:20px;
+    margin:0px;
+    float: left;
+}
+.treeopen{
+    display:nheriti;
+}
+
+.treecolse {
+    display: none
+}
+

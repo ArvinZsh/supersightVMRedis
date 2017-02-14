@@ -1,0 +1,173 @@
+.log_tr:hover{
+	background-color: #e8f5fc;
+}
+#AllLog{
+	width: 1280px;
+	height: 864px;
+	margin: 0px auto;
+}
+
+#logo {
+	height: 62px;
+}
+.padding_Id {
+    padding-left: 27px;
+    width: 120px;
+}
+.padding_Left{
+	padding-left: 26px;
+}
+#pagination{
+	float: right;
+    margin: 7px 242px 0px 0px;
+}
+
+#pagecount{
+	margin-left: 186px;
+}
+.noneColor{
+	background-color:#FFF8CE;
+}
+.total{
+	margin-right: 31px;
+}
+.beginPage{
+	margin-left: 16px;
+}
+.prevPage{
+	margin-left: 12px;
+}
+.nextPage{
+	margin-left: 19px;
+}
+.endPage{
+	margin-left: 27px;
+}
+.div_log{
+	width: 787px;
+	margin: 0 auto;
+}
+.div_search{
+	position: relative;
+	top: -752px;
+	left: -100px;
+	height: auto;
+}
+.text_begin{
+	width: 141px;
+	border: 1px solid #C2C2C2;
+	height: 30px;
+}
+.text_to{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.text_end{
+	position: absolute;
+	width: 141px;
+	border: 1px solid #C2C2C2;
+	height: 30px;
+}
+
+.text_search{
+	padding: 4px 23px;
+	width: 180px;
+	z-index: 0;
+	border: 1px solid #C2C2C2;
+	position: absolute;
+	top: 0px;
+	left: 358px;
+	height: 30px;
+}
+.button_search{
+	width: 86px;
+	height: 30px;
+	background-color: #fff;
+	color: #1D9FE0;
+	position: absolute;
+	left: 546px;
+	top: 0px;
+	border: 1px solid #C2C2C2;
+}
+body{
+	height:100%;
+	margin:0px;
+	overflow: auto;
+	scrollbar-face-color: #F5F5F5;
+	scrollbar-3dlight-color: #D0D5DF;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-base-color: #fff;
+}
+table{
+	color:#1f5172;
+	border-collapse:collapse;
+	border-spacing: 0px;
+	border-cellpadding:0px;
+}
+#list{
+	    background-color:#fff;
+}
+.divcenter,#divcenter{
+	padding-left: 154px;
+	width: 1262px;
+	margin-left: -234px;
+	margin-top: -742px;
+}
+.divright,#divcenter{
+	float:right;
+}
+.queryTable ,#queryTable{
+	background-color:#f3f4f9;
+	width:100%;
+	font-size:13px;
+	margin-top: -5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:#d7dbe7;
+}
+.queryTable th,#queryTable th {
+}
+.queryTable td, #queryTable td{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+}
+.queryTable td button, #queryTable td button{
+	margin-top:-2px; 
+}
+.listthead{
+	background-color: #F3F3F3;
+	text-align: left;
+}
+
+.listTable,#listTable{
+	word-wrap: break-word;
+	width: 1127px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -19px;
+	color: #55545a;
+}
+.listTable tr,#listTable tr{
+	color:#1D9FE0;
+	height: 39px;
+}
+.listTable th, #listTable th{
+	color: #A4A4A4;
+	height: 27px;
+}
+.listTable td, #listTable td{
+	height:23px;
+	
+}
+div {
+	color: #55545a;
+}
+.pagination {
+	float: right;
+	margin: -40px 300px 0px 0px;
+}

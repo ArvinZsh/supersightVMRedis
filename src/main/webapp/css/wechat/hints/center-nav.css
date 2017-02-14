@@ -1,0 +1,22 @@
+/* CSS Document */
+.centernav_ul{
+	list-style: none;
+	width: 120px;
+	height: 753px;
+	padding-left: 0px;
+	background-color: #CCE9F7;
+	cursor: pointer;
+}
+.centernav_li{
+	padding:15px 0px;
+	text-align:center;
+	background-color:#CCE9F7;
+	color:#289EE0;
+}
+.centernav_li span{
+	position: relative;
+	left:5px;
+}
+.divli{
+    background-color:#fff;
+}

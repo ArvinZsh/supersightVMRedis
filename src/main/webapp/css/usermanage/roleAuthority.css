@@ -1,0 +1,60 @@
+span#divRoleListAddBtn {
+    font: 14px/1.5 '微软雅黑',tahoma, Srial, helvetica, sans-serif;
+    border: 1px solid;
+    margin-left: 55px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    color: #337ab7;
+    cursor: pointer;
+}
+
+span#divRoleListDelBtn {
+    font: 14px/1.5 '微软雅黑',tahoma, Srial, helvetica, sans-serif;
+    border: 1px solid;
+    margin-left: 10px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    color: #337ab7;
+    cursor: pointer;
+}
+
+span#divRoleListTitleName {
+    font: 14px/1.5 '微软雅黑',tahoma, Srial, helvetica, sans-serif;
+    color: #337ab7;
+}
+
+.roleTrSelected {
+    background-color:#FFF8CE;
+}
+
+div#divRoleList {
+    background-color: #FFF;
+    height: 756px;
+}
+
+div#divRoleListTitle {
+    height: 21px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+div#user_down_mean {
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+div#divRoleListTable {
+    height: 701px;
+    overflow-y: overlay;
+}
+
+div.roleTr {
+    padding-left: 10px;
+    height: 36px;
+    border-bottom: 1px solid #ECECCF;
+}
+
+span.inputRoleNameTxt {
+    line-height: 36px;
+}

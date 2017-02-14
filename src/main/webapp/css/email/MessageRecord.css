@@ -1,0 +1,146 @@
+.messageRecord_Paginationdiv{
+    text-align: center;
+    background-color: #eee;
+}
+.hreoly-modal_label {
+    width: 51px;
+    padding-left: 5px;
+    text-align: right;
+    color: #23A0DB;
+    margin-right: 5px;
+}
+#hm_rightdiv {
+    width: 419px;
+    height: 410px;
+    float: left;
+    background-color: #FFF8CE;
+    margin-top: 5px;
+    border-left: 1px solid #23A0DB;
+    overflow: auto;
+}
+.label_zhi{
+    float: left;
+}
+.messageRecord_MainContent{
+    float: left;
+    position: relative;
+    top: 13px;
+    left: 13px;
+    height: 705px;
+    margin-bottom: 14px;
+}
+.MessageRecord_topContent{
+    margin-left: 5px;
+    height: 27px;
+    margin-top: -15px;
+}
+.MessageRecord_div{
+    float: left;
+    width: 1139px;
+    height: 781px;
+}
+.input_date1 {
+    float: left;
+    height: 25px;
+}
+.input_date2 {
+    float: left;
+    height: 25px;
+}
+.MessageRecord_state {
+    width: 106px;
+    height: 25px;
+    padding-top: 0px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 0px;
+}
+.input_keys {
+    float: left;
+    margin-left: 12px;
+    margin-top: 0px;
+    height: 25px;
+    line-height: 25px;
+    width: 200px;
+    padding-left: 9px;
+}
+.find_messageRecord {
+    float: left;
+    margin-left: 13px;
+    height: 25px;
+    width: 84px;
+    background-color: #fff;
+    color: #008ED6;
+    margin-top: 0px;
+    border: 1px solid #C2C2C2;
+}
+.messageRecord_date{
+    float: left;
+}
+.Record_state_text{
+    float: left;
+    margin-left: 20px;
+}
+.Recoed_textMain {
+    width: 1095px;
+    height: 96px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+.outBox_man {
+    clear: both;
+    float: left;
+    margin-left: 12px;
+    margin-top: 8px;
+    color: #1E9BD9;
+}
+.outBox_man_text {
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.inBox_man{
+      clear: both;
+    float: left;
+    margin-right: 9px;
+    margin-left: 12px;
+    color: #1E9BD9;
+    margin-top: 11px;
+}
+.inBox_man_text{
+    float: left;
+    margin-top: 11px;
+}
+.messageRecord_content{
+    clear: both;
+    float: left;
+    margin-right: 10px;
+    color: #1E9BD9;
+    margin-left: 24px;
+    margin-top: 11px;
+}
+.messageRecord_content_text{
+    float: left;
+    margin-right: 20px;
+    margin-top: 11px;
+}
+.Recoed_titleMain{
+    width: 599px;
+    height: 25px;
+    margin-top: -7px;
+    color: #1E9BD9;
+    margin-left: 14px;
+
+}
+.messageRecord_MainAll {
+    float: left;
+    margin-top: 0px;
+    height: 757px;
+    margin-left: 5px;
+    width: 1134px;
+}
+#MessageRecord_pagination{
+
+}

@@ -49,30 +49,19 @@
 	</context:component-scan>
 
 	<mvc:resources mapping="/**" location="/" />
-	<!--
+	<!-- 跨域拦截器 -->
 	<mvc:interceptors>
 		
 		<mvc:interceptor>
-			<mvc:mapping path="/**" />
+			<mvc:mapping path="/**/*" />
 			<bean
-				class="com.soshare.source.interceptor.dispatcher.AuthInterceptor"></bean>
+				class="com.zsh.filter.CrossInterceptor"></bean>
 		</mvc:interceptor> 
-		  
-		<mvc:interceptor>
-			<mvc:mapping path="/*" />
-			<bean
-				class="com.soshare.source.interceptor.dispatcher.HandlerDispatcherContextInterceptor"></bean>
-		</mvc:interceptor>
-		<mvc:interceptor>
-			<mvc:mapping path="/*" />
-			<bean
-				class="com.soshare.source.interceptor.pagination.HandlerPaginationInterceptor"></bean>
-		</mvc:interceptor>
 		
-	</mvc:interceptors> -->
+	</mvc:interceptors> 
 	
 
-	<mvc:view-controller path="/" view-name="redirect:/index" />
+	<mvc:view-controller path="/" view-name="redirect:/html/login.html" />
 
 	<bean
 		class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />

@@ -1,0 +1,158 @@
+/* CSS Document */
+#hreoly-modal-div{
+    height: 420px;
+}
+#hm_leftdiv{
+    width: 180px;
+    height: 415px;
+    background-color:#F1F9FC;
+    float: left;
+}
+#hm_meandiv{
+    width: 146px;
+    height: 415px;
+    float: left;
+    border-left: 1px solid #23A0DB;
+}
+#hm_meandiv1{
+    width: 60px;
+    height: 415px;
+    float: left;
+    border-left: 1px solid #23A0DB;
+    background-color: #F1F9FC;
+}
+#hm_rightdiv{
+    width: 440px;
+    height: 415px;
+    float: left;
+    background-color: #F8FCFF ;
+    border-left: 1px solid #23A0DB;
+    overflow: auto;
+    padding-top: 5px;
+}
+.custom-modal{
+    width: 805px;
+}
+.custom-modal1{
+    width: 415px;
+}
+.modal-header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #008ED6;
+    color: #fff;
+}
+.notification_modal {
+    width: 442px;
+}
+#hreoly-modal_div1 {
+    overflow: hidden;
+    clear: both;
+    margin-top: 5px;
+}
+#hreoly-modal_div1 label, #hreoly-modal_content label {
+    float: left;
+}
+#hreoly-modal_send {
+    width: 86px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    background-color: #213A7A;
+    color: #fff;
+    margin-left: 64px;
+    margin-bottom: 10px;
+}
+.hreoly-modal_p {
+    margin-top: 5px;
+}
+.hreoly-modal_label {
+    width: 65px;
+    text-align: right;
+    padding-right: 5px;
+    color: #4FB1E2;
+}
+.approvalInfo_label {
+    color: #018ED3;
+}
+.approvaInfo_p {
+    margin-left: 41px;
+}
+.approvalInfo_div{
+    background-color: #F0F0F0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.approval_head_l{
+    width: 33px;
+    height: 33px;
+    float: left;
+    background-image: url("../../images/approval_ic.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#approval_remark{
+    height: 187px;
+    width: 350px;
+    border: 1px solid #4FB1E2;
+    margin-left: 70px;
+}
+.approval_modal{
+    width: 442px;
+}
+.approvalInfo_head_l{
+    width: 33px;
+    height: 33px;
+    float: left;
+    background-image: url("../../images/approvalInfo_ic.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.execute_date_xin{
+    color:red;
+}
+#hints_toolbar #hreoly-modal_div1 {
+    margin-top: 45px;
+}
+.approval_modal .hreoly-modal_label {
+    margin-left: 44px;
+}
+#execute_date_div{
+    width: 200px;
+    margin-left: 69px;
+    margin-top: 10px;
+}
+.execute_date_label{
+    color: #23A0DB;
+}
+.execute_date{
+    border: solid 1px #4FB1E2;
+    margin-left: 14px;
+}
+#hints_toolbar #hreoly-modal_sendp{
+    height: 30px;
+}
+.approval_modal #hreoly-modal_sendl {
+    margin-left: 94px;
+    color: #FF0000;
+    position: relative;
+    top: -33px;
+}
+.approval_modal #hreoly-modal_send{
+    margin-left: 298px;
+    margin-top: 6px;
+}
+#execute_agree {
+    margin-right: 116px;
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+.approval_head_l{
+    width: 33px;
+    height: 33px;
+    float: left;
+    background-image: url("../../images/approve.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,155 @@
+.click_color{
+	background-color:#FFF8CE;
+}
+.grid_label{
+	
+}
+.gridId_Id{
+	width: 166px;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: -25px;
+}
+.grid_label1{
+	
+}
+.gridId_Name{
+	width: 166px;
+    height: 25px;
+    margin-left: 35px;
+    margin-top: -25px;
+}
+.footer_bootom{
+height:1px;	
+}
+.modal-content{
+	width: 259px;
+   margin: 0 auto;	
+   border-radius: 0px;
+       margin-top: 30%;
+}
+.btn_save{
+    position: relative;
+    top: 40px;
+    border-radius: 0px;
+    left: 188px;
+    height: 25px;
+    padding-top: 2px;
+}
+.btn_cancel{
+    margin-top: -235px;
+    border-radius: 0px;
+    padding-top: 2px;
+    position: relative;
+    left: 134px;
+    height: 25px;
+}
+#showmoSavebtn{
+    margin-right: 34px;
+    width: 76px;
+    margin-top: -10px;
+    height: 31px;
+    padding-left: 11px;
+    padding-top: 1px;
+}
+.gridBinding{
+    width: 76px;
+    height: 31px;
+    padding-left: 11px;
+    padding-top: 5px;
+    background-color:#5bc0de;
+    color: #fff;
+    margin-left: 792px;
+    margin-top: 1px;
+}
+#main_nav_lab{
+	 margin-left: -464px;
+}   
+#main_nav_div {
+	margin-right: 25px;
+}
+    
+.gridBinding_div{
+    float: left;
+    margin-top: -49px;
+    display: inline-flex;
+    margin-left: 76px;
+}
+#hints_reply{
+    margin-left: 471px;
+    margin-top: -464px;
+    width: 574px;
+
+}
+.gridBinding_th{
+    background-color: #CCE8F6;
+    height: 22px;
+    border: 1px solid #23A0DB;
+}
+.gridBinding_td{
+    padding-left: 41px;
+    width: 142px;
+    text-align: left;
+}
+.gridBinding_td1{
+    padding-right: 21px;
+    width: 118px;
+    text-align: left;  
+}   
+.gridBinding_Del{
+	margin-right: 34px;
+    width: 76px;
+    margin-top: -10px;
+    height: 31px;
+    padding-left: 11px;
+    padding-top: 5px;
+    background-color: #5bc0de;
+    color: #fff;
+}
+#tabid{
+	 border-collapse: collapse;
+}   
+.th_gridId{
+    position: relative;
+    left: 41px;
+}
+.th_gridName{
+	position: relative;
+    left: 0px;
+    width: 137px;
+}
+#gridBinding_table{
+    margin-top: -26px;
+    position: relative;
+    left: 50px;
+    width: 281px;
+    border-collapse: collapse;
+    float: left;
+    height: 25px;
+}
+.div_grid{
+    width: 282px;
+    height: 412px;
+    overflow: auto;
+    margin-top: -412px;
+    position: relative;
+	left: 50px;
+    border-left: 1px solid #23A0DB;
+     border-bottom: 1px solid #23A0DB;
+}
+.table_grid{
+	width: 264px;
+    border-collapse: collapse;
+}
+.div_binding{
+    width: 396px;
+    float: right;
+    position: relative;
+    top: -438px;
+    left: -135px;
+    background-color: #CCE8F6;
+    height: 23px;
+    text-align: center;
+    padding-top: 3px;
+    border: 1px solid #23A0DB;
+}   

@@ -1,0 +1,52 @@
+#statement_container{
+    width: 987px;
+    background-color: #fff;
+    padding-top: 10px;
+}
+#basicInfor_div,#basicInfor_div1{
+    height: 713px;
+    width: 957px;
+    margin-left: 20px;
+}
+.statement_condition{
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#statement_Tool {
+    width: 130px;
+    height: 1446px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+.statement_toolBtn{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #1697D9;
+    border: 1px solid #C2C2C2;
+}
+#statement_Tool,#statement_main{
+    float: left;
+}
+#statement_main{
+    margin-left: 10px;
+}
+#statement{
+    background-color: #D7D7D7;
+    overflow: auto;
+    clear: both;
+    float: left;
+}
+#potrolCount {
+    overflow: auto;
+}
+#user_down {
+    height: 1446px;
+    background-color: #F2F2F2;
+}

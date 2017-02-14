@@ -1,0 +1,18 @@
+
+.complaint_ul{
+    list-style:none;
+    width: 139px;
+    height: 761px;
+    padding-left: 0px;
+    background-color:#CCE9F7;
+    marginTop: 82px;
+}
+.complaint_li{
+    padding:15px 0px;
+    text-align:center;
+    background-color:#CCE9F7;
+    color:#289EE0;
+}
+.div_li{
+    background-color:#fff;
+}

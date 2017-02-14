@@ -1,0 +1,152 @@
+#pagecount{
+	margin-left: 186px;
+}
+.noneColor{
+	background-color:#FFF8CE;
+}
+.total{
+	margin-right: 31px;
+}
+.beginPage{
+	margin-left: 16px;
+}
+.prevPage{
+	margin-left: 12px;
+}
+.nextPage{
+	margin-left: 19px;
+}
+.endPage{
+	margin-left: 27px;
+}
+.div_log{
+	width: 787px;
+    height: 480px;
+    margin:0 auto;
+       
+}
+.div_search{
+	position: absolute;
+    width: 170px;
+    top: 113px;
+    left: 32%;
+}
+.text_begin{
+
+}
+.text_to{
+	
+}
+.text_end{
+	    position: absolute;
+}
+.icon_fangda{
+	background-repeat: no-repeat;
+    background-image:url(../../images/fangda.png);
+    height:16px;
+    width:16px;
+    float:left;
+    position:absolute;
+    margin: -14px 370px;
+    z-index: 1;
+}
+.text_search{
+	padding: 4px 23px;
+    width: 169px;
+    border-radius: 23px;
+    z-index: 0;
+    border: solid 1px #213a7a;
+    position: absolute;
+    top: -4px;
+    left: 290px;
+}
+.button_search{
+	width: 86px;
+    height: 32px;
+    background-color: #213A7A;
+    color: #fff;
+    position: absolute;
+    left: 519px;
+    top: -8px;
+}
+body{
+	height:100%;
+	margin:0px;
+	overflow: auto;
+	scrollbar-face-color: #F5F5F5;
+	scrollbar-3dlight-color: #D0D5DF;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-base-color: #fff;
+}
+table{
+	color:#1f5172;
+	border-collapse:collapse;
+	border-spacing: 0px;
+	border-cellpadding:0px;
+}
+#list{
+	    background-color:#F1F9FC;
+}
+.divcenter,#divcenter{
+	padding-left: 20%;
+    width: 98%;
+    margin-left: -108px;
+    margin-top: -471px;
+}
+.divright,#divcenter{
+	float:right;
+}
+.queryTable ,#queryTable{
+	background-color:#f3f4f9;
+	width:100%;
+	font-size:13px;
+	margin-top: -5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:#d7dbe7;
+}
+.queryTable th,#queryTable th {
+}
+.queryTable td, #queryTable td{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+}
+.queryTable td button, #queryTable td button{
+	margin-top:-2px; 
+}
+.listthead{
+	background-color:#CCE8F6;
+	text-align: left;
+}
+.listTable,#listTable{
+    word-wrap: break-word;
+    width: 110%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+    color: #55545a;
+}
+.listTable tr,#listTable tr{
+	color:#1D9FE0;
+	height: 39px;
+}
+.listTable th, #listTable th{
+	color:#1D9FE0;
+	height:27px;
+}
+.listTable td, #listTable td{
+	height:23px;
+	
+}
+div {
+	color: #55545a;
+}
+.pagination {
+	float: right;
+	margin: -31px 300px 0px 0px;
+}

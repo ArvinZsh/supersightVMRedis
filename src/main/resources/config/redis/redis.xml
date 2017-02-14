@@ -64,7 +64,7 @@
 		<property name="maxIdle" value="100" />  
 	</bean>  
   
-	<bean id="jedisCluster" class="com.dongnao.jack.redis.JedisClusterFactory">  
+	<bean id="jedisCluster" class="com.zsh.cache.JedisClusterFactory">  
 		<property name="addressConfig">  
 			<value>classpath:config/redis/connect-redis.properties</value>  
 		</property>  

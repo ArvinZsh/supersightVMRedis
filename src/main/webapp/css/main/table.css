@@ -1,0 +1,50 @@
+
+.divw{
+	width:587px;
+	height:335px;
+	overflow:auto;
+	margin:0px;
+	padding:0px;	
+}
+
+.tablw {
+	border-collapse:collapse;
+	border:1px solid #5a5555;
+	border-top:0px;
+	margin:auto;
+	margin: 0px
+}
+
+.tabl2w{
+	border-collapse:collapse;
+	border:1px solid #5a5555;
+	margin:auto;
+	margin-top:13px;
+	margin: 0px;
+}
+.divh{
+	width:587px;
+	height:360px;
+}
+.namesw{
+	width:281px;
+	text-align:center ;
+	border-right:1px solid black;
+}
+.idsw{
+	width:299px;
+	text-align:center ;
+	border-right:1px solid black;
+}
+.trsw {
+	border-right:1px solid #5a5555;
+	text-align: center;
+	background-color: #cecece;
+}
+
+.td2sw {
+	border-right:1px solid #5a5555;
+	text-align: left;
+	width:293px;
+	height:25px;
+}

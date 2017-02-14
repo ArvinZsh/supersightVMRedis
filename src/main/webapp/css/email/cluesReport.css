@@ -1,0 +1,261 @@
+#clues_tcommon_ips{
+    font-size: 40px;
+    margin-left: 112px;
+    color: #0093DD;
+}
+.layui-layer-dialog .layui-layer-content {
+    position: relative;
+    padding: 20px;
+    line-height: 24px;
+    word-break: break-all;
+    font-size: 14px;
+    width: 371px;
+    overflow: auto;
+    height: 108px;
+}
+.layui-layer-btn a {
+    height: 16px;
+    line-height: 28px;
+    margin: 0 6px;
+    padding: 25px 15px;
+    border: 1px solid #dedede;
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.layui-layer-dialog {
+    min-width: 260px;
+    width: 471px;
+}
+.layui-layer-btn1{
+    width: 78px;
+    height: 41px;
+    font-size: 38px;
+    padding-top: 20px;
+}
+#clues_images .UploadImageTr_divd1 {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 296px;
+    height: 301px;
+}
+#clues_images .UploadImageTr_p1 {
+    color: #fff;
+    margin: 0px;
+    background-color: #213A7C;
+    text-align: center;
+    width: 112px;
+    margin-left: 183px;
+    height: 59px;
+    font-size: 46px;
+    padding-top: 4px;
+}
+#clues_images #divImageTable {
+    height: 302px;
+    width: 820px;
+}
+.layui-layer-title {
+    padding: 0 80px 0 20px;
+    height: 56px;
+    line-height: 42px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    overflow: hidden;
+    background-color: #F8F8F8;
+    border-radius: 2px 2px 0 0;
+    font-size: 40px;
+    padding-top: 9px;
+}
+.layui-layer-dialog .layui-layer-content .layui-layer-ico {
+    position: absolute;
+    top: 68px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+}
+.layui-layer-btn .layui-layer-btn0 {
+    border-color: #4898d5;
+    background-color: #2e8ded;
+    color: #fff;
+    width: 78px;
+    height: 23px;
+    font-size: 38px;
+    padding-top: 20px;
+}
+.layui-layer-dialog .layui-layer-padding {
+    padding: 74px 20px 20px 55px;
+    text-align: left;
+    height: 42px;
+    width: 530px;
+    font-size: 51px;
+}
+#clues_images .UploadImageTr_p {
+    color: #fff;
+    margin: 0px;
+    height: 304px;
+    line-height: 100px;
+    text-align: center;
+    background-image: url(../../images/Uploading.gif);
+    background-size: 253px 253px;
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+#clues_images .UploadImageTr_divd {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 300px;
+    height: 304px;
+    background: #000;
+    filter: alpha(opacity:30);
+    opacity: 0.7;
+}
+#clues_images .UploadImageTd_img {
+    width: 300px;
+    height: 304px;
+}
+#clues_images #divImageAdd{
+    height: 300px;
+    width: 300px;
+    background-color: #CCE8F6;
+    background-size: 217px 217px;
+    background-repeat: no-repeat;
+    background-position: 38px 38px;
+    margin-left: 3px;
+}
+#cluesReportSuccess_img{
+    width: 257px;
+    padding-top: 60px;
+    padding-left: 268px;
+}
+#cluesReportSuccess_All{
+    margin: 0 auto;
+    width: 800px;
+    height: 987px;
+}
+.cluesReportSuccess_text1{
+    font-size: 102px;
+    color: #0194DE;
+    text-align: center;
+    padding-left: 92px;
+}
+.cluesReportSuccess_text2{
+    font-size: 102px;
+    color: #0194DE;
+    text-align: center;
+}
+#cluesReport_All{
+    width: 976px;
+    margin: 0 auto;
+    height: 1549px;
+    padding-top: 70px;
+}
+
+.clues_addressL{
+    float: left;
+    font-size: 40px;
+}
+.clues_describeL{
+    float: left;
+    font-size: 40px;
+}
+.clues_input{
+    width: 811px;
+    margin-bottom: 10px;
+    height: 96px;
+}
+.clues_input1{
+    width: 811px;
+    margin-bottom: 10px;
+    height: 96px;
+}
+#imgs_All{
+
+}
+.clues_xin{
+    color: red;
+    float: left;
+    padding-top: 3px;
+    font-size: 40px;
+}
+#clues_photo{
+    float: left;
+    font-size: 40px;
+}
+#clues_images{
+    width: 837px;
+    height: 308px;
+    margin-left: 7px;
+    float: left;
+    overflow-y: auto;
+}
+.clues_address{
+    float: left;
+    clear: both;
+    padding-left: 4px;
+    margin-bottom: 41px;
+}
+#clues_tips{
+    float: left;
+    clear: both;
+    color: #309EDB;
+    padding-left: 110px;
+    margin-bottom: 101px;
+    font-size: 40px;
+}
+.clues_describe{
+    float: left;
+    clear: both;
+    padding-left: 4px;
+    margin-bottom: 45px;
+}
+.clues_informant{
+    font-size: 40px;
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 138px;
+    height: 6px;
+}
+.clues_phone{
+    clear: both;
+    float: left;
+    height: 88px;
+    font-size: 40px;
+    height: 107px;
+}
+#clues_submitButton{
+    width: 952px;
+    margin-left: 14px;
+    height: 149px;
+    background-color: #0193DE;
+    font-size: 96px;
+    color: #fff;
+    border-color: #213a7a;
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    float: left;
+    clear: both;
+    margin-top: 172px;
+}
+.clues_textarea1{
+    font-size: 40px;
+    width: 819px;
+    height: 199px;
+    resize: none;
+}
+.clues_textarea2{
+    font-size: 40px;
+    width: 819px;
+    height: 199px;
+    resize: none;
+}
+.cluesReport_tip{
+    font-size: 40px;
+}

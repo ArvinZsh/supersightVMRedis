@@ -13,6 +13,7 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import com.zsh.bean.UserInfo;
+import com.zsh.bean.dto.UserDto;
 
 
 /**
@@ -27,4 +28,6 @@ public interface IUserDao {
 	List<UserInfo> findByOrgId(String orgId);
 	
 	List<UserInfo> findAll();
+	
+	UserDto valiteData(UserDto cmd);
 }

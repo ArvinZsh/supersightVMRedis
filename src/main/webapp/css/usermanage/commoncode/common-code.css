@@ -1,0 +1,127 @@
+.data_tr:hover{
+	background-color: #e8f5fc;
+}
+#common_code_auto{
+	width: 223px;
+	float: left;
+	margin-left: 4px;
+	background-color: #fff;
+}
+
+.commoncoer_div{
+	height: 715px;
+	background-color: #FFFFFF;
+}
+.commoncoer_div .edit_div{
+    line-height: 41px;
+}
+
+.commoncoer_div .edit_div .add_button2,.edit_button2{
+	border:1px solid #1697D9;
+    color:#1697D9;
+    background-color:#fff;
+    width:71px;
+    height: 29px;
+    cursor: pointer;
+}
+
+.commoncoer_div .edit_div .add_button2{
+    margin:0 17px 0 51px;
+}
+
+.commoncoer_div .datas_div{
+	background-color: #fff;
+	height: 674px;
+	margin-top: 41px;
+	padding-top: 3px;
+	overflow: auto;
+}
+.commoncoer_div .data_tr{
+	height: 19px;
+	padding: 8px;
+	cursor: default;
+	border-bottom: solid 1px #F3F3F3;
+}
+
+.commoncoer_div .isenable_div{
+	background-color:#FFFFFF;
+	line-height: 44px;
+}
+.commoncoer_div .isenable_checkbox{
+    height: 14px;
+    width: 14px;
+    float: left;
+    margin:15px 3px 0 27px;
+}
+.commoncoer_div .isenable_label{
+	color:#1697D9;
+}
+.commoncoer_div .isenable_button{
+	width: 71px;
+    height: 30px;
+    border:1px solid #1697D9;
+    color:#1697D9;
+    background-color:#fff;
+    margin-left:11px;
+    cursor: pointer;
+}
+
+#commcode_insert_fdiv{
+	width: 1900px;
+	height:800px;
+	position: absolute;
+	left:0px;
+	top:0px;
+	display: none;
+}
+
+.commoncoer_div #commcode_insert_div{
+	width:380px;
+	height:170px;
+	background-color:#ccccff;
+	margin:220px 0px 0px 610px;
+}
+
+.commoncoer_div .commcode_insert_ddiv{
+	border-bottom:1px dotted blue;
+	line-height: 37px;
+	padding-left:22px;
+}
+
+.commoncoer_div .commcode_insert_lable{
+	display:inline-table;
+	margin:38px 0 0 36px;
+	float: left;
+}
+
+.commoncoer_div .commcode_insert_input{
+	height: 14px;
+	width: 14px;
+	float: left;
+	margin: 14px 0px 0 704px;
+}
+
+.commoncoer_div .commcode_insert_input,textarea{
+	padding-left:15px;
+}
+
+.commoncoer_div .commcode_insert_buttom1,.commcode_insert_buttom2{
+	margin-top:25px;
+	width:80px;
+	height:30px;
+	cursor: pointer;
+	border:1px solid #1697D9;
+    color:#1697D9;
+    background-color:#f2ebfb;
+}
+
+.commoncoer_div .commcode_insert_buttom1{
+	margin:0 33px 0 109px;
+}
+.commontableba{
+	background-color: #FFF8CE;
+}
+
+.commonhiddenbian{
+	background-color: #b0b0b0;
+}

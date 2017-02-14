@@ -1,0 +1,134 @@
+#taskWarning_pagination{
+	margin-top:16px;
+}  
+.warning_button{
+    width: 57px;
+    height: 32px;
+    background-color: #fff;
+    color: #289EE0;
+    position: relative;
+    margin-left: 18px;
+    top: -6px;
+    border: 1px solid #C2C2C2;
+}
+.buidding_list_img{
+    width: 16px;
+    height: 25px;
+}
+.warning_button1{
+    width: 57px;
+    height: 32px;
+    background-color: #fff;
+    color: #289EE0;
+    position: relative;
+    margin-left: 18px;
+    top: -6px;
+    border: 1px solid #C2C2C2;
+}
+
+.taskWarning_div {
+    position: relative;
+    width: 1090px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 13px;
+}
+table{
+	color:#1f5172;
+}
+.listTable,#listTable{
+	
+	word-wrap:break-word;
+	width:100%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color:#55545a;
+}
+.listTable tr,#listTable tr{
+	color:#55545a;
+	height: 24px;
+    border-bottom: 1px solid #E9EBED;
+}
+.warning_th{
+	background-color: #F3F3F3;
+}
+.listTable th, #listTable th{
+	text-align:left;
+    color: #A4A4A4;
+	height:27px;
+    font-weight: normal;
+	padding-left: 10px;
+}
+.listTable td, #listTable td{
+	font-size:13px;
+	height:54px;
+	padding-left: 10px;
+}
+div#lawWarning_divPage {
+    margin-top: 8px;
+    text-align: center;
+    background-color: #FFF;
+}
+div#user_down {
+    height: 761px;
+}
+div#user_down_right {
+    background-color: #FFF;
+    height: 753px;
+    float: left;
+    width: 1110px;
+    margin-top: 10px;
+    margin-left: -15px;
+    padding-left: 5px;
+}
+
+div#user_down_left {
+    width: 139px;
+    height: 512px;
+    float: left;
+    margin-top: 10px;
+}
+
+.warning_tr:hover{
+    background-color: #e8f5fc;
+}
+#beginTime,#endTime{
+    height: 29px;
+    background-color: #fff;
+    color: #289EE0;
+    position: relative;
+    left: 0px;
+    top: -6px;
+    border: 1px solid #C2C2C2;
+}
+#taskWarning_zhi{
+    position: relative;
+    top: -6px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+#taskWarning_keyword{
+    height: 29px;
+    background-color: #fff;
+    color: #289EE0;
+    position: relative;
+    left: 10px;
+    top: -6px;
+    border: 1px solid #C2C2C2;
+}
+
+.buidding_type_sel{
+    height: 31px;
+    background-color: #fff;
+    color: #289EE0;
+    position: relative;
+    margin-left: 18px;
+    top: -6px;
+    border: 1px solid #C2C2C2;
+
+}

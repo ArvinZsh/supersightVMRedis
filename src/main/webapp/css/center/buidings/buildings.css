@@ -1,0 +1,868 @@
+/*#hm_rightdiv {
+    width: 417px;
+    height: 410px;
+    float: left;
+    background-color: #FFF8CE;
+    margin-top: 5px;
+    border-left: 1px solid #23A0DB;
+    overflow: auto;
+}   */
+.Findpeople_Model{
+	width: 329px;
+	height: 520px;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 33px;
+}
+.Findpeople_Model .modal-content {
+	width: 329px;
+	position: relative;
+	top: -31px;
+	height: 0px;
+}
+.Findpeople_div {
+	height: 254px;
+	margin-top: -5px;
+}
+.Findpeople_Model .modal-header{
+	margin-left: -1px;
+}
+.ensure_Findpeople {
+	border: 1px solid #C2C2C2;
+	background-color: #FFF;
+	color: #008ED6;
+	width: 65px;
+	height: 32px;
+	float: right;
+	margin-right: 23px;
+}
+.remove_buildings{
+	background-color: transparent;
+	color: #DDDDDD;
+	font-size: 18px;
+}
+.building_data_mix{
+	margin-top: 10px;
+}
+.hreoly-modal_label {
+	width: 69px;
+    padding-left: 5px;
+    text-align: right;
+    color: #23A0DB;
+    margin-right: 5px;
+}
+.buidding_list_tr{
+	height: 44px;
+	border-bottom: 1px solid #E9EBED;
+}
+tr.buidding_list_tr:hover {
+    background-color: #e8f5fc;
+}
+td.buidding_list_td0 {
+    color: #FFF;
+    width: 54px;
+    text-align: center;
+    border: 1px solid #FFF;
+    font-size: 24px;
+}
+tr.buidding_list_tr:hover .buidding_list_td0 span {
+    color: #289EE0;
+}
+#chongxinreader2{
+	display: none;
+}
+/* 
+表格css 
+*/
+.buidding_dierji_div1{
+	width: 1136px;
+	margin: 0px 0px 0px 4px;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+.buidding_dierji_div1 .buidding_div1_browse,.buidding_div1_add,.buidding_div1_edit,.buidding_div1_report,.buidding_div1_file{
+	width: 72px;
+	height: 32px;
+	border: 1px solid #C2C2C2;
+	color: #1697D9;
+	background-color: #fff;
+	margin-left: 366px;
+	position: relative;
+	top: -32px;
+}
+
+.buidding_dierji_div1 .buidding_div1_sel{
+	width:82px;
+	height:33px;
+	border:1px solid #1697D9;
+    color:#1697D9;
+    margin-top:4px;
+	background-color: #FFF;
+}
+
+#buiddingfid #buidding_list_table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 1136px;
+    text-align: left;
+}
+
+#buiddingfid #buidding_list_table th{
+	text-align: left;
+	height: 24px;
+	background-color: #F3F3F3;
+	color:#A4A4A4;
+	font-weight: normal;
+}
+
+#buiddingfid #buidding_list_table {
+    height: 40px;
+    cursor: pointer;
+}
+
+.buidding_list_td1{
+	width:95px;
+}
+
+.buidding_list_td2{
+	width: 550px;
+	height: 46px;
+}
+
+.buidding_list_td3,.buidding_list_td4{
+	width: 106px;
+}
+
+.buidding_list_td5,.buidding_list_td6{
+	width: 85px;
+}
+
+.buidding_list_td7{
+	width: 135px;
+}
+
+#buidding_list_table .buidding_list_td1{
+	color:#86C1EB;
+}
+
+#buidding_list_table .buidding_list_td5,.buidding_list_td6,.buidding_list_td8{
+	color:#9EA3A6;
+}
+
+#buidding_list_table .buidding_list_td7{
+	color:#8F8F8F;
+}
+
+.buildings_disanji_fen{
+	text-align: center;
+	height: 8px;
+}
+
+#buiddingfid #buildings_fenye{
+}
+
+.pagination{
+	margin-top: 15px;
+}
+
+
+/* 
+查询css
+*/
+.buildings_sisanji_select .form-group{
+	margin:0px;
+}
+
+.buildings_sisanji_select .buidding_ajly_select,.buidding_type_sel,.buiding_communitycla,.buidding_zdaj_sel{
+	width: 92px;
+	height:33px;
+	padding-left:6px;
+	border:1px solid #C2C2C2;
+}
+
+.buildings_sisanji_select .building_data_mix{
+	display: inline-table;
+}
+
+.buildings_sisanji_select{
+	margin-left: 15px;
+	height: 38px;
+}
+
+.buildings_sisanji_select .buidding_min_sel,.buidding_max_sel{
+	width: 134px;
+	height: 19px;
+	border: 1px solid #CCC;
+	border-radius: 0px;
+	margin-top: 5px;
+}
+
+.buildings_sisanji_select .buidding_fangb_sel,.buidding_gjz_sel{
+	width: 184px;
+	height:30px;
+	border:1px solid #CCC;
+	padding-left:5px;
+}
+
+.buildings_sisanji_select label {
+	font-weight: normal;
+	margin: 7px 0 0 13px;
+	float: left;
+}
+
+.buildings_sisanji_select .buidding_min_sel,.building_data_mix,.buidding_max_sel,.buidding_type_sel,.buidding_ajly_select,.buidding_zdaj_sel,.buidding_fangb_sel,.buidding_gjz_sel{
+	float: left;
+}
+
+.buildings_sisanji_select .building_data_mix,.buidding_max_sel,.buidding_type_sel,.buidding_ajly_select,.buidding_zdaj_sel,.buidding_fangb_sel,.buidding_gjz_sel{
+	margin-left: 10px;
+	width: 100px;
+	border-radius: 0px;
+	margin-top: 5px;
+}
+
+.buildings_sisanji_select .buidding_sub_sel{
+	width: 62px;
+	height: 32px;
+	border: 1px solid #C2C2C2;
+	color: #1697D9;
+	background-color: #fff;
+	margin-left: 8px;
+	margin-top: 5px;
+}
+
+.buildings_sisanji_select .checkbox span{
+	margin-top:2px;
+	display: inline-table;
+}
+
+/*
+查看对话框
+*/
+.buiddings_borwsse_fudierji2{
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-color:rgba(0,0,0,.5);
+	left:0px;
+	top:0px;
+	display: none;
+}
+
+.buiddings_borwsse_dierji2{
+	height:734px;
+	width:754px;
+	background-color: #FFFFFF;
+	margin:auto;
+	position: relative;
+   -moz-box-shadow: 10px 10px 10px #000000;
+   -webkit-box-shadow: 10px 10px 10px #000000;
+   	box-shadow:-1px 5px 28px #000000;
+}
+
+.buiddings_selectjbqk_body{
+	height:651px;
+	overflow: auto;
+}
+
+.seleectmodelxcjlfdiv{
+	text-align: center;
+}
+
+.selectmodelxcjl,.selectmodelfxcjl{
+	line-height: 37px;
+	border:1px solid blue;
+}
+
+.seleectmodelxcjlfdiv label{
+	display: inline-table;
+}
+
+.seleectmodelxcjldiv1{
+	width:140px;
+	margin-left:10px;
+	float: left;
+}
+
+.seleectmodelxcjldiv2,.seleectmodelxcjldiv3,.seleectmodelxcjldiv4{
+	text-align: left;
+	margin-left:100px;
+}
+
+.seleectmodelxcjldiv2{
+	margin-top:26px;
+	padding-left:62px;
+}
+.seleectmodelxcjldiv2 .seleectdiv2xcqktar{
+	resize:none;
+	width:569px;
+	margin-bottom:25px;
+}
+.seleectmodelxcjldiv2 .selectdiv2xcryte{
+	width:320px;
+	margin-bottom:25px;
+}
+
+.seleectmodelxcjldiv2 .col-md-6,.col-xs-10{
+	padding-left:0px;
+}
+
+.selectxcjl_image_div .selectxcjl_image_divgrid,#container{
+}
+
+.selectxcjl_image_div{
+	overflow: auto;
+	overflow-x:hidden;
+	height:321px;
+	width:590px;
+}
+
+.buildings_spjl_fmodel{
+	padding:20px 0px 0px 15px;
+}
+
+.buildings_spjl_model{
+	margin-top:5px;
+	border-top:1px solid #000000;
+	width:720px;
+}
+
+.buildings_spjl_model .buildings_spjl_modelp1{
+	margin-top:15px;
+}
+
+.buildings_spjl_modellabel1{
+	padding-right:8px;
+	font-weight: normal;
+}
+
+.buildings_spjl_modellabel2{
+	padding-right:12px;
+	font-weight: normal;
+}
+
+.buildings_spjl_modellabel3{
+	padding-right:8px;
+}
+
+.buildings_spjl_modellabel1,.buildings_spjl_modellabel2,.buildings_spjl_modellabel3,.buildings_spjl_modellabel4{
+	display: inline-table;
+}
+
+.buildings_spjl_modellabel5{
+	display: inline-table;
+	width:30px;
+}
+
+/* 
+新增/编辑对话框 
+*/
+.buiddings_borwsse_fudierji3 .form-group{
+	margin-bottom:13px;
+}
+
+.buiddings_borwsse_fudierji3 .form-control{
+	 border-radius: 0px;
+	font-size: 13px;
+}
+
+.buiddings_borwsse_sub{
+	border-radius: 4px;
+}
+
+.buiddings_borwsse_fudierji3{
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-color:rgba(0,0,0,.5);
+	left:0px;
+	top:0px;
+	z-index: 100;
+	display: none;
+}
+
+.buiddings_borwsse_dierji3{
+	height:662px;
+	width: 767px;
+	background-color: #FFFFFF;
+	margin:auto;
+	position: relative;
+   -moz-box-shadow: 10px 10px 10px #000000;
+   -webkit-box-shadow: 10px 10px 10px #000000;
+   	box-shadow:-1px 5px 28px #000000;
+}
+
+.buiddings_borwsse_hade{
+	border-bottom:1px dotted #000000;
+	line-height: 40px;
+	color:#FFFFFF;
+	padding-left:15px;
+	background-color: #008ED6;
+}
+
+.buildings_div_bian1{
+	padding-left:5px;
+}
+
+.buildings_div_bian2{
+	padding-left:5px;
+	background-color: #F1F9FC;
+}
+
+.buiddings_borwsse_clear{
+	cursor: pointer;
+	margin-left: 627px;
+	background-color: #008ED6;
+}
+
+.buiddings_borwsse_clear:hover{
+	color:#e3e3e3;
+}
+
+.buiddings_borwsse_body{
+	height:550px;
+	overflow: auto;
+}
+
+.buiddings_borwsse_auto_div label,.buiddings_borwsse_auto_div2 label{
+	display: inline-table;
+	width: 137px;
+	text-align: right;
+	padding-right:7px;	
+	float: left;
+	margin-top:5px;
+	font-weight: 700;
+	clear: left;
+}
+
+
+.buiddings_borwsse_auto_div{
+	margin-top:20px;
+	color:#149BDE;;
+}
+
+.buiddings_borwsse_auto textarea{
+	width:260px;
+	resize:none;
+	float: left;
+}
+
+.buiddings_borwsse_auto_div2{
+	width:330px;
+	margin:28px 0px 20px 0px;
+	float: left;
+}
+
+.buiddings_borwsse_auto_div3{
+	clear: left;
+	margin:0 50px 0 124px;
+}
+
+.buiddings_borwsin_xcsm{
+	text-align: left;
+	width:80px;
+}
+
+.buiddings_radio_indiv1 label,.buiddings_radio_indiv2 label{
+	width:50px;
+}
+
+.buiddings_radio_indiv2{
+	padding-bottom: 35px;
+}
+
+.buiddings_radio_indiv1 .form-group{
+	padding-left:121px;
+}
+
+.buiddings_radio_indiv2 .form-group{
+	padding-left:170px;
+}	
+
+.buiddings_radio_inisok,.buiddings_radio_inno{
+	border:1px solid red;
+}
+
+.FoundationArea.Approvaltime .buiddings_borwsse_auto .buiddings_borwse_housecode,.buiddings_borwse_grid,.buiddings_borwse_street,.buiddings_borwse_community,.buiddings_borwse_detailed,.buiddings_borwse_areacount,.FoundationArea,.Approvaltime,
+.buiddings_borwse_buildcount,.buiddings_borwse_layer,.buiddings_borwse_Building,.buiddings_borwse_isFiling,.buiddings_borwse_Filingh,.buiddings_borwse_Filingexplain,.buiddings_borwse_startsituation,
+.buiddings_borwse_ownername,.buiddings_borwse_contact,.buiddings_borwse_identity,.buiddings_borwse_casesource,.buiddings_borwse_ismajor,.buiddings_borwse_findpeople,.buiddings_borwse_oundtime,#buidings_borwse_id,
+.buiddings_borwse_removaldate,.buiddings_borwse_createperson,.buiddings_borwse_group2,.buiddings_renovation_enddate,.buiddings_renovation_startdate,#buidings_approveNo_id{
+	height:24px;
+	width:260px;
+}
+
+
+.buiddings_borwse_majortype,.buiddings_borwse_buildingtype,.buiddings_borwse_contrarytype,.buiddings_borwse_isla,.buiddings_borwse_hazardlevel,.buiddings_borwse_group,.buiddings_borwse_community,.buiddings_borwse_casesource,.buiddings_borwse_startsituation,.buiddings_borwse_ismajor,
+.buiddings_buildingtype,.buiddings_architecturetype,.buiddings_borwse_grid{
+	font-weight: normal;
+	height:35px;
+	width:285px;
+	color:#000;
+}
+
+.buiddings_borwse_grid{
+	margin-bottom: 13px;
+}
+
+.buiddings_checkbox_indiv2 span{
+	display: inline-table;
+	line-height: 21px;
+}
+
+.buiddings_borwse_isopener{
+	width:16px;
+	height:16px;
+}
+
+.buiddings_borwsse_auto_div5{
+	margin-left:123px;
+}
+.buiddings_borwsse_auto_div55{
+	overflow: auto;
+	height:281px;
+	width:556px;
+}
+
+#buidings_insert_div4,#buidings_update_div4{
+	margin:15px 0 0 100px;
+}
+
+.buiddings_borwsse_sub{
+	width:330px;
+	height:46px;
+	border:1px solid #6C7DA9;
+    color:#FFF;
+    background-color:#213A7A;
+}
+
+.builddings_textareea_dddcla span{
+	display:inline-block;
+	line-height: 54px;
+	margin-left:6px;
+	color:red;
+}
+
+.builddings_text_dddcla span{
+	display:inline-block;
+	line-height: 43px;
+	margin-left:6px;
+	color:red;
+}
+
+.builddings_textareea_dddcla .form-group,.builddings_text_dddcla .form-group{
+	float: left;
+}
+
+.builddings_textareea_dddcla{
+	float: left;
+	width: 735px;
+}
+
+.builddings_text_dddcla{
+	float: left;
+	width: 735px;
+}
+
+.buiddings_borwse_startsituation{
+	clear: left;
+}
+
+.buiddings_borwse_buildingtype{
+}
+
+/*
+上报对话框
+*/
+.buiddings_borwsse_fudierji4{
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-color:rgba(0,0,0,.5);
+	left:0px;
+	top:0px;
+	display: none;
+}
+
+.buiddings_borwsse_dierji4{
+	height:420px;
+	width:690px;
+	background-color: #FFFFFF;
+	margin:auto;
+	position: relative;
+   -moz-box-shadow: 10px 10px 10px #000000;
+   -webkit-box-shadow: 10px 10px 10px #000000;
+   	box-shadow:-1px 5px 28px #000000;
+}
+
+.buiddings_borwsse_hade3{
+	border-bottom:1px dotted #000000;
+	line-height: 40px;
+	color:blue;
+	padding-left:15px;
+}
+
+.buiddings_borwsse_clear3{
+	font-size:20px;
+	cursor: default;
+	margin-left:620px;
+}
+
+.buiddings_borwsse_clear3:hover{
+	color: #808080;
+}
+
+#buiddings_sbao_tree{
+	width:130px;
+	margin:10px 0px 0px 10px;
+	border:1px solid #000000;
+	padding-top: 4px;
+	background-color: #F1F9FC;
+	overflow: auto;
+	color:#0093DD;
+}
+
+.buiddings_tree_bumd{
+	line-height: 25px;
+	padding-left:10px;
+}
+
+#buiddings_sbao_tree .treechil{
+	padding-left:20px;
+}
+ 
+#buiddings_sbao_tree .treeopen{
+	display: inherit;
+}
+
+#buiddings_sbao_tree .treecolse{
+	display: none;
+}
+
+#buiddings_sbao_tree,#buiddings_sbao_div{
+	height:350px;
+	float: left;
+}
+
+
+#buiddings_sbao_div{
+	margin:10px 0px 0px 7px;
+}
+
+#buiddings_sbao_div .buiddings_sbao_table{
+	width:240px;
+	border-collapse: collapse;
+}
+
+#buiddings_sbao_div .buiddings_sbao_table th{
+	border:1px solid #000000;
+	text-align: center;
+	height:29px;	
+}
+
+#buiddings_sbao_div .buiddings_sbao_table td{
+	border:1px solid #000000;
+	text-align: center;
+	height:27px;
+	width:50%;
+}
+
+#buiddings_sbao_div2{
+	padding:10px 0 0 396px;
+}
+
+#buiddings_sbao_div2 label{
+	float: left;
+	display: inline-table;
+	width:52px;
+	text-align: right;
+	padding-right:6px;
+	line-height: 34px;
+}
+
+#buiddings_sbao_div2 input[type="text"]{
+	width:225px;
+}
+
+#buiddings_sbao_div2 .buiddings_sbao_texarea{
+	width:225px;
+	resize:none;
+}
+.buidding_list_img {
+	width: 16px;
+	height: 25px;
+	margin-right: 5px;
+	float: left;
+}
+
+.buidlingth1{
+	padding-left:8px;
+}
+
+.building_title_div {
+	line-height: 34px;
+	font-size: 20px;
+	padding-top: 8px;
+}
+
+.buidding_gjz_sel {
+    margin-left: 14px;
+    width: 150px;
+}
+
+
+.building_address_substr {
+	display: inline-block;
+	width: 520px;
+}
+.buidding_max_sel{
+	margin-left: -84px;
+	width: 134px;
+}
+
+
+.buidding_zdaj_sel{
+    width: 100px;
+    font-size: 12px;
+}
+.buidding_min_sel{
+
+}
+
+#allmap_point_click {
+	height: 20px;
+	width: 223px;
+}
+
+.buidings_timedesc {
+	float: left;
+	margin: 6px 3px 0px 12px;
+}
+
+.buidings_paixu {
+	width: 80px;
+	padding-left: 5px;
+	height: 31px;
+}
+
+.buidings_timedesc div {
+	float: left;
+	margin-right: 4px;
+}
+
+.buidings_uploadimage_div {
+	padding-left: 0px;
+}
+
+#buidings_harmfulCode {
+	margin:9px 0px 0px 15px;
+}
+
+#buidings_harmfulCode label{
+	margin:0px;
+	padding-right:4px;
+}
+
+#buidings_harmfulCode span{
+	display: inline-block;
+	width:60px;
+	font-weight: 700;
+}
+
+.buidling_th1 {
+	width: 40px;
+	padding-left: 5px;
+}
+
+.buidding_list_xuhao{
+	text-align: center;
+}
+.harmlevel_label b{
+	display: none;
+}
+.buiddings_borwse_hazardlevel{
+	display: none;
+}
+#clueRecord_title{
+	width: 420px;
+	line-height: 30px;
+	background-color: #CCE8F6;
+	padding-left: 10px;
+	padding-top: 4px;
+	margin-left: 12px;
+	margin-top: 22px;
+}
+.clueRecord_title1{
+	position: relative;
+	top: -5px;
+	left: -31px;
+	margin-right: -34px;
+}
+#clueRecord_Binding{
+	height: 458px;
+	background-color: #F1F9FC;
+	width: 430px;
+	overflow: auto;
+	position: relative;
+	top: -10px;
+}
+#builddings_text_title{
+	height: 458px;
+	background-color: #F1F9FC;
+	width: 430px;
+	overflow: auto;
+
+}
+#crews_isinsert_sel label{
+	display: flex;
+	width: 144px;
+	padding-right: 0px;
+	float: left;
+	margin-top: 0px;
+	font-weight: 700;
+	clear: left;
+}
+#crews_buidl_bhs_label{
+	margin-top: 11px;
+}
+#crews_clear_label{
+	margin-top: 11px;
+	width: 143px;
+}
+#hints_divPage{
+	margin-top: 3px;
+	text-align: center;
+	background-color: #FFF;
+}
+#hints_pagination{
+	margin-top:16px;
+}
+#crews_buidl_bhs {
+	color:black;
+	width: 187px;
+	display: inline-block;
+}
+.buiddings_Renovation{
+	font-weight: normal;
+	height: 35px;
+	width: 285px;
+	color: #000;
+}
+.building_spantishi33{
+	position: relative;
+	top: 121px;
+	left: -26px;
+	color: red;
+}
+.building_spantishi36{
+	position: relative;
+	top: 583px;
+	left: -208px;
+	color: red;
+}
+.buiddings_captain {
+	width: 285px;
+}
+.FoundationArea{
+
+}
