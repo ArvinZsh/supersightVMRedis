@@ -18,7 +18,7 @@ $(document).ready(function(){
             dataType:'json',
             data:tmp,
             type:'post',
-            contentType:"application/x-www-form-urlencoded",
+            contentType:"application/json",
             success: function(data){
                 if(data.successFlag){
                     buttons= data.buttons;
