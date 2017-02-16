@@ -23,9 +23,8 @@ public class LoginController {
 	@RequestMapping("/login.do")
 	public @ResponseBody Object process(@RequestBody LoginCmd cmd, HttpServletResponse resp) throws UnsupportedEncodingException {
 
-		LoginRet ret = userSer.valiteData(cmd);
+		return userSer.valiteData(cmd);
 		
-		return JSONObject.toJSON(ret);
 	}
 	
 }

@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  */
 public class Page {
 	/** 当前页码 */
-	private int currentPage;
+	private int pageNow;
 	/** 一页显示数量 */
 	private int pageSize;
 	/** 总数 */
@@ -40,12 +40,12 @@ public class Page {
 	public Page() {
 	}
 
-	public int getCurrentPage() {
-		return currentPage;
+	public int getPageNow() {
+		return pageNow;
 	}
 
-	public void setCurrentPage(int currentPage) {
-		this.currentPage = currentPage;
+	public void setPageNow(int pageNow) {
+		this.pageNow = pageNow;
 	}
 
 	public int getPageSize() {

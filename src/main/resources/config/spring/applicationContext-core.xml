@@ -190,7 +190,7 @@
 			<value>org.gjt.mm.mysql.Driver</value>
 		</property>
 		<property name="jdbcUrl">
-			<value>jdbc:mysql://localhost:3306/lawmanonlinedb?useUnicode=true&amp;characterEncoding=UTF-8</value>
+			<value>jdbc:mysql://localhost:3306/consult?useUnicode=true&amp;characterEncoding=UTF-8</value>
 		</property>
 		<property name="user">
 			<value>sa</value>
@@ -225,10 +225,10 @@
 	</bean>
 	
 	<!-- spring与mybatis整合配置，扫描所有dao -->  
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">  
-          <property name="basePackage" value="com.zsh.dao"></property>
-          <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-    </bean>
+<!--     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">   -->
+<!--           <property name="basePackage" value="com.zsh.dao"></property> -->
+<!--           <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/> -->
+<!--     </bean> -->
     
     <!-- 配置SqlSessionTemplate -->
 	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">

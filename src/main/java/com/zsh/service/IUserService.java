@@ -9,5 +9,5 @@ import com.zsh.controller.login.LoginRet;
 public interface IUserService {
 
 	List<UserInfo> find();
-	LoginRet valiteData(LoginCmd cmd);
+	Object valiteData(LoginCmd cmd);
 }

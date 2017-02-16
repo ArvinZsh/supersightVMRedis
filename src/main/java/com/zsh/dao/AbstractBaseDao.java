@@ -14,7 +14,6 @@ import java.util.Map;
 
 import org.apache.commons.lang.math.NumberUtils;
 import org.mybatis.spring.SqlSessionTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.zsh.bean.Page;
@@ -55,10 +54,10 @@ public abstract class AbstractBaseDao {
 	 * @param params
 	 * @return
 	 */
-	public Page getPage(String queryStr, String countStr, Map<String, String> params) {
+	public Page getPage(String queryStr, String countStr, Map<String, Object> params) {
 		Page p = new Page();
 		
-		if(params.containsKey("rows")) {
+		if(params.containsKey("pagesize")) {
 			// 查询总数
 			int totalCount = 0;
 			totalCount = this.getSize(countStr, params);
@@ -66,9 +65,10 @@ public abstract class AbstractBaseDao {
 			
 			if(totalCount > 0) {
 				// 一页多少行
-				String pageRowCountS = params.get("rows") == null ? params.get("rows") : null;
-				if (NumberUtils.isDigits(pageRowCountS)) {
-					int pageRowCount = Integer.parseInt(pageRowCountS);
+				Object pageRowCountS = params.get("pagesize") != null ? params.get("pagesize") : null;
+				int pageRowCount = 0;
+				if (null != pageRowCountS && CommonUtil.isNumeric(pageRowCountS+"")) {
+					pageRowCount = Integer.parseInt(pageRowCountS+"");
 					if (pageRowCount > 0) {
 						p.setPageSize(pageRowCount);
 					}
@@ -79,11 +79,12 @@ public abstract class AbstractBaseDao {
 				p.setTotalPage(totalPage);
 				
 				// 当前页
-				String currentPageS = params.get("page") != null ? params.get("page").toString() : null;
-				if (NumberUtils.isDigits(currentPageS)) {
-					int currentPage = Integer.parseInt(currentPageS);
+				Object currentPageS = params.get("pageNo") != null ? params.get("pageNo").toString() : null;
+				int currentPage = 0;
+				if (CommonUtil.isNumeric(currentPageS+"")) {
+					currentPage = Integer.parseInt(currentPageS+"");
 					if (currentPage > 0 && currentPage <= totalPage) {
-						p.setCurrentPage(currentPage);
+						p.setPageNow(currentPage);
 					}
 
 					if(currentPage > 1) {
@@ -106,9 +107,14 @@ public abstract class AbstractBaseDao {
 				// 排序及分页
 				Object orderName = params.get("orderName");
 				orderName = orderName == null ? "" : " order by " + orderName;
-				String start = (String) (params.get("start") == null ? "0" : params.get("start"));
-				String length = (String) (params.get("length") == null ? "10" : params.get("length"));
-				String limit = " limit " + start + "," + Integer.parseInt(length);
+//				String start = (String) (params.get("start") == null ? "0" : params.get("start"));
+//				String length = (String) (params.get("length") == null ? "10" : params.get("length"));
+//				String limit = " limit " + start + "," + Integer.parseInt(length);
+				
+				int start = (currentPage-1)*pageRowCount;
+				int end = pageRowCount;
+				String limit = "limit " + start + "," + end;
+				
 				params.put("limit", limit);
 				
 				// 数据

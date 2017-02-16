@@ -294,11 +294,11 @@ var BuildingbRowseModel = React.createClass({
 		var rules1={"sid":sid,"orderNo":2,"orgName":""};
 		var tmp1 = JSON.stringify(rules1);
 		$.ajax({
-			url:common_ip+"orgInfo.do?action=listByCmd",
+			url:common_ip+"orgInfo.do?action=list",
 			dataType:'json',
 			data: tmp1,
 			type:'post',
-			contentType:"application/x-www-form-urlencoded",
+			contentType:"application/json",
 			success: function(data){
 				if(data.successFlag){
 					var tmp = [];
@@ -2019,7 +2019,7 @@ var Buildings = React.createClass({
 			dataType:'json',
 			data:tmp,
 			type:'post',
-			contentType:"application/x-www-form-urlencoded",
+			contentType:"application/json",
 			success: function(data){
 				console.log(data);
 				if(data.successFlag){

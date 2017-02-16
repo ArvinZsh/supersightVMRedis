@@ -1,10 +1,13 @@
 package com.zsh.service;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.alibaba.fastjson.JSONObject;
 import com.zsh.bean.UserInfo;
 import com.zsh.bean.dto.UserDto;
 import com.zsh.controller.BaseRet;
@@ -16,33 +19,38 @@ import com.zsh.util.ApplicationCtxUtil;
 import com.zsh.util.CommonUtil;
 
 @Service
-public class UserService implements IUserService {
-	
-	@Autowired
-	private IUserDao userDao;
+public class UserService extends AbstractBaseService implements IUserService {
 	
 	public List<UserInfo> find() {
-		IUserDao proxyDao = (IUserDao) AbstractBaseDao.getProxy(IUserDao.class, userDao);
-		List<UserInfo> list = proxyDao.findAll();
-		return list;
+//		IUserDao proxyDao = (IUserDao) AbstractBaseDao.getProxy(IUserDao.class, userDao);
+//		List<UserInfo> list = proxyDao.findAll();
+		return null;
 	}
 	
-	public LoginRet valiteData(LoginCmd cmd) {
+	public Object valiteData(LoginCmd cmd) {
 		
-		LoginRet loginRet = null;
-		if(!CommonUtil.isStrVoidValue(cmd.getLoginUid()) ||
-				!CommonUtil.isStrVoidValue(cmd.getPwd())) {
-			loginRet = (LoginRet) CommonUtil.initErrorRet("账号或密码错误或该账号没有权限");
+		LoginRet loginRet = new LoginRet();
+		if(CommonUtil.isStrVoidValue(cmd.getLoginUid()) ||
+				CommonUtil.isStrVoidValue(cmd.getPwd())) {
+			loginRet.setSuccessFlag(false);
+			loginRet.setErrorMsg("账号或密码错误或该账号没有权限");
 		}
-		UserDto user = ApplicationCtxUtil.getBean(UserDto.class);
-		user.setLoginUid(cmd.getLoginUid());
-		user.setLoginPwd(cmd.getPwd());
-		user = userDao.valiteData(user);
-		loginRet = ApplicationCtxUtil.getBean(LoginRet.class);
-		loginRet.setSuccessFlag(true);
-		loginRet.setUser(user);
+		Map<String, Object> params = new HashMap<String, Object>();
+		params.put("loginUid", cmd.getLoginUid());
+		params.put("loginPwd", cmd.getPwd());
 		
-		return loginRet;
+		Map<String, Object> user = dao.getOneInfo("user.valiteData", params);
+//		UserDto user = dao.getOneInfo("user.valiteData", params);
+		if(user == null) {
+			loginRet.setSuccessFlag(false);
+			loginRet.setErrorMsg("账号或密码错误或该账号没有权限");
+		} else {
+			loginRet.setSuccessFlag(true);
+			loginRet.setUser(user);
+			loginRet.setUid((String)user.get("userId"));
+		}
+		
+		return JSONObject.toJSON(loginRet);
 	}
 	
 }

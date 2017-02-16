@@ -12,7 +12,7 @@ import com.zsh.dao.IOrgDao;
 @Service
 public class OrgService {
 	
-	@Autowired
+	
 	private IOrgDao orgDao;
 	
 	public List<OrgInfo> queryAll() {

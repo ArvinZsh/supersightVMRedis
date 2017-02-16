@@ -3,6 +3,8 @@
  */
 package com.zsh.controller.login;
 
+import java.util.Map;
+
 import org.springframework.stereotype.Component;
 
 import com.zsh.bean.UserInfo;
@@ -17,7 +19,7 @@ import com.zsh.controller.BaseRet;
 public class LoginRet extends BaseRet {
 	private String uid;
 	private String sid;
-	private UserDto user;
+	private Map user;
 
 	public LoginRet() {
 	}
@@ -38,11 +40,11 @@ public class LoginRet extends BaseRet {
 		this.sid = sid;
 	}
 
-	public UserDto getUser() {
+	public Map getUser() {
 		return user;
 	}
 
-	public void setUser(UserDto user) {
+	public void setUser(Map user) {
 		this.user = user;
 	}
 

@@ -1,5 +1,9 @@
-package com.zsh.controller.role;
+/**
+ * 
+ */
+package com.zsh.controller.build;
 
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,26 +12,24 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.zsh.service.IRoleService;
+import com.zsh.service.IBuildService;
 
-
-
+/**
+ * @author Administrator
+ *
+ */
 @Controller
-public class RoleController {
+public class BuildController {
 	
 	@Autowired
-	IRoleService roleSer;
-	
-	@RequestMapping("role.do")
-	public @ResponseBody Object execute(@RequestBody RoleCmd cmd, @RequestParam("action") String action) {
-		
+	private IBuildService buildSer;
+
+	@RequestMapping("/buildings.do")
+	public @ResponseBody Object execute(@RequestBody Map<String, Object> cmd, @RequestParam("action") String action) {
 		Object obj = null;
-		if("listNoRoleModule".equals(action)) {
-			obj = roleSer.listNoRoleModule(cmd);
-		} else if("getRoleBtn".equals(action)) {
-			obj = roleSer.getRoleBtn(cmd);
+		if("list".equals(action)) {
+			obj = buildSer.list(cmd);
 		}
-		
 		return obj;
 	}
 }
