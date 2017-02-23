@@ -18,6 +18,8 @@ import com.zsh.dao.IUserDao;
 import com.zsh.util.ApplicationCtxUtil;
 import com.zsh.util.CommonUtil;
 
+import redis.clients.jedis.JedisCluster;
+
 @Service
 public class UserService extends AbstractBaseService implements IUserService {
 	

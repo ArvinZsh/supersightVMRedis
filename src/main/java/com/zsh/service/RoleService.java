@@ -27,10 +27,11 @@ public class RoleService extends AbstractBaseService implements IRoleService {
 		List<Map<String, Object>> list = cacheTemplate.findCache(key, new TypeReference<List<Map<String, Object>>>(){}, 30, new CacheDBLoad() {
 			@Override
 			public List<Map<String, Object>> load() {
+				System.out.println("=========读了数据库===========");
 				Map<String, String> map = new HashMap<String, String>();
 				map.put("roleId", cmd.getRoleId());
-				List<Map<String, Object>> list = dao.getList("role.listNoRoleModule", map);
-				return null;
+				List<Map<String, Object>> dbList = dao.getList("role.listNoRoleModule", map);
+				return dbList;
 			}
 		});
 
