@@ -9,6 +9,7 @@
 package com.zsh.cache;
 
 import java.lang.reflect.Method;
+import java.util.Map;
 
 /**
  * @ClassName: CacheHandler

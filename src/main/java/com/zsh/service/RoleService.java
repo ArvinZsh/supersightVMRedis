@@ -10,19 +10,31 @@ import org.springframework.stereotype.Service;
 
 import com.alibaba.druid.sql.ast.statement.SQLWithSubqueryClause.Entry;
 import com.alibaba.fastjson.JSONObject;
+import com.zsh.cache.CacheDBLoad;
 import com.zsh.controller.role.RoleCmd;
 import com.zsh.controller.role.RoleRet;
+import com.alibaba.fastjson.TypeReference;
 
 
 @Service
 public class RoleService extends AbstractBaseService implements IRoleService {
 	
 	@Override
-	public Object listNoRoleModule(RoleCmd cmd) {
-		Map<String, String> map = new HashMap<String, String>();
-		map.put("roleId", cmd.getRoleId());
-		List<Map<String, Object>> list = dao.getList("role.listNoRoleModule", map);
+	public Object listNoRoleModule(final RoleCmd cmd) {
+		
+		// 尝试读取缓存
+		String key = "role:id:" + cmd.getRoleId()+":listNoRoleModule";
+		List<Map<String, Object>> list = cacheTemplate.findCache(key, new TypeReference<List<Map<String, Object>>>(){}, 30, new CacheDBLoad() {
+			@Override
+			public List<Map<String, Object>> load() {
+				Map<String, String> map = new HashMap<String, String>();
+				map.put("roleId", cmd.getRoleId());
+				List<Map<String, Object>> list = dao.getList("role.listNoRoleModule", map);
+				return null;
+			}
+		});
 
+		// 对返回的list进行业务处理
 		List<String> pageNames = new ArrayList<String>();
 		Map<String, List<String>> tempMap = new HashMap<String, List<String>>();
 		for(Map<String, Object> obj : list) {

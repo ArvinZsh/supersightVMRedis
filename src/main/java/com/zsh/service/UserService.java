@@ -40,7 +40,7 @@ public class UserService extends AbstractBaseService implements IUserService {
 		params.put("loginPwd", cmd.getPwd());
 		
 		Map<String, Object> user = dao.getOneInfo("user.valiteData", params);
-//		UserDto user = dao.getOneInfo("user.valiteData", params);
+
 		if(user == null) {
 			loginRet.setSuccessFlag(false);
 			loginRet.setErrorMsg("账号或密码错误或该账号没有权限");
