@@ -29,6 +29,6 @@
 		<property name="genericObjectPoolConfig" ref="genericObjectPoolConfig" />  
 	</bean> 
 	
-	<bean id="cacheTemplate" class="com.zsh.cache.CacheTemplate"></bean>
+	<bean id="redisCacheTemplate" class="com.zsh.cache.RedisCacheTemplate"></bean>
 
 </beans>

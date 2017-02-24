@@ -17,7 +17,7 @@ import redis.clients.jedis.JedisCluster;
  * 缓存模板
  */
 @Component
-public class CacheTemplate {
+public class RedisCacheTemplate implements ICacheTemplate {
 	
 	@Autowired
 	JedisCluster jedisCluster;

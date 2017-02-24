@@ -8,11 +8,13 @@ import java.util.concurrent.CountDownLatch;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 
 import com.alibaba.fastjson.TypeReference;
 import com.zsh.cache.CacheDBLoad;
-import com.zsh.cache.CacheTemplate;
+import com.zsh.cache.ICacheTemplate;
+import com.zsh.cache.RedisCacheTemplate;
 import com.zsh.dao.BaseDao;
 import com.zsh.util.ApplicationCtxUtil;
 
@@ -25,7 +27,8 @@ public class CacheTest {
 	CountDownLatch latch = new CountDownLatch(1000);
 	
 	@Autowired
-	CacheTemplate cacheTemplate;
+	@Qualifier("redisCacheTemplate")
+	ICacheTemplate cacheTemplate;
 	
 	@Autowired
 	JedisCluster jedisCluster;
