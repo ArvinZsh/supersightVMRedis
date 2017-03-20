@@ -21,7 +21,7 @@ TAG=$JOB_NAME:'date' + %y%m%d-%H-%M
 mvn clean install -Dmaven.test.skip=true
 
 #使用写好的Dockerfile文件打包
-docker build -t $TAG $WORKSPACE/src/main/resources/config/deploy/
+docker build -t $TAG $WORKSPACE/src/main/resources/config/deploy/.
 docker push $TAG
 docker rmi $TAG
 
