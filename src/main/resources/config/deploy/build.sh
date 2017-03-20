@@ -10,7 +10,7 @@
 
 #根据时间生成版本号
 JOB_NAME=failover
-TAG=$JOB_NAME:'date + %y%m%d-%H-%M'
+TAG=$JOB_NAME:'date' + %y%m%d-%H-%M
 
 #使用maven镜像进行编译,打包出war
 #docker run --rm --name mvn -v ~/Desktop/soft/docker-build/maven:/root/.m2 \ 
@@ -21,7 +21,7 @@ TAG=$JOB_NAME:'date + %y%m%d-%H-%M'
 mvn clean install -Dmaven.test.skip=true
 
 #使用写好的Dockerfile文件打包
-docker build -t $TAG $WORKSPACE/.
+docker build -t $TAG $WORKSPACE/src/main/resources/config/deploy/
 docker push $TAG
 docker rmi $TAG
 
