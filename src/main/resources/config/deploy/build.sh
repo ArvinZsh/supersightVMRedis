@@ -22,7 +22,7 @@ mvn clean install -Dmaven.test.skip=true
 
 #使用写好的Dockerfile文件打包
 docker build -t $TAG $WORKSPACE/src/main/resources/config/deploy/.
-docker push $TAG
+#docker push $TAG
 docker rmi $TAG
 
 #单点运行
