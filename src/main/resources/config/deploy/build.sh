@@ -25,15 +25,15 @@ cp -f $WORKSPACE/src/main/resources/config/deploy/Dockerfile $WORKSPACE/target/D
 #使用写好的Dockerfile文件打包
 docker build -t $TAG $WORKSPACE/target/.
 #docker push $TAG
-docker rmi $TAG
+#docker rmi $TAG
 
 #单点运行
 #若有以前运行的版本则删除
-#if docker ps -a|grep -i $JOB_NAME; then docker rm -f $JOB_NAME
-#fi
+if docker ps -a|grep -i $JOB_NAME; then docker rm -f $JOB_NAME
+fi
 
 #运行
-#docker run -d -p 80:8080 --name $JOB_NAME $TAG
+docker run -d -p 80:8080 --name $JOB_NAME $TAG
 
 
 #集群运行
