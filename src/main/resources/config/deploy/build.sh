@@ -21,7 +21,7 @@ TAG=$JOB_NAME
 mvn clean install -Dmaven.test.skip=true
 
 #先从配置文件复制一份到当前目录,这样Docker打包过去的时候才能找到war和Dockerfile
-copy $WORKSPACE/src/main/resources/config/deploy/Dockerfile $WORKSPACE/target/Dockerfile
+cp -f $WORKSPACE/src/main/resources/config/deploy/Dockerfile $WORKSPACE/target/Dockerfile
 #使用写好的Dockerfile文件打包
 docker build -t $TAG $WORKSPACE/target/.
 #docker push $TAG
